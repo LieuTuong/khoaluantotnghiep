@@ -1,0 +1,144 @@
+version: '3'
+
+services:
+  node0:
+    container_name: node0
+    image: "hs"
+    ports:
+      - "20000:20000"
+      - "10000:10000"
+
+    environment:
+      - ID=0
+      
+    volumes:
+      - ./LOG:/root/logs
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node0:/hotstuff:Z
+
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.2
+
+  node1:
+    container_name: node1
+    image: "hs"
+    ports:
+      - "20001:20000"
+      - "10001:10000"
+    environment:
+      - ID=1
+  
+    volumes:
+      - ./LOG:/root/logs
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node1:/hotstuff:Z
+
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.3
+
+
+  node2:
+    container_name: node2
+    image: "hs"
+    environment:
+      - ID=2
+     
+    ports:
+      - "20002:20000"
+      - "10002:10000"
+    
+    volumes:
+      - ./LOG:/root/logs
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node2:/hotstuff:Z
+
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.4
+
+  node3:
+    container_name: node3
+    image: "hs"
+    environment:
+      - ID=3
+      
+    ports:
+      - "20003:20000"
+      - "10003:10000"
+    
+    volumes:
+      - ./LOG:/root/logs
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node3:/hotstuff:Z
+
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.5
+
+
+  node4:
+    container_name: node4
+    image: "hs"
+    ports:
+      - "20004:20000"
+      - "10004:10000"
+
+    environment:
+      - ID=4
+
+    volumes:
+      - ./LOG:/root/logs 
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node4:/hotstuff:Z
+    
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.6
+
+  node5:
+    container_name: node5
+    image: "hs"
+    ports:
+      - "20005:20000"
+      - "10005:10000"
+    environment:
+      - ID=5
+
+    volumes:
+      - ./LOG:/root/logs 
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node5:/hotstuff:Z
+    
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.7
+
+  node6:
+    container_name: node6
+    image: "hs"
+    environment:
+      - ID=6
+     
+    ports:
+      - "20006:20000"
+      - "10006:10000"
+    
+    volumes:
+      - ./LOG:/root/logs
+      - /etc/localtime:/etc/localtime:ro
+      - ./build/node6:/hotstuff:Z
+
+    networks:
+      hotstuff-net:
+        ipv4_address: 172.16.16.8
+
+networks:
+  hotstuff-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.16.0/24
+

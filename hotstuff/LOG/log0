@@ -1,0 +1,917 @@
+2021-03-19 21:27:22.695698 [net info] loaded configuration from ./scripts/deploy/hotstuff.gen.conf
+2021-03-19 21:27:22.695755 [net info] loading extra configuration from ./scripts/deploy/hotstuff.gen-sec0.conf
+2021-03-19 21:27:22.699961 [net info] starting all threads...
+2021-03-19 21:27:22.700105 [net info] listening to 10000
+2021-03-19 21:27:22.734905 [net info] starting all threads...
+2021-03-19 21:27:22.736972 [net info] listening to 20000
+2021-03-19 21:27:22.737596 [hotstuff info] ** starting the system with parameters **
+2021-03-19 21:27:22.737604 [hotstuff info] blk_size = 2000
+2021-03-19 21:27:22.737608 [hotstuff info] conns = 0
+2021-03-19 21:27:22.737611 [hotstuff info] ** starting the event loop...
+2021-03-19 21:27:22.737701 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:27:22.738870 [net info] created <Conn fd=90 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:22.739085 [net info] created <Conn fd=92 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:22.739253 [net info] created <Conn fd=94 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:22.739414 [net info] created <Conn fd=96 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:22.739777 [net info] created <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:22.739971 [net info] created <Conn fd=100 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:22.740085 [net info] accepted <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>
+2021-03-19 21:27:22.740095 [net info] connected to remote <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:22.743418 [net info] b0a0c5c9d2: setup connection <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>
+2021-03-19 21:27:22.745339 [net info] b0a0c5c9d2: setup connection <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:22.745410 [net info] established b0a0c5c9d2 <---> 084b2242ef (via <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>)
+2021-03-19 21:27:22.745769 [net info] b0a0c5c9d2: ping from <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>
+2021-03-19 21:27:22.745886 [net info] b0a0c5c9d2: lost connection <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>
+2021-03-19 21:27:22.745912 [net info] ended b0a0c5c9d2 <-/-> 084b2242ef (via <Conn fd=102 addr=<NetAddr 172.16.16.7:42930> mode=passive>)
+2021-03-19 21:27:22.746025 [net info] established b0a0c5c9d2 <---> 084b2242ef (via <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>)
+2021-03-19 21:27:22.746037 [net info] b0a0c5c9d2: ping from <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:23.150748 [net info] accepted <Conn fd=88 addr=<NetAddr 172.16.16.10:53422> mode=passive>
+2021-03-19 21:27:23.721541 [net info] connected to remote <Conn fd=92 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:23.722506 [net info] accepted <Conn fd=103 addr=<NetAddr 172.16.16.4:45394> mode=passive>
+2021-03-19 21:27:23.735331 [net info] b0a0c5c9d2: setup connection <Conn fd=92 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:23.737942 [net info] b0a0c5c9d2: setup connection <Conn fd=103 addr=<NetAddr 172.16.16.4:45394> mode=passive>
+2021-03-19 21:27:23.738272 [net info] b0a0c5c9d2: lost connection <Conn fd=92 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:23.738458 [net info] b0a0c5c9d2: lost connection <Conn fd=103 addr=<NetAddr 172.16.16.4:45394> mode=passive>
+2021-03-19 21:27:23.988870 [net info] connected to remote <Conn fd=96 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:23.990090 [net info] accepted <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:27:24.005796 [net info] b0a0c5c9d2: setup connection <Conn fd=96 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:24.013472 [net info] b0a0c5c9d2: setup connection <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:27:24.015618 [net info] established b0a0c5c9d2 <---> b123e459ed (via <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>)
+2021-03-19 21:27:24.015822 [net info] b0a0c5c9d2: lost connection <Conn fd=96 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:24.016209 [net info] b0a0c5c9d2: ping from <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:27:24.696092 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:27:24.738492 [net info] <Conn fd=90 addr=<NetAddr 172.16.16.3:10000> mode=active> connect timeout
+2021-03-19 21:27:24.738680 [hotstuff warn] network async error: unable to connect: Resource temporarily unavailable
+
+2021-03-19 21:27:24.738816 [net info] <Conn fd=94 addr=<NetAddr 172.16.16.5:10000> mode=active> connect timeout
+2021-03-19 21:27:24.738945 [net info] <Conn fd=100 addr=<NetAddr 172.16.16.8:10000> mode=active> connect timeout
+2021-03-19 21:27:24.738968 [hotstuff warn] network async error: unable to connect: Resource temporarily unavailable
+
+2021-03-19 21:27:24.739008 [net info] b0a0c5c9d2: lost connection <Conn fd=90 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:24.739015 [hotstuff warn] network async error: unable to connect: Resource temporarily unavailable
+
+2021-03-19 21:27:24.739125 [net info] b0a0c5c9d2: lost connection <Conn fd=94 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:24.739195 [net info] b0a0c5c9d2: lost connection <Conn fd=100 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:24.804088 [net info] accepted <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>
+2021-03-19 21:27:24.810303 [net info] b0a0c5c9d2: setup connection <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>
+2021-03-19 21:27:24.813066 [net info] established b0a0c5c9d2 <---> 15717dc960 (via <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>)
+2021-03-19 21:27:24.813484 [net info] b0a0c5c9d2: ping from <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>
+2021-03-19 21:27:25.124843 [net info] accepted <Conn fd=86 addr=<NetAddr 172.16.16.9:50136> mode=passive>
+2021-03-19 21:27:25.840839 [net info] accepted <Conn fd=95 addr=<NetAddr 172.16.16.3:33412> mode=passive>
+2021-03-19 21:27:25.856088 [net info] b0a0c5c9d2: setup connection <Conn fd=95 addr=<NetAddr 172.16.16.3:33412> mode=passive>
+2021-03-19 21:27:25.861267 [net info] b0a0c5c9d2: lost connection <Conn fd=95 addr=<NetAddr 172.16.16.3:33412> mode=passive>
+2021-03-19 21:27:26.216403 [net info] created <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:26.216710 [net info] connected to remote <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:26.228864 [net info] b0a0c5c9d2: setup connection <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:26.231899 [net info] established b0a0c5c9d2 <---> 6947626606 (via <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>)
+2021-03-19 21:27:26.231980 [net info] b0a0c5c9d2: ping from <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:26.282231 [net info] accepted <Conn fd=85 addr=<NetAddr 172.16.16.11:48476> mode=passive>
+2021-03-19 21:27:27.008400 [net info] accepted <Conn fd=100 addr=<NetAddr 172.16.16.8:50514> mode=passive>
+2021-03-19 21:27:27.022032 [net info] b0a0c5c9d2: setup connection <Conn fd=100 addr=<NetAddr 172.16.16.8:50514> mode=passive>
+2021-03-19 21:27:27.022709 [net info] b0a0c5c9d2: lost connection <Conn fd=100 addr=<NetAddr 172.16.16.8:50514> mode=passive>
+2021-03-19 21:27:27.103151 [net info] created <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.103266 [net info] connected to remote <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.106253 [net info] b0a0c5c9d2: setup connection <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.106945 [net info] established b0a0c5c9d2 <---> 27a8943bab (via <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>)
+2021-03-19 21:27:27.106960 [net info] b0a0c5c9d2: ping from <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.107007 [hotstuff proto] got <proposal rid=1 blk=f5dfb70bff>
+2021-03-19 21:27:27.107035 [hotstuff proto] now state: <hotstuff hqc=6b7d92eaae hqc.height=0 b_lock=6b7d92eaae b_exec=6b7d92eaae vheight=1 tails=1>
+2021-03-19 21:27:27.108130 [hotstuff proto] got <proposal rid=1 blk=ae77e98e78>
+2021-03-19 21:27:27.108168 [hotstuff proto] now state: <hotstuff hqc=f5dfb70bff hqc.height=1 b_lock=6b7d92eaae b_exec=6b7d92eaae vheight=2 tails=1>
+2021-03-19 21:27:27.110260 [hotstuff proto] got <proposal rid=1 blk=dd2abd6a99>
+2021-03-19 21:27:27.110313 [hotstuff proto] now state: <hotstuff hqc=ae77e98e78 hqc.height=2 b_lock=f5dfb70bff b_exec=6b7d92eaae vheight=3 tails=1>
+2021-03-19 21:27:27.113721 [hotstuff proto] got <proposal rid=1 blk=55d7a61a8c>
+2021-03-19 21:27:27.113764 [hotstuff proto] commit <block id=f5dfb70bff height=1 parent=6b7d92eaae qc_ref=6b7d92eaae>
+2021-03-19 21:27:27.113789 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=4 tails=1>
+2021-03-19 21:27:27.685330 [hotstuff proto] got <proposal rid=2 blk=f5dfb70bff>
+2021-03-19 21:27:27.685462 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=4 tails=1>
+2021-03-19 21:27:27.691930 [net info] created <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:27.692163 [net info] connected to remote <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:27.701519 [net info] b0a0c5c9d2: setup connection <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:27.704323 [net info] established b0a0c5c9d2 <---> 53b35c6803 (via <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>)
+2021-03-19 21:27:27.704655 [net info] b0a0c5c9d2: ping from <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:27:28.240475 [net info] accepted <Conn fd=89 addr=<NetAddr 172.16.16.12:36694> mode=passive>
+2021-03-19 21:27:29.149125 [hotstuff proto] got <proposal rid=3 blk=1ad5df9fae>
+2021-03-19 21:27:29.149277 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=5 tails=1>
+2021-03-19 21:27:29.156188 [hotstuff proto] got <proposal rid=3 blk=a8692e4f80>
+2021-03-19 21:27:29.156374 [hotstuff proto] now state: <hotstuff hqc=1ad5df9fae hqc.height=5 b_lock=dd2abd6a99 b_exec=f5dfb70bff vheight=6 tails=1>
+2021-03-19 21:27:29.165391 [hotstuff proto] got <proposal rid=3 blk=1e7c7f7658>
+2021-03-19 21:27:29.165579 [hotstuff proto] now state: <hotstuff hqc=a8692e4f80 hqc.height=6 b_lock=1ad5df9fae b_exec=f5dfb70bff vheight=7 tails=1>
+2021-03-19 21:27:29.172022 [hotstuff proto] got <proposal rid=3 blk=8d537a9b9d>
+2021-03-19 21:27:29.172218 [hotstuff proto] commit <block id=ae77e98e78 height=2 parent=f5dfb70bff qc_ref=f5dfb70bff>
+2021-03-19 21:27:29.172348 [hotstuff proto] commit <block id=dd2abd6a99 height=3 parent=ae77e98e78 qc_ref=ae77e98e78>
+2021-03-19 21:27:29.172466 [hotstuff proto] commit <block id=55d7a61a8c height=4 parent=dd2abd6a99 qc_ref=dd2abd6a99>
+2021-03-19 21:27:29.172582 [hotstuff proto] commit <block id=1ad5df9fae height=5 parent=55d7a61a8c qc_ref=dd2abd6a99>
+2021-03-19 21:27:29.172701 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=8 tails=1>
+2021-03-19 21:27:32.696958 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:32.697053 [hotstuff info] -------- queues -------
+2021-03-19 21:27:32.697070 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:32.697080 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:32.697089 [hotstuff info] decision_waiting: 16
+2021-03-19 21:27:32.697097 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:32.697106 [hotstuff info] fetched: 0
+2021-03-19 21:27:32.697116 [hotstuff info] delivered: 8
+2021-03-19 21:27:32.697131 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:32.697144 [hotstuff info] blk_cache: 9
+2021-03-19 21:27:32.697157 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:32.697170 [hotstuff info] fetched: 0
+2021-03-19 21:27:32.697184 [hotstuff info] delivered: 8
+2021-03-19 21:27:32.697198 [hotstuff info] decided: 0
+2021-03-19 21:27:32.697230 [hotstuff info] gened: 0
+2021-03-19 21:27:32.697241 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:27:32.697286 [hotstuff info] delivery time: 0.001 avg, 0.000 min, 0.003 max
+2021-03-19 21:27:32.697311 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:32.697481 [hotstuff info] 27a8943bab: 7(533), 7(1333), 0
+2021-03-19 21:27:32.697782 [hotstuff info] 6947626606: 3(13), 4(103), 0
+2021-03-19 21:27:32.697937 [hotstuff info] 15717dc960: 7(533), 7(1653), 0
+2021-03-19 21:27:32.698097 [hotstuff info] b123e459ed: 3(13), 3(13), 0
+2021-03-19 21:27:32.698223 [hotstuff info] 084b2242ef: 3(13), 4(14), 0
+2021-03-19 21:27:32.698326 [hotstuff info] 53b35c6803: 3(13), 3(13), 0
+2021-03-19 21:27:32.698366 [hotstuff info] sent: 26
+2021-03-19 21:27:32.698386 [hotstuff info] recv: 28
+2021-03-19 21:27:32.698401 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:32.698410 [hotstuff info] sent: 26
+2021-03-19 21:27:32.698419 [hotstuff info] recv: 28
+2021-03-19 21:27:32.698428 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:32.698438 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:32.698456 [hotstuff info] <NetAddr 172.16.16.12:36694>: 0(0), 4(32)
+2021-03-19 21:27:32.698471 [hotstuff info] <NetAddr 172.16.16.11:48476>: 0(0), 4(32)
+2021-03-19 21:27:32.698506 [hotstuff info] <NetAddr 172.16.16.10:53422>: 0(0), 4(32)
+2021-03-19 21:27:32.698523 [hotstuff info] <NetAddr 172.16.16.9:50136>: 0(0), 4(32)
+2021-03-19 21:27:32.698533 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:38.386808 [hotstuff proto] got <proposal rid=6 blk=08e91f8f7b>
+2021-03-19 21:27:38.386948 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.393630 [hotstuff proto] got <proposal rid=6 blk=27b9bd73c9>
+2021-03-19 21:27:38.393871 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.400697 [hotstuff proto] got <proposal rid=6 blk=01512fb430>
+2021-03-19 21:27:38.400835 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.405531 [hotstuff proto] got <proposal rid=6 blk=2ed335f10a>
+2021-03-19 21:27:38.405652 [hotstuff proto] commit <block id=a8692e4f80 height=6 parent=1ad5df9fae qc_ref=1ad5df9fae>
+2021-03-19 21:27:38.405713 [hotstuff proto] commit <block id=1e7c7f7658 height=7 parent=a8692e4f80 qc_ref=a8692e4f80>
+2021-03-19 21:27:38.405819 [hotstuff proto] commit <block id=8d537a9b9d height=8 parent=1e7c7f7658 qc_ref=1e7c7f7658>
+2021-03-19 21:27:38.405921 [hotstuff proto] commit <block id=08e91f8f7b height=9 parent=8d537a9b9d qc_ref=1e7c7f7658>
+2021-03-19 21:27:38.406068 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:42.413470 [hotstuff proto] got <proposal rid=1 blk=c378710bca>
+2021-03-19 21:27:42.413584 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=13 tails=1>
+2021-03-19 21:27:42.423344 [hotstuff proto] got <proposal rid=1 blk=9e485c4053>
+2021-03-19 21:27:42.423502 [hotstuff proto] now state: <hotstuff hqc=c378710bca hqc.height=13 b_lock=01512fb430 b_exec=08e91f8f7b vheight=14 tails=1>
+2021-03-19 21:27:42.432038 [hotstuff proto] got <proposal rid=1 blk=236969f7a8>
+2021-03-19 21:27:42.432195 [hotstuff proto] now state: <hotstuff hqc=9e485c4053 hqc.height=14 b_lock=c378710bca b_exec=08e91f8f7b vheight=15 tails=1>
+2021-03-19 21:27:42.438098 [hotstuff proto] got <proposal rid=1 blk=7b49a47cb2>
+2021-03-19 21:27:42.438209 [hotstuff proto] commit <block id=27b9bd73c9 height=10 parent=08e91f8f7b qc_ref=08e91f8f7b>
+2021-03-19 21:27:42.438277 [hotstuff proto] commit <block id=01512fb430 height=11 parent=27b9bd73c9 qc_ref=27b9bd73c9>
+2021-03-19 21:27:42.438342 [hotstuff proto] commit <block id=2ed335f10a height=12 parent=01512fb430 qc_ref=01512fb430>
+2021-03-19 21:27:42.438405 [hotstuff proto] commit <block id=c378710bca height=13 parent=2ed335f10a qc_ref=01512fb430>
+2021-03-19 21:27:42.438471 [hotstuff proto] now state: <hotstuff hqc=236969f7a8 hqc.height=15 b_lock=9e485c4053 b_exec=c378710bca vheight=16 tails=1>
+2021-03-19 21:27:42.696964 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:42.697049 [hotstuff info] -------- queues -------
+2021-03-19 21:27:42.697064 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:42.697073 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:42.697082 [hotstuff info] decision_waiting: 16
+2021-03-19 21:27:42.697091 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:42.697099 [hotstuff info] fetched: 0
+2021-03-19 21:27:42.697107 [hotstuff info] delivered: 16
+2021-03-19 21:27:42.697117 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:42.697125 [hotstuff info] blk_cache: 17
+2021-03-19 21:27:42.697134 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:42.697142 [hotstuff info] fetched: 0
+2021-03-19 21:27:42.697150 [hotstuff info] delivered: 8
+2021-03-19 21:27:42.697159 [hotstuff info] decided: 0
+2021-03-19 21:27:42.697167 [hotstuff info] gened: 0
+2021-03-19 21:27:42.697176 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:27:42.697192 [hotstuff info] delivery time: 0.003 avg, 0.002 min, 0.006 max
+2021-03-19 21:27:42.697208 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:42.697406 [hotstuff info] 27a8943bab: 4(520), 4(1640), 0
+2021-03-19 21:27:42.697783 [hotstuff info] 6947626606: 0(0), 0(0), 0
+2021-03-19 21:27:42.698078 [hotstuff info] 15717dc960: 0(0), 0(0), 0
+2021-03-19 21:27:42.698249 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:27:42.698440 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:27:42.698632 [hotstuff info] 53b35c6803: 4(520), 4(1640), 0
+2021-03-19 21:27:42.698696 [hotstuff info] sent: 8
+2021-03-19 21:27:42.698714 [hotstuff info] recv: 8
+2021-03-19 21:27:42.698730 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:42.698744 [hotstuff info] sent: 34
+2021-03-19 21:27:42.698758 [hotstuff info] recv: 36
+2021-03-19 21:27:42.698771 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:42.698785 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:42.698809 [hotstuff info] <NetAddr 172.16.16.12:36694>: 0(0), 0(0)
+2021-03-19 21:27:42.698829 [hotstuff info] <NetAddr 172.16.16.11:48476>: 0(0), 0(0)
+2021-03-19 21:27:42.698849 [hotstuff info] <NetAddr 172.16.16.10:53422>: 0(0), 0(0)
+2021-03-19 21:27:42.698868 [hotstuff info] <NetAddr 172.16.16.9:50136>: 0(0), 0(0)
+2021-03-19 21:27:42.698883 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:43.440096 [hotstuff proto] got <proposal rid=2 blk=bac1d2bc78>
+2021-03-19 21:27:43.440133 [hotstuff proto] now state: <hotstuff hqc=236969f7a8 hqc.height=15 b_lock=9e485c4053 b_exec=c378710bca vheight=17 tails=1>
+2021-03-19 21:27:43.441676 [hotstuff proto] got <proposal rid=2 blk=edaadda021>
+2021-03-19 21:27:43.441716 [hotstuff proto] now state: <hotstuff hqc=bac1d2bc78 hqc.height=17 b_lock=236969f7a8 b_exec=c378710bca vheight=18 tails=1>
+2021-03-19 21:27:43.444259 [hotstuff proto] got <proposal rid=2 blk=968e1426f9>
+2021-03-19 21:27:43.444291 [hotstuff proto] now state: <hotstuff hqc=edaadda021 hqc.height=18 b_lock=bac1d2bc78 b_exec=c378710bca vheight=19 tails=1>
+2021-03-19 21:27:43.445260 [hotstuff proto] got <proposal rid=2 blk=4fb65baf59>
+2021-03-19 21:27:43.445286 [hotstuff proto] commit <block id=9e485c4053 height=14 parent=c378710bca qc_ref=c378710bca>
+2021-03-19 21:27:43.445303 [hotstuff proto] commit <block id=236969f7a8 height=15 parent=9e485c4053 qc_ref=9e485c4053>
+2021-03-19 21:27:43.445316 [hotstuff proto] commit <block id=7b49a47cb2 height=16 parent=236969f7a8 qc_ref=236969f7a8>
+2021-03-19 21:27:43.445332 [hotstuff proto] commit <block id=bac1d2bc78 height=17 parent=7b49a47cb2 qc_ref=236969f7a8>
+2021-03-19 21:27:43.445350 [hotstuff proto] now state: <hotstuff hqc=968e1426f9 hqc.height=19 b_lock=edaadda021 b_exec=bac1d2bc78 vheight=20 tails=1>
+2021-03-19 21:27:44.449290 [hotstuff proto] got <proposal rid=3 blk=afc9c566e4>
+2021-03-19 21:27:44.449361 [hotstuff proto] now state: <hotstuff hqc=968e1426f9 hqc.height=19 b_lock=edaadda021 b_exec=bac1d2bc78 vheight=21 tails=1>
+2021-03-19 21:27:44.452968 [hotstuff proto] got <proposal rid=3 blk=1c4eb6789f>
+2021-03-19 21:27:44.453027 [hotstuff proto] now state: <hotstuff hqc=afc9c566e4 hqc.height=21 b_lock=968e1426f9 b_exec=bac1d2bc78 vheight=22 tails=1>
+2021-03-19 21:27:44.455125 [hotstuff proto] got <proposal rid=3 blk=482928fcd9>
+2021-03-19 21:27:44.455179 [hotstuff proto] now state: <hotstuff hqc=1c4eb6789f hqc.height=22 b_lock=afc9c566e4 b_exec=bac1d2bc78 vheight=23 tails=1>
+2021-03-19 21:27:44.459936 [hotstuff proto] got <proposal rid=3 blk=3656d9b0bd>
+2021-03-19 21:27:44.459985 [hotstuff proto] commit <block id=edaadda021 height=18 parent=bac1d2bc78 qc_ref=bac1d2bc78>
+2021-03-19 21:27:44.460015 [hotstuff proto] commit <block id=968e1426f9 height=19 parent=edaadda021 qc_ref=edaadda021>
+2021-03-19 21:27:44.460040 [hotstuff proto] commit <block id=4fb65baf59 height=20 parent=968e1426f9 qc_ref=968e1426f9>
+2021-03-19 21:27:44.460082 [hotstuff proto] commit <block id=afc9c566e4 height=21 parent=4fb65baf59 qc_ref=968e1426f9>
+2021-03-19 21:27:44.460111 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=24 tails=1>
+2021-03-19 21:27:52.704962 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:52.705088 [hotstuff info] -------- queues -------
+2021-03-19 21:27:52.705113 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:52.705130 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:52.705146 [hotstuff info] decision_waiting: 16
+2021-03-19 21:27:52.705161 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:52.705175 [hotstuff info] fetched: 0
+2021-03-19 21:27:52.705190 [hotstuff info] delivered: 24
+2021-03-19 21:27:52.705205 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:52.705220 [hotstuff info] blk_cache: 25
+2021-03-19 21:27:52.705236 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:52.705250 [hotstuff info] fetched: 0
+2021-03-19 21:27:52.705265 [hotstuff info] delivered: 8
+2021-03-19 21:27:52.705280 [hotstuff info] decided: 0
+2021-03-19 21:27:52.705296 [hotstuff info] gened: 0
+2021-03-19 21:27:52.705311 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:27:52.705420 [hotstuff info] delivery time: 0.001 avg, 0.000 min, 0.002 max
+2021-03-19 21:27:52.705551 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:52.705845 [hotstuff info] 27a8943bab: 0(0), 0(0), 0
+2021-03-19 21:27:52.706106 [hotstuff info] 6947626606: 4(520), 4(1640), 0
+2021-03-19 21:27:52.706325 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:27:52.706547 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:27:52.706751 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:27:52.706960 [hotstuff info] 53b35c6803: 0(0), 0(0), 0
+2021-03-19 21:27:52.707064 [hotstuff info] sent: 8
+2021-03-19 21:27:52.707163 [hotstuff info] recv: 8
+2021-03-19 21:27:52.707258 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:52.707347 [hotstuff info] sent: 42
+2021-03-19 21:27:52.707439 [hotstuff info] recv: 44
+2021-03-19 21:27:52.707528 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:52.707618 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:52.707705 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:53.471202 [hotstuff proto] got <proposal rid=6 blk=658de34559>
+2021-03-19 21:27:53.471330 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.476404 [hotstuff proto] got <proposal rid=6 blk=12a0f618a3>
+2021-03-19 21:27:53.476640 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.484068 [hotstuff proto] got <proposal rid=6 blk=306667a1c2>
+2021-03-19 21:27:53.484225 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.494948 [hotstuff proto] got <proposal rid=6 blk=2f82d9eb5d>
+2021-03-19 21:27:53.495226 [hotstuff proto] commit <block id=1c4eb6789f height=22 parent=afc9c566e4 qc_ref=afc9c566e4>
+2021-03-19 21:27:53.495330 [hotstuff proto] commit <block id=482928fcd9 height=23 parent=1c4eb6789f qc_ref=1c4eb6789f>
+2021-03-19 21:27:53.495473 [hotstuff proto] commit <block id=3656d9b0bd height=24 parent=482928fcd9 qc_ref=482928fcd9>
+2021-03-19 21:27:53.495644 [hotstuff proto] commit <block id=658de34559 height=25 parent=3656d9b0bd qc_ref=482928fcd9>
+2021-03-19 21:27:53.495805 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:56.913561 [net info] b0a0c5c9d2: ping from <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:57.505253 [hotstuff proto] got <proposal rid=1 blk=764882105f>
+2021-03-19 21:27:57.505406 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=29 tails=1>
+2021-03-19 21:27:57.513631 [hotstuff proto] got <proposal rid=1 blk=763bb741a7>
+2021-03-19 21:27:57.513789 [hotstuff proto] now state: <hotstuff hqc=764882105f hqc.height=29 b_lock=306667a1c2 b_exec=658de34559 vheight=30 tails=1>
+2021-03-19 21:27:57.521523 [hotstuff proto] got <proposal rid=1 blk=17909e37a6>
+2021-03-19 21:27:57.521830 [hotstuff proto] now state: <hotstuff hqc=763bb741a7 hqc.height=30 b_lock=764882105f b_exec=658de34559 vheight=31 tails=1>
+2021-03-19 21:27:57.529431 [hotstuff proto] got <proposal rid=1 blk=d292bc2c5d>
+2021-03-19 21:27:57.529531 [hotstuff proto] commit <block id=12a0f618a3 height=26 parent=658de34559 qc_ref=658de34559>
+2021-03-19 21:27:57.529587 [hotstuff proto] commit <block id=306667a1c2 height=27 parent=12a0f618a3 qc_ref=12a0f618a3>
+2021-03-19 21:27:57.529641 [hotstuff proto] commit <block id=2f82d9eb5d height=28 parent=306667a1c2 qc_ref=306667a1c2>
+2021-03-19 21:27:57.529696 [hotstuff proto] commit <block id=764882105f height=29 parent=2f82d9eb5d qc_ref=306667a1c2>
+2021-03-19 21:27:57.529763 [hotstuff proto] now state: <hotstuff hqc=17909e37a6 hqc.height=31 b_lock=763bb741a7 b_exec=764882105f vheight=32 tails=1>
+2021-03-19 21:27:58.535100 [hotstuff proto] got <proposal rid=2 blk=44e1e9051b>
+2021-03-19 21:27:58.535376 [hotstuff proto] now state: <hotstuff hqc=17909e37a6 hqc.height=31 b_lock=763bb741a7 b_exec=764882105f vheight=33 tails=1>
+2021-03-19 21:27:58.542308 [hotstuff proto] got <proposal rid=2 blk=e0c55cee72>
+2021-03-19 21:27:58.542483 [hotstuff proto] now state: <hotstuff hqc=44e1e9051b hqc.height=33 b_lock=17909e37a6 b_exec=764882105f vheight=34 tails=1>
+2021-03-19 21:27:58.553963 [hotstuff proto] got <proposal rid=2 blk=39d69bc65c>
+2021-03-19 21:27:58.554077 [hotstuff proto] now state: <hotstuff hqc=e0c55cee72 hqc.height=34 b_lock=44e1e9051b b_exec=764882105f vheight=35 tails=1>
+2021-03-19 21:27:58.559944 [hotstuff proto] got <proposal rid=2 blk=6a611d85b1>
+2021-03-19 21:27:58.560073 [hotstuff proto] commit <block id=763bb741a7 height=30 parent=764882105f qc_ref=764882105f>
+2021-03-19 21:27:58.560164 [hotstuff proto] commit <block id=17909e37a6 height=31 parent=763bb741a7 qc_ref=763bb741a7>
+2021-03-19 21:27:58.560222 [hotstuff proto] commit <block id=d292bc2c5d height=32 parent=17909e37a6 qc_ref=17909e37a6>
+2021-03-19 21:27:58.560270 [hotstuff proto] commit <block id=44e1e9051b height=33 parent=d292bc2c5d qc_ref=17909e37a6>
+2021-03-19 21:27:58.560324 [hotstuff proto] now state: <hotstuff hqc=39d69bc65c hqc.height=35 b_lock=e0c55cee72 b_exec=44e1e9051b vheight=36 tails=1>
+2021-03-19 21:27:59.564476 [hotstuff proto] got <proposal rid=3 blk=7b072f682b>
+2021-03-19 21:27:59.564717 [hotstuff proto] now state: <hotstuff hqc=39d69bc65c hqc.height=35 b_lock=e0c55cee72 b_exec=44e1e9051b vheight=37 tails=1>
+2021-03-19 21:27:59.572885 [hotstuff proto] got <proposal rid=3 blk=6fdb601095>
+2021-03-19 21:27:59.573403 [hotstuff proto] now state: <hotstuff hqc=7b072f682b hqc.height=37 b_lock=39d69bc65c b_exec=44e1e9051b vheight=38 tails=1>
+2021-03-19 21:27:59.583452 [hotstuff proto] got <proposal rid=3 blk=737b7dab3c>
+2021-03-19 21:27:59.584012 [hotstuff proto] now state: <hotstuff hqc=6fdb601095 hqc.height=38 b_lock=7b072f682b b_exec=44e1e9051b vheight=39 tails=1>
+2021-03-19 21:27:59.588848 [hotstuff proto] got <proposal rid=3 blk=9249655927>
+2021-03-19 21:27:59.588959 [hotstuff proto] commit <block id=e0c55cee72 height=34 parent=44e1e9051b qc_ref=44e1e9051b>
+2021-03-19 21:27:59.589006 [hotstuff proto] commit <block id=39d69bc65c height=35 parent=e0c55cee72 qc_ref=e0c55cee72>
+2021-03-19 21:27:59.589053 [hotstuff proto] commit <block id=6a611d85b1 height=36 parent=39d69bc65c qc_ref=39d69bc65c>
+2021-03-19 21:27:59.589098 [hotstuff proto] commit <block id=7b072f682b height=37 parent=6a611d85b1 qc_ref=39d69bc65c>
+2021-03-19 21:27:59.589147 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=40 tails=1>
+2021-03-19 21:28:01.702539 [net info] b0a0c5c9d2: ping from <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:28:02.327664 [net info] b0a0c5c9d2: ping from <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:28:02.706033 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:02.706112 [hotstuff info] -------- queues -------
+2021-03-19 21:28:02.706130 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:02.706144 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:02.706159 [hotstuff info] decision_waiting: 16
+2021-03-19 21:28:02.706172 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:02.706184 [hotstuff info] fetched: 0
+2021-03-19 21:28:02.706197 [hotstuff info] delivered: 40
+2021-03-19 21:28:02.706212 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:02.706227 [hotstuff info] blk_cache: 41
+2021-03-19 21:28:02.706242 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:02.706272 [hotstuff info] fetched: 0
+2021-03-19 21:28:02.706289 [hotstuff info] delivered: 16
+2021-03-19 21:28:02.706304 [hotstuff info] decided: 0
+2021-03-19 21:28:02.706318 [hotstuff info] gened: 0
+2021-03-19 21:28:02.706332 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:02.706355 [hotstuff info] delivery time: 0.003 avg, 0.001 min, 0.005 max
+2021-03-19 21:28:02.706378 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:02.706540 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:28:02.706737 [hotstuff info] 6947626606: 6(522), 6(1642), 0
+2021-03-19 21:28:02.706892 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:28:02.707054 [hotstuff info] b123e459ed: 1(1), 1(1), 0
+2021-03-19 21:28:02.707245 [hotstuff info] 084b2242ef: 2(2), 2(2), 0
+2021-03-19 21:28:02.707384 [hotstuff info] 53b35c6803: 5(521), 5(1641), 0
+2021-03-19 21:28:02.707427 [hotstuff info] sent: 23
+2021-03-19 21:28:02.707447 [hotstuff info] recv: 23
+2021-03-19 21:28:02.707460 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:02.707474 [hotstuff info] sent: 65
+2021-03-19 21:28:02.707489 [hotstuff info] recv: 67
+2021-03-19 21:28:02.707503 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:02.707518 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:02.707533 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:06.338154 [net info] b0a0c5c9d2: ping from <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>
+2021-03-19 21:28:07.239208 [net info] b0a0c5c9d2: ping from <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:28:08.598497 [hotstuff proto] got <proposal rid=6 blk=a448300e73>
+2021-03-19 21:28:08.598749 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.607621 [hotstuff proto] got <proposal rid=6 blk=87909906de>
+2021-03-19 21:28:08.607778 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.615909 [hotstuff proto] got <proposal rid=6 blk=8a199a2a48>
+2021-03-19 21:28:08.616009 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.621866 [hotstuff proto] got <proposal rid=6 blk=0d153e2214>
+2021-03-19 21:28:08.622016 [hotstuff proto] commit <block id=6fdb601095 height=38 parent=7b072f682b qc_ref=7b072f682b>
+2021-03-19 21:28:08.622110 [hotstuff proto] commit <block id=737b7dab3c height=39 parent=6fdb601095 qc_ref=6fdb601095>
+2021-03-19 21:28:08.622375 [hotstuff proto] commit <block id=9249655927 height=40 parent=737b7dab3c qc_ref=737b7dab3c>
+2021-03-19 21:28:08.622644 [hotstuff proto] commit <block id=a448300e73 height=41 parent=9249655927 qc_ref=737b7dab3c>
+2021-03-19 21:28:08.622738 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:10.849459 [net info] b0a0c5c9d2: ping from <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:28:12.627348 [hotstuff proto] got <proposal rid=1 blk=99db800f07>
+2021-03-19 21:28:12.627509 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=45 tails=1>
+2021-03-19 21:28:12.638271 [hotstuff proto] got <proposal rid=1 blk=895e495b48>
+2021-03-19 21:28:12.638459 [hotstuff proto] now state: <hotstuff hqc=99db800f07 hqc.height=45 b_lock=8a199a2a48 b_exec=a448300e73 vheight=46 tails=1>
+2021-03-19 21:28:12.646553 [hotstuff proto] got <proposal rid=1 blk=079f85edbe>
+2021-03-19 21:28:12.646848 [hotstuff proto] now state: <hotstuff hqc=895e495b48 hqc.height=46 b_lock=99db800f07 b_exec=a448300e73 vheight=47 tails=1>
+2021-03-19 21:28:12.655632 [hotstuff proto] got <proposal rid=1 blk=29135a80c1>
+2021-03-19 21:28:12.655734 [hotstuff proto] commit <block id=87909906de height=42 parent=a448300e73 qc_ref=a448300e73>
+2021-03-19 21:28:12.655795 [hotstuff proto] commit <block id=8a199a2a48 height=43 parent=87909906de qc_ref=87909906de>
+2021-03-19 21:28:12.655853 [hotstuff proto] commit <block id=0d153e2214 height=44 parent=8a199a2a48 qc_ref=8a199a2a48>
+2021-03-19 21:28:12.655913 [hotstuff proto] commit <block id=99db800f07 height=45 parent=0d153e2214 qc_ref=8a199a2a48>
+2021-03-19 21:28:12.655971 [hotstuff proto] now state: <hotstuff hqc=079f85edbe hqc.height=47 b_lock=895e495b48 b_exec=99db800f07 vheight=48 tails=1>
+2021-03-19 21:28:12.706335 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:12.706368 [hotstuff info] -------- queues -------
+2021-03-19 21:28:12.706373 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:12.706376 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:12.706379 [hotstuff info] decision_waiting: 16
+2021-03-19 21:28:12.706382 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:12.706385 [hotstuff info] fetched: 0
+2021-03-19 21:28:12.706388 [hotstuff info] delivered: 48
+2021-03-19 21:28:12.706391 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:12.706394 [hotstuff info] blk_cache: 49
+2021-03-19 21:28:12.706397 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:12.706400 [hotstuff info] fetched: 0
+2021-03-19 21:28:12.706403 [hotstuff info] delivered: 8
+2021-03-19 21:28:12.706406 [hotstuff info] decided: 0
+2021-03-19 21:28:12.706409 [hotstuff info] gened: 0
+2021-03-19 21:28:12.706412 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:12.706421 [hotstuff info] delivery time: 0.002 avg, 0.002 min, 0.003 max
+2021-03-19 21:28:12.706427 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:12.706469 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:28:12.706538 [hotstuff info] 6947626606: 0(0), 0(0), 0
+2021-03-19 21:28:12.706570 [hotstuff info] 15717dc960: 2(2), 2(2), 0
+2021-03-19 21:28:12.706606 [hotstuff info] b123e459ed: 1(1), 1(1), 0
+2021-03-19 21:28:12.706632 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:28:12.706685 [hotstuff info] 53b35c6803: 5(521), 5(1641), 0
+2021-03-19 21:28:12.706697 [hotstuff info] sent: 13
+2021-03-19 21:28:12.706701 [hotstuff info] recv: 13
+2021-03-19 21:28:12.706704 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:12.706707 [hotstuff info] sent: 78
+2021-03-19 21:28:12.706710 [hotstuff info] recv: 80
+2021-03-19 21:28:12.706712 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:12.706715 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:12.706719 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:13.657534 [hotstuff proto] got <proposal rid=2 blk=c0ac50246f>
+2021-03-19 21:28:13.657567 [hotstuff proto] now state: <hotstuff hqc=079f85edbe hqc.height=47 b_lock=895e495b48 b_exec=99db800f07 vheight=49 tails=1>
+2021-03-19 21:28:13.659482 [hotstuff proto] got <proposal rid=2 blk=9b5c21f3bf>
+2021-03-19 21:28:13.659532 [hotstuff proto] now state: <hotstuff hqc=c0ac50246f hqc.height=49 b_lock=079f85edbe b_exec=99db800f07 vheight=50 tails=1>
+2021-03-19 21:28:13.661178 [hotstuff proto] got <proposal rid=2 blk=369261fcdd>
+2021-03-19 21:28:13.661236 [hotstuff proto] now state: <hotstuff hqc=9b5c21f3bf hqc.height=50 b_lock=c0ac50246f b_exec=99db800f07 vheight=51 tails=1>
+2021-03-19 21:28:13.662947 [hotstuff proto] got <proposal rid=2 blk=0944e683a5>
+2021-03-19 21:28:13.662997 [hotstuff proto] commit <block id=895e495b48 height=46 parent=99db800f07 qc_ref=99db800f07>
+2021-03-19 21:28:13.663017 [hotstuff proto] commit <block id=079f85edbe height=47 parent=895e495b48 qc_ref=895e495b48>
+2021-03-19 21:28:13.663038 [hotstuff proto] commit <block id=29135a80c1 height=48 parent=079f85edbe qc_ref=079f85edbe>
+2021-03-19 21:28:13.663056 [hotstuff proto] commit <block id=c0ac50246f height=49 parent=29135a80c1 qc_ref=079f85edbe>
+2021-03-19 21:28:13.663076 [hotstuff proto] now state: <hotstuff hqc=369261fcdd hqc.height=51 b_lock=9b5c21f3bf b_exec=c0ac50246f vheight=52 tails=1>
+2021-03-19 21:28:14.669429 [hotstuff proto] got <proposal rid=3 blk=ce3994975f>
+2021-03-19 21:28:14.669588 [hotstuff proto] now state: <hotstuff hqc=369261fcdd hqc.height=51 b_lock=9b5c21f3bf b_exec=c0ac50246f vheight=53 tails=1>
+2021-03-19 21:28:14.678703 [hotstuff proto] got <proposal rid=3 blk=ad34483898>
+2021-03-19 21:28:14.678861 [hotstuff proto] now state: <hotstuff hqc=ce3994975f hqc.height=53 b_lock=369261fcdd b_exec=c0ac50246f vheight=54 tails=1>
+2021-03-19 21:28:14.693273 [hotstuff proto] got <proposal rid=3 blk=16d32a68fb>
+2021-03-19 21:28:14.693541 [hotstuff proto] now state: <hotstuff hqc=ad34483898 hqc.height=54 b_lock=ce3994975f b_exec=c0ac50246f vheight=55 tails=1>
+2021-03-19 21:28:14.706146 [hotstuff proto] got <proposal rid=3 blk=2cf4749fb8>
+2021-03-19 21:28:14.706557 [hotstuff proto] commit <block id=9b5c21f3bf height=50 parent=c0ac50246f qc_ref=c0ac50246f>
+2021-03-19 21:28:14.706818 [hotstuff proto] commit <block id=369261fcdd height=51 parent=9b5c21f3bf qc_ref=9b5c21f3bf>
+2021-03-19 21:28:14.707115 [hotstuff proto] commit <block id=0944e683a5 height=52 parent=369261fcdd qc_ref=369261fcdd>
+2021-03-19 21:28:14.707366 [hotstuff proto] commit <block id=ce3994975f height=53 parent=0944e683a5 qc_ref=369261fcdd>
+2021-03-19 21:28:14.707642 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=56 tails=1>
+2021-03-19 21:28:14.787998 [net info] accepted <Conn fd=85 addr=<NetAddr 172.16.16.12:36728> mode=passive>
+2021-03-19 21:28:15.867612 [net info] accepted <Conn fd=88 addr=<NetAddr 172.16.16.10:53598> mode=passive>
+2021-03-19 21:28:16.819536 [net info] accepted <Conn fd=93 addr=<NetAddr 172.16.16.11:48588> mode=passive>
+2021-03-19 21:28:17.883676 [net info] accepted <Conn fd=96 addr=<NetAddr 172.16.16.9:50290> mode=passive>
+2021-03-19 21:28:22.708935 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:22.709001 [hotstuff info] -------- queues -------
+2021-03-19 21:28:22.709016 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:22.709025 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:22.709030 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:22.709036 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:22.709041 [hotstuff info] fetched: 0
+2021-03-19 21:28:22.709047 [hotstuff info] delivered: 56
+2021-03-19 21:28:22.709053 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:22.709059 [hotstuff info] blk_cache: 57
+2021-03-19 21:28:22.709064 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:22.709069 [hotstuff info] fetched: 0
+2021-03-19 21:28:22.709076 [hotstuff info] delivered: 8
+2021-03-19 21:28:22.709085 [hotstuff info] decided: 0
+2021-03-19 21:28:22.709093 [hotstuff info] gened: 0
+2021-03-19 21:28:22.709101 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:22.709115 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.005 max
+2021-03-19 21:28:22.709132 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:22.709262 [hotstuff info] 27a8943bab: 0(0), 0(0), 0
+2021-03-19 21:28:22.709351 [hotstuff info] 6947626606: 4(520), 4(1640), 0
+2021-03-19 21:28:22.709499 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:28:22.709621 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:28:22.709762 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:28:22.709885 [hotstuff info] 53b35c6803: 0(0), 0(0), 0
+2021-03-19 21:28:22.709963 [hotstuff info] sent: 8
+2021-03-19 21:28:22.709997 [hotstuff info] recv: 8
+2021-03-19 21:28:22.710009 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:22.710019 [hotstuff info] sent: 86
+2021-03-19 21:28:22.710028 [hotstuff info] recv: 88
+2021-03-19 21:28:22.710038 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:22.710048 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:22.710065 [hotstuff info] <NetAddr 172.16.16.9:50290>: 4(172), 8(64)
+2021-03-19 21:28:22.710081 [hotstuff info] <NetAddr 172.16.16.11:48588>: 4(172), 8(64)
+2021-03-19 21:28:22.710110 [hotstuff info] <NetAddr 172.16.16.10:53598>: 4(172), 8(64)
+2021-03-19 21:28:22.710124 [hotstuff info] <NetAddr 172.16.16.12:36728>: 4(172), 8(64)
+2021-03-19 21:28:22.710134 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:23.714854 [hotstuff proto] got <proposal rid=6 blk=3c84aa68b2>
+2021-03-19 21:28:23.715013 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.721794 [hotstuff proto] got <proposal rid=6 blk=7c23b499a3>
+2021-03-19 21:28:23.721904 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.726985 [hotstuff proto] got <proposal rid=6 blk=b3608d40b9>
+2021-03-19 21:28:23.727119 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.733118 [hotstuff proto] got <proposal rid=6 blk=0ed0905513>
+2021-03-19 21:28:23.733227 [hotstuff proto] commit <block id=ad34483898 height=54 parent=ce3994975f qc_ref=ce3994975f>
+2021-03-19 21:28:23.733301 [hotstuff proto] commit <block id=16d32a68fb height=55 parent=ad34483898 qc_ref=ad34483898>
+2021-03-19 21:28:23.733348 [hotstuff proto] commit <block id=2cf4749fb8 height=56 parent=16d32a68fb qc_ref=16d32a68fb>
+2021-03-19 21:28:23.733387 [hotstuff proto] commit <block id=3c84aa68b2 height=57 parent=2cf4749fb8 qc_ref=16d32a68fb>
+2021-03-19 21:28:23.733417 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:27.743611 [hotstuff proto] got <proposal rid=1 blk=b8a92190f5>
+2021-03-19 21:28:27.743766 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=61 tails=1>
+2021-03-19 21:28:27.755436 [hotstuff proto] got <proposal rid=1 blk=9569a318ce>
+2021-03-19 21:28:27.755605 [hotstuff proto] now state: <hotstuff hqc=b8a92190f5 hqc.height=61 b_lock=b3608d40b9 b_exec=3c84aa68b2 vheight=62 tails=1>
+2021-03-19 21:28:27.762848 [hotstuff proto] got <proposal rid=1 blk=d962bd355b>
+2021-03-19 21:28:27.763221 [hotstuff proto] now state: <hotstuff hqc=9569a318ce hqc.height=62 b_lock=b8a92190f5 b_exec=3c84aa68b2 vheight=63 tails=1>
+2021-03-19 21:28:27.769481 [hotstuff proto] got <proposal rid=1 blk=f0aea14695>
+2021-03-19 21:28:27.769571 [hotstuff proto] commit <block id=7c23b499a3 height=58 parent=3c84aa68b2 qc_ref=3c84aa68b2>
+2021-03-19 21:28:27.769625 [hotstuff proto] commit <block id=b3608d40b9 height=59 parent=7c23b499a3 qc_ref=7c23b499a3>
+2021-03-19 21:28:27.769711 [hotstuff proto] commit <block id=0ed0905513 height=60 parent=b3608d40b9 qc_ref=b3608d40b9>
+2021-03-19 21:28:27.769822 [hotstuff proto] commit <block id=b8a92190f5 height=61 parent=0ed0905513 qc_ref=b3608d40b9>
+2021-03-19 21:28:27.769911 [hotstuff proto] now state: <hotstuff hqc=d962bd355b hqc.height=63 b_lock=9569a318ce b_exec=b8a92190f5 vheight=64 tails=1>
+2021-03-19 21:28:28.772303 [hotstuff proto] got <proposal rid=2 blk=09ea802ac4>
+2021-03-19 21:28:28.772408 [hotstuff proto] now state: <hotstuff hqc=d962bd355b hqc.height=63 b_lock=9569a318ce b_exec=b8a92190f5 vheight=65 tails=1>
+2021-03-19 21:28:28.774655 [hotstuff proto] got <proposal rid=2 blk=36efd777b5>
+2021-03-19 21:28:28.774701 [hotstuff proto] now state: <hotstuff hqc=09ea802ac4 hqc.height=65 b_lock=d962bd355b b_exec=b8a92190f5 vheight=66 tails=1>
+2021-03-19 21:28:28.776632 [hotstuff proto] got <proposal rid=2 blk=a0516e0b93>
+2021-03-19 21:28:28.776676 [hotstuff proto] now state: <hotstuff hqc=36efd777b5 hqc.height=66 b_lock=09ea802ac4 b_exec=b8a92190f5 vheight=67 tails=1>
+2021-03-19 21:28:28.778802 [hotstuff proto] got <proposal rid=2 blk=70ba44c7e4>
+2021-03-19 21:28:28.778846 [hotstuff proto] commit <block id=9569a318ce height=62 parent=b8a92190f5 qc_ref=b8a92190f5>
+2021-03-19 21:28:28.778869 [hotstuff proto] commit <block id=d962bd355b height=63 parent=9569a318ce qc_ref=9569a318ce>
+2021-03-19 21:28:28.778888 [hotstuff proto] commit <block id=f0aea14695 height=64 parent=d962bd355b qc_ref=d962bd355b>
+2021-03-19 21:28:28.778908 [hotstuff proto] commit <block id=09ea802ac4 height=65 parent=f0aea14695 qc_ref=d962bd355b>
+2021-03-19 21:28:28.778932 [hotstuff proto] now state: <hotstuff hqc=a0516e0b93 hqc.height=67 b_lock=36efd777b5 b_exec=09ea802ac4 vheight=68 tails=1>
+2021-03-19 21:28:29.786504 [hotstuff proto] got <proposal rid=3 blk=d4adef8195>
+2021-03-19 21:28:29.786757 [hotstuff proto] now state: <hotstuff hqc=a0516e0b93 hqc.height=67 b_lock=36efd777b5 b_exec=09ea802ac4 vheight=69 tails=1>
+2021-03-19 21:28:29.794230 [hotstuff proto] got <proposal rid=3 blk=9e996edd98>
+2021-03-19 21:28:29.794360 [hotstuff proto] now state: <hotstuff hqc=d4adef8195 hqc.height=69 b_lock=a0516e0b93 b_exec=09ea802ac4 vheight=70 tails=1>
+2021-03-19 21:28:29.799897 [hotstuff proto] got <proposal rid=3 blk=0ed190e35e>
+2021-03-19 21:28:29.799973 [hotstuff proto] now state: <hotstuff hqc=9e996edd98 hqc.height=70 b_lock=d4adef8195 b_exec=09ea802ac4 vheight=71 tails=1>
+2021-03-19 21:28:29.802883 [hotstuff proto] got <proposal rid=3 blk=412ce197e6>
+2021-03-19 21:28:29.802950 [hotstuff proto] commit <block id=36efd777b5 height=66 parent=09ea802ac4 qc_ref=09ea802ac4>
+2021-03-19 21:28:29.802989 [hotstuff proto] commit <block id=a0516e0b93 height=67 parent=36efd777b5 qc_ref=36efd777b5>
+2021-03-19 21:28:29.803029 [hotstuff proto] commit <block id=70ba44c7e4 height=68 parent=a0516e0b93 qc_ref=a0516e0b93>
+2021-03-19 21:28:29.803062 [hotstuff proto] commit <block id=d4adef8195 height=69 parent=70ba44c7e4 qc_ref=a0516e0b93>
+2021-03-19 21:28:29.803089 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=72 tails=1>
+2021-03-19 21:28:32.709764 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:32.709842 [hotstuff info] -------- queues -------
+2021-03-19 21:28:32.709855 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:32.709865 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:32.709873 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:32.709882 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:32.709890 [hotstuff info] fetched: 0
+2021-03-19 21:28:32.709899 [hotstuff info] delivered: 72
+2021-03-19 21:28:32.709908 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:32.709917 [hotstuff info] blk_cache: 73
+2021-03-19 21:28:32.709925 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:32.709933 [hotstuff info] fetched: 0
+2021-03-19 21:28:32.709942 [hotstuff info] delivered: 16
+2021-03-19 21:28:32.709950 [hotstuff info] decided: 0
+2021-03-19 21:28:32.709959 [hotstuff info] gened: 0
+2021-03-19 21:28:32.709967 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:32.709983 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.005 max
+2021-03-19 21:28:32.709999 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:32.710163 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:28:32.710393 [hotstuff info] 6947626606: 4(520), 4(1640), 0
+2021-03-19 21:28:32.710575 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:28:32.710793 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:28:32.710969 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:28:32.711103 [hotstuff info] 53b35c6803: 5(521), 5(1641), 0
+2021-03-19 21:28:32.711206 [hotstuff info] sent: 18
+2021-03-19 21:28:32.711255 [hotstuff info] recv: 18
+2021-03-19 21:28:32.711269 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:32.711589 [hotstuff info] sent: 104
+2021-03-19 21:28:32.711647 [hotstuff info] recv: 106
+2021-03-19 21:28:32.711669 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:32.711680 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:32.711698 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:28:32.711741 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:28:32.711763 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:28:32.711782 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:28:32.711799 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:34.386382 [net info] b0a0c5c9d2: ping from <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:28:38.811524 [hotstuff proto] got <proposal rid=6 blk=b2b1352111>
+2021-03-19 21:28:38.811686 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.821747 [hotstuff proto] got <proposal rid=6 blk=89e319c5ab>
+2021-03-19 21:28:38.822232 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.832052 [hotstuff proto] got <proposal rid=6 blk=d59eafa715>
+2021-03-19 21:28:38.832233 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.846514 [hotstuff proto] got <proposal rid=6 blk=184e0e5f00>
+2021-03-19 21:28:38.846983 [hotstuff proto] commit <block id=9e996edd98 height=70 parent=d4adef8195 qc_ref=d4adef8195>
+2021-03-19 21:28:38.847807 [hotstuff proto] commit <block id=0ed190e35e height=71 parent=9e996edd98 qc_ref=9e996edd98>
+2021-03-19 21:28:38.848322 [hotstuff proto] commit <block id=412ce197e6 height=72 parent=0ed190e35e qc_ref=0ed190e35e>
+2021-03-19 21:28:38.849185 [hotstuff proto] commit <block id=b2b1352111 height=73 parent=412ce197e6 qc_ref=0ed190e35e>
+2021-03-19 21:28:38.850023 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.976315 [net info] b0a0c5c9d2: ping from <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:28:39.567602 [net info] b0a0c5c9d2: ping from <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:28:42.481995 [net info] b0a0c5c9d2: ping from <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:28:42.710184 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:42.710269 [hotstuff info] -------- queues -------
+2021-03-19 21:28:42.710282 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:42.710291 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:42.710300 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:42.710309 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:42.710318 [hotstuff info] fetched: 0
+2021-03-19 21:28:42.710327 [hotstuff info] delivered: 76
+2021-03-19 21:28:42.710337 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:42.710346 [hotstuff info] blk_cache: 77
+2021-03-19 21:28:42.710354 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:42.710363 [hotstuff info] fetched: 0
+2021-03-19 21:28:42.710371 [hotstuff info] delivered: 4
+2021-03-19 21:28:42.710380 [hotstuff info] decided: 0
+2021-03-19 21:28:42.710389 [hotstuff info] gened: 0
+2021-03-19 21:28:42.710397 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:42.710413 [hotstuff info] delivery time: 0.003 avg, 0.003 min, 0.003 max
+2021-03-19 21:28:42.710431 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:42.710599 [hotstuff info] 27a8943bab: 1(1), 1(1), 0
+2021-03-19 21:28:42.710851 [hotstuff info] 6947626606: 2(2), 2(2), 0
+2021-03-19 21:28:42.711019 [hotstuff info] 15717dc960: 0(0), 0(0), 0
+2021-03-19 21:28:42.711152 [hotstuff info] b123e459ed: 2(2), 2(2), 0
+2021-03-19 21:28:42.711303 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:28:42.711440 [hotstuff info] 53b35c6803: 4(520), 4(1640), 0
+2021-03-19 21:28:42.711477 [hotstuff info] sent: 10
+2021-03-19 21:28:42.711492 [hotstuff info] recv: 10
+2021-03-19 21:28:42.711500 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:42.711511 [hotstuff info] sent: 114
+2021-03-19 21:28:42.711525 [hotstuff info] recv: 116
+2021-03-19 21:28:42.711540 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:42.711554 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:42.711580 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:28:42.711611 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:28:42.711631 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:28:42.711651 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:28:42.711679 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:42.853481 [hotstuff proto] got <proposal rid=1 blk=7e76193dff>
+2021-03-19 21:28:42.853642 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=77 tails=1>
+2021-03-19 21:28:42.866354 [hotstuff proto] got <proposal rid=1 blk=f53e4cf6a8>
+2021-03-19 21:28:42.866519 [hotstuff proto] now state: <hotstuff hqc=7e76193dff hqc.height=77 b_lock=d59eafa715 b_exec=b2b1352111 vheight=78 tails=1>
+2021-03-19 21:28:42.873077 [hotstuff proto] got <proposal rid=1 blk=49f6339ae5>
+2021-03-19 21:28:42.873209 [hotstuff proto] now state: <hotstuff hqc=f53e4cf6a8 hqc.height=78 b_lock=7e76193dff b_exec=b2b1352111 vheight=79 tails=1>
+2021-03-19 21:28:42.879309 [hotstuff proto] got <proposal rid=1 blk=07db7f6b30>
+2021-03-19 21:28:42.879385 [hotstuff proto] commit <block id=89e319c5ab height=74 parent=b2b1352111 qc_ref=b2b1352111>
+2021-03-19 21:28:42.879468 [hotstuff proto] commit <block id=d59eafa715 height=75 parent=89e319c5ab qc_ref=89e319c5ab>
+2021-03-19 21:28:42.879555 [hotstuff proto] commit <block id=184e0e5f00 height=76 parent=d59eafa715 qc_ref=d59eafa715>
+2021-03-19 21:28:42.879661 [hotstuff proto] commit <block id=7e76193dff height=77 parent=184e0e5f00 qc_ref=d59eafa715>
+2021-03-19 21:28:42.879871 [hotstuff proto] now state: <hotstuff hqc=49f6339ae5 hqc.height=79 b_lock=f53e4cf6a8 b_exec=7e76193dff vheight=80 tails=1>
+2021-03-19 21:28:43.887823 [hotstuff proto] got <proposal rid=2 blk=185151243e>
+2021-03-19 21:28:43.887979 [hotstuff proto] now state: <hotstuff hqc=49f6339ae5 hqc.height=79 b_lock=f53e4cf6a8 b_exec=7e76193dff vheight=81 tails=1>
+2021-03-19 21:28:43.895746 [hotstuff proto] got <proposal rid=2 blk=c9e8868046>
+2021-03-19 21:28:43.896034 [hotstuff proto] now state: <hotstuff hqc=185151243e hqc.height=81 b_lock=49f6339ae5 b_exec=7e76193dff vheight=82 tails=1>
+2021-03-19 21:28:43.913146 [hotstuff proto] got <proposal rid=2 blk=653c66de2e>
+2021-03-19 21:28:43.913295 [hotstuff proto] now state: <hotstuff hqc=c9e8868046 hqc.height=82 b_lock=185151243e b_exec=7e76193dff vheight=83 tails=1>
+2021-03-19 21:28:43.919639 [hotstuff proto] got <proposal rid=2 blk=1617888c2a>
+2021-03-19 21:28:43.919811 [hotstuff proto] commit <block id=f53e4cf6a8 height=78 parent=7e76193dff qc_ref=7e76193dff>
+2021-03-19 21:28:43.919910 [hotstuff proto] commit <block id=49f6339ae5 height=79 parent=f53e4cf6a8 qc_ref=f53e4cf6a8>
+2021-03-19 21:28:43.920000 [hotstuff proto] commit <block id=07db7f6b30 height=80 parent=49f6339ae5 qc_ref=49f6339ae5>
+2021-03-19 21:28:43.920089 [hotstuff proto] commit <block id=185151243e height=81 parent=07db7f6b30 qc_ref=49f6339ae5>
+2021-03-19 21:28:43.920185 [hotstuff proto] now state: <hotstuff hqc=653c66de2e hqc.height=83 b_lock=c9e8868046 b_exec=185151243e vheight=84 tails=1>
+2021-03-19 21:28:44.926263 [hotstuff proto] got <proposal rid=3 blk=a5809fa2f2>
+2021-03-19 21:28:44.926502 [hotstuff proto] now state: <hotstuff hqc=653c66de2e hqc.height=83 b_lock=c9e8868046 b_exec=185151243e vheight=85 tails=1>
+2021-03-19 21:28:44.934326 [hotstuff proto] got <proposal rid=3 blk=0e088e45f2>
+2021-03-19 21:28:44.935197 [hotstuff proto] now state: <hotstuff hqc=a5809fa2f2 hqc.height=85 b_lock=653c66de2e b_exec=185151243e vheight=86 tails=1>
+2021-03-19 21:28:44.943357 [hotstuff proto] got <proposal rid=3 blk=4bab90b307>
+2021-03-19 21:28:44.943538 [hotstuff proto] now state: <hotstuff hqc=0e088e45f2 hqc.height=86 b_lock=a5809fa2f2 b_exec=185151243e vheight=87 tails=1>
+2021-03-19 21:28:44.948090 [hotstuff proto] got <proposal rid=3 blk=6277adc730>
+2021-03-19 21:28:44.948156 [hotstuff proto] commit <block id=c9e8868046 height=82 parent=185151243e qc_ref=185151243e>
+2021-03-19 21:28:44.948204 [hotstuff proto] commit <block id=653c66de2e height=83 parent=c9e8868046 qc_ref=c9e8868046>
+2021-03-19 21:28:44.948244 [hotstuff proto] commit <block id=1617888c2a height=84 parent=653c66de2e qc_ref=653c66de2e>
+2021-03-19 21:28:44.948285 [hotstuff proto] commit <block id=a5809fa2f2 height=85 parent=1617888c2a qc_ref=653c66de2e>
+2021-03-19 21:28:44.948332 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=88 tails=1>
+2021-03-19 21:28:48.401458 [net info] b0a0c5c9d2: ping from <Conn fd=87 addr=<NetAddr 172.16.16.5:37764> mode=passive>
+2021-03-19 21:28:49.301524 [net info] b0a0c5c9d2: ping from <Conn fd=84 addr=<NetAddr 172.16.16.8:10000> mode=active>
+2021-03-19 21:28:52.712643 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:52.712740 [hotstuff info] -------- queues -------
+2021-03-19 21:28:52.712754 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:52.712764 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:52.712774 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:52.712783 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:52.712792 [hotstuff info] fetched: 0
+2021-03-19 21:28:52.712801 [hotstuff info] delivered: 88
+2021-03-19 21:28:52.712810 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:52.712819 [hotstuff info] blk_cache: 89
+2021-03-19 21:28:52.712832 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:52.712846 [hotstuff info] fetched: 0
+2021-03-19 21:28:52.712860 [hotstuff info] delivered: 12
+2021-03-19 21:28:52.712875 [hotstuff info] decided: 0
+2021-03-19 21:28:52.712941 [hotstuff info] gened: 0
+2021-03-19 21:28:52.712966 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:52.713028 [hotstuff info] delivery time: 0.003 avg, 0.001 min, 0.010 max
+2021-03-19 21:28:52.713060 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:52.713227 [hotstuff info] 27a8943bab: 4(520), 4(1640), 0
+2021-03-19 21:28:52.713532 [hotstuff info] 6947626606: 4(520), 4(1640), 0
+2021-03-19 21:28:52.713874 [hotstuff info] 15717dc960: 6(522), 6(1642), 0
+2021-03-19 21:28:52.714107 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:28:52.714251 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:28:52.714370 [hotstuff info] 53b35c6803: 1(1), 1(1), 0
+2021-03-19 21:28:52.714410 [hotstuff info] sent: 16
+2021-03-19 21:28:52.714430 [hotstuff info] recv: 16
+2021-03-19 21:28:52.714444 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:52.714453 [hotstuff info] sent: 130
+2021-03-19 21:28:52.714461 [hotstuff info] recv: 132
+2021-03-19 21:28:52.714469 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:52.714482 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:52.714510 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:28:52.714540 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:28:52.714563 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:28:52.714590 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:28:52.714608 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:53.960232 [hotstuff proto] got <proposal rid=6 blk=57e3b28f59>
+2021-03-19 21:28:53.960614 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.970902 [hotstuff proto] got <proposal rid=6 blk=1bfada716c>
+2021-03-19 21:28:53.972515 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.980535 [hotstuff proto] got <proposal rid=6 blk=7d81621650>
+2021-03-19 21:28:53.980644 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.987465 [hotstuff proto] got <proposal rid=6 blk=7f152c66ac>
+2021-03-19 21:28:53.987611 [hotstuff proto] commit <block id=0e088e45f2 height=86 parent=a5809fa2f2 qc_ref=a5809fa2f2>
+2021-03-19 21:28:53.987676 [hotstuff proto] commit <block id=4bab90b307 height=87 parent=0e088e45f2 qc_ref=0e088e45f2>
+2021-03-19 21:28:53.987763 [hotstuff proto] commit <block id=6277adc730 height=88 parent=4bab90b307 qc_ref=4bab90b307>
+2021-03-19 21:28:53.987834 [hotstuff proto] commit <block id=57e3b28f59 height=89 parent=6277adc730 qc_ref=4bab90b307>
+2021-03-19 21:28:53.987909 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:57.992179 [hotstuff proto] got <proposal rid=1 blk=5ade4f60e2>
+2021-03-19 21:28:57.992231 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=93 tails=1>
+2021-03-19 21:28:57.994916 [hotstuff proto] got <proposal rid=1 blk=e900b7e2fc>
+2021-03-19 21:28:57.994969 [hotstuff proto] now state: <hotstuff hqc=5ade4f60e2 hqc.height=93 b_lock=7d81621650 b_exec=57e3b28f59 vheight=94 tails=1>
+2021-03-19 21:28:57.997647 [hotstuff proto] got <proposal rid=1 blk=e1ff4e417a>
+2021-03-19 21:28:57.997748 [hotstuff proto] now state: <hotstuff hqc=e900b7e2fc hqc.height=94 b_lock=5ade4f60e2 b_exec=57e3b28f59 vheight=95 tails=1>
+2021-03-19 21:28:58.000110 [hotstuff proto] got <proposal rid=1 blk=7f6d97b561>
+2021-03-19 21:28:58.000162 [hotstuff proto] commit <block id=1bfada716c height=90 parent=57e3b28f59 qc_ref=57e3b28f59>
+2021-03-19 21:28:58.000191 [hotstuff proto] commit <block id=7d81621650 height=91 parent=1bfada716c qc_ref=1bfada716c>
+2021-03-19 21:28:58.000217 [hotstuff proto] commit <block id=7f152c66ac height=92 parent=7d81621650 qc_ref=7d81621650>
+2021-03-19 21:28:58.000243 [hotstuff proto] commit <block id=5ade4f60e2 height=93 parent=7f152c66ac qc_ref=7d81621650>
+2021-03-19 21:28:58.000271 [hotstuff proto] now state: <hotstuff hqc=e1ff4e417a hqc.height=95 b_lock=e900b7e2fc b_exec=5ade4f60e2 vheight=96 tails=1>
+2021-03-19 21:28:59.006081 [hotstuff proto] got <proposal rid=2 blk=c9de551325>
+2021-03-19 21:28:59.006230 [hotstuff proto] now state: <hotstuff hqc=e1ff4e417a hqc.height=95 b_lock=e900b7e2fc b_exec=5ade4f60e2 vheight=97 tails=1>
+2021-03-19 21:28:59.014155 [hotstuff proto] got <proposal rid=2 blk=f7a4a23d91>
+2021-03-19 21:28:59.014330 [hotstuff proto] now state: <hotstuff hqc=c9de551325 hqc.height=97 b_lock=e1ff4e417a b_exec=5ade4f60e2 vheight=98 tails=1>
+2021-03-19 21:28:59.023122 [hotstuff proto] got <proposal rid=2 blk=21bafbb1a6>
+2021-03-19 21:28:59.023288 [hotstuff proto] now state: <hotstuff hqc=f7a4a23d91 hqc.height=98 b_lock=c9de551325 b_exec=5ade4f60e2 vheight=99 tails=1>
+2021-03-19 21:28:59.031838 [hotstuff proto] got <proposal rid=2 blk=0dea9b66c3>
+2021-03-19 21:28:59.031952 [hotstuff proto] commit <block id=e900b7e2fc height=94 parent=5ade4f60e2 qc_ref=5ade4f60e2>
+2021-03-19 21:28:59.032020 [hotstuff proto] commit <block id=e1ff4e417a height=95 parent=e900b7e2fc qc_ref=e900b7e2fc>
+2021-03-19 21:28:59.032082 [hotstuff proto] commit <block id=7f6d97b561 height=96 parent=e1ff4e417a qc_ref=e1ff4e417a>
+2021-03-19 21:28:59.032138 [hotstuff proto] commit <block id=c9de551325 height=97 parent=7f6d97b561 qc_ref=e1ff4e417a>
+2021-03-19 21:28:59.032204 [hotstuff proto] now state: <hotstuff hqc=21bafbb1a6 hqc.height=99 b_lock=f7a4a23d91 b_exec=c9de551325 vheight=100 tails=1>
+2021-03-19 21:29:00.037452 [hotstuff proto] got <proposal rid=3 blk=0693e11f33>
+2021-03-19 21:29:00.037729 [hotstuff proto] now state: <hotstuff hqc=21bafbb1a6 hqc.height=99 b_lock=f7a4a23d91 b_exec=c9de551325 vheight=101 tails=1>
+2021-03-19 21:29:00.045917 [hotstuff proto] got <proposal rid=3 blk=90e4c4973d>
+2021-03-19 21:29:00.046096 [hotstuff proto] now state: <hotstuff hqc=0693e11f33 hqc.height=101 b_lock=21bafbb1a6 b_exec=c9de551325 vheight=102 tails=1>
+2021-03-19 21:29:00.054140 [hotstuff proto] got <proposal rid=3 blk=c1df642ddb>
+2021-03-19 21:29:00.054253 [hotstuff proto] now state: <hotstuff hqc=90e4c4973d hqc.height=102 b_lock=0693e11f33 b_exec=c9de551325 vheight=103 tails=1>
+2021-03-19 21:29:00.059014 [hotstuff proto] got <proposal rid=3 blk=5531a2159d>
+2021-03-19 21:29:00.059089 [hotstuff proto] commit <block id=f7a4a23d91 height=98 parent=c9de551325 qc_ref=c9de551325>
+2021-03-19 21:29:00.059134 [hotstuff proto] commit <block id=21bafbb1a6 height=99 parent=f7a4a23d91 qc_ref=f7a4a23d91>
+2021-03-19 21:29:00.059176 [hotstuff proto] commit <block id=0dea9b66c3 height=100 parent=21bafbb1a6 qc_ref=21bafbb1a6>
+2021-03-19 21:29:00.059219 [hotstuff proto] commit <block id=0693e11f33 height=101 parent=0dea9b66c3 qc_ref=21bafbb1a6>
+2021-03-19 21:29:00.059262 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=104 tails=1>
+2021-03-19 21:29:02.713408 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:02.713521 [hotstuff info] -------- queues -------
+2021-03-19 21:29:02.713542 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:02.713557 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:02.713570 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:02.713583 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:02.713597 [hotstuff info] fetched: 0
+2021-03-19 21:29:02.713609 [hotstuff info] delivered: 104
+2021-03-19 21:29:02.713624 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:02.713638 [hotstuff info] blk_cache: 105
+2021-03-19 21:29:02.713652 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:02.713664 [hotstuff info] fetched: 0
+2021-03-19 21:29:02.713678 [hotstuff info] delivered: 16
+2021-03-19 21:29:02.713692 [hotstuff info] decided: 0
+2021-03-19 21:29:02.713706 [hotstuff info] gened: 0
+2021-03-19 21:29:02.713720 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:29:02.713895 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.004 max
+2021-03-19 21:29:02.713964 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:02.714147 [hotstuff info] 27a8943bab: 4(520), 4(1640), 0
+2021-03-19 21:29:02.714398 [hotstuff info] 6947626606: 4(520), 4(1640), 0
+2021-03-19 21:29:02.714578 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:29:02.714760 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:29:02.715060 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:29:02.715234 [hotstuff info] 53b35c6803: 4(520), 4(1640), 0
+2021-03-19 21:29:02.715358 [hotstuff info] sent: 16
+2021-03-19 21:29:02.715416 [hotstuff info] recv: 16
+2021-03-19 21:29:02.715436 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:02.715451 [hotstuff info] sent: 146
+2021-03-19 21:29:02.715466 [hotstuff info] recv: 148
+2021-03-19 21:29:02.715481 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:02.715497 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:02.715523 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:29:02.715547 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:29:02.715581 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:29:02.715602 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:29:02.715617 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:09.068598 [hotstuff proto] got <proposal rid=6 blk=f305784ed8>
+2021-03-19 21:29:09.068963 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.078627 [hotstuff proto] got <proposal rid=6 blk=bb8813724e>
+2021-03-19 21:29:09.078798 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.090325 [hotstuff proto] got <proposal rid=6 blk=f1350ed51a>
+2021-03-19 21:29:09.090623 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.100956 [hotstuff proto] got <proposal rid=6 blk=0d70644db9>
+2021-03-19 21:29:09.101330 [hotstuff proto] commit <block id=90e4c4973d height=102 parent=0693e11f33 qc_ref=0693e11f33>
+2021-03-19 21:29:09.101487 [hotstuff proto] commit <block id=c1df642ddb height=103 parent=90e4c4973d qc_ref=90e4c4973d>
+2021-03-19 21:29:09.101550 [hotstuff proto] commit <block id=5531a2159d height=104 parent=c1df642ddb qc_ref=c1df642ddb>
+2021-03-19 21:29:09.101600 [hotstuff proto] commit <block id=f305784ed8 height=105 parent=5531a2159d qc_ref=c1df642ddb>
+2021-03-19 21:29:09.101650 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:12.713118 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:12.713209 [hotstuff info] -------- queues -------
+2021-03-19 21:29:12.713230 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:12.713244 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:12.713259 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:12.713274 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:12.713287 [hotstuff info] fetched: 0
+2021-03-19 21:29:12.713300 [hotstuff info] delivered: 108
+2021-03-19 21:29:12.713315 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:12.713330 [hotstuff info] blk_cache: 109
+2021-03-19 21:29:12.713345 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:12.713359 [hotstuff info] fetched: 0
+2021-03-19 21:29:12.713374 [hotstuff info] delivered: 4
+2021-03-19 21:29:12.713388 [hotstuff info] decided: 0
+2021-03-19 21:29:12.713403 [hotstuff info] gened: 0
+2021-03-19 21:29:12.713417 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:29:12.713472 [hotstuff info] delivery time: 0.003 avg, 0.003 min, 0.004 max
+2021-03-19 21:29:12.713498 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:12.713654 [hotstuff info] 27a8943bab: 1(1), 1(1), 0
+2021-03-19 21:29:12.713863 [hotstuff info] 6947626606: 1(1), 1(1), 0
+2021-03-19 21:29:12.714010 [hotstuff info] 15717dc960: 0(0), 0(0), 0
+2021-03-19 21:29:12.714163 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:29:12.714407 [hotstuff info] 084b2242ef: 0(0), 0(0), 0
+2021-03-19 21:29:12.714572 [hotstuff info] 53b35c6803: 4(520), 4(1640), 0
+2021-03-19 21:29:12.714618 [hotstuff info] sent: 6
+2021-03-19 21:29:12.714636 [hotstuff info] recv: 6
+2021-03-19 21:29:12.714671 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:12.714688 [hotstuff info] sent: 152
+2021-03-19 21:29:12.714704 [hotstuff info] recv: 154
+2021-03-19 21:29:12.714718 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:12.714734 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:12.714759 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:29:12.714782 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:29:12.714804 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:29:12.714862 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:29:12.714884 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:13.103505 [hotstuff proto] got <proposal rid=1 blk=1c01daef9a>
+2021-03-19 21:29:13.103547 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=109 tails=1>
+2021-03-19 21:29:13.108474 [hotstuff proto] got <proposal rid=1 blk=11adcb266c>
+2021-03-19 21:29:13.108517 [hotstuff proto] now state: <hotstuff hqc=1c01daef9a hqc.height=109 b_lock=f1350ed51a b_exec=f305784ed8 vheight=110 tails=1>
+2021-03-19 21:29:13.109596 [hotstuff proto] got <proposal rid=1 blk=7eff8c3475>
+2021-03-19 21:29:13.109660 [hotstuff proto] now state: <hotstuff hqc=11adcb266c hqc.height=110 b_lock=1c01daef9a b_exec=f305784ed8 vheight=111 tails=1>
+2021-03-19 21:29:13.112131 [hotstuff proto] got <proposal rid=1 blk=851a7b7b14>
+2021-03-19 21:29:13.112173 [hotstuff proto] commit <block id=bb8813724e height=106 parent=f305784ed8 qc_ref=f305784ed8>
+2021-03-19 21:29:13.112195 [hotstuff proto] commit <block id=f1350ed51a height=107 parent=bb8813724e qc_ref=bb8813724e>
+2021-03-19 21:29:13.112212 [hotstuff proto] commit <block id=0d70644db9 height=108 parent=f1350ed51a qc_ref=f1350ed51a>
+2021-03-19 21:29:13.112230 [hotstuff proto] commit <block id=1c01daef9a height=109 parent=0d70644db9 qc_ref=f1350ed51a>
+2021-03-19 21:29:13.112256 [hotstuff proto] now state: <hotstuff hqc=7eff8c3475 hqc.height=111 b_lock=11adcb266c b_exec=1c01daef9a vheight=112 tails=1>
+2021-03-19 21:29:13.417238 [net info] b0a0c5c9d2: ping from <Conn fd=98 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:29:14.117785 [hotstuff proto] got <proposal rid=2 blk=5644ac23ea>
+2021-03-19 21:29:14.118072 [hotstuff proto] now state: <hotstuff hqc=7eff8c3475 hqc.height=111 b_lock=11adcb266c b_exec=1c01daef9a vheight=113 tails=1>
+2021-03-19 21:29:14.126845 [hotstuff proto] got <proposal rid=2 blk=14e1c5ddb6>
+2021-03-19 21:29:14.127143 [hotstuff proto] now state: <hotstuff hqc=5644ac23ea hqc.height=113 b_lock=7eff8c3475 b_exec=1c01daef9a vheight=114 tails=1>
+2021-03-19 21:29:14.140995 [hotstuff proto] got <proposal rid=2 blk=f008b53359>
+2021-03-19 21:29:14.141071 [hotstuff proto] now state: <hotstuff hqc=14e1c5ddb6 hqc.height=114 b_lock=5644ac23ea b_exec=1c01daef9a vheight=115 tails=1>
+2021-03-19 21:29:14.143759 [hotstuff proto] got <proposal rid=2 blk=d8de91051e>
+2021-03-19 21:29:14.143877 [hotstuff proto] commit <block id=11adcb266c height=110 parent=1c01daef9a qc_ref=1c01daef9a>
+2021-03-19 21:29:14.143948 [hotstuff proto] commit <block id=7eff8c3475 height=111 parent=11adcb266c qc_ref=11adcb266c>
+2021-03-19 21:29:14.144016 [hotstuff proto] commit <block id=851a7b7b14 height=112 parent=7eff8c3475 qc_ref=7eff8c3475>
+2021-03-19 21:29:14.144082 [hotstuff proto] commit <block id=5644ac23ea height=113 parent=851a7b7b14 qc_ref=7eff8c3475>
+2021-03-19 21:29:14.144152 [hotstuff proto] now state: <hotstuff hqc=f008b53359 hqc.height=115 b_lock=14e1c5ddb6 b_exec=5644ac23ea vheight=116 tails=1>
+2021-03-19 21:29:15.148677 [hotstuff proto] got <proposal rid=3 blk=b8ffbefc9d>
+2021-03-19 21:29:15.148982 [hotstuff proto] now state: <hotstuff hqc=f008b53359 hqc.height=115 b_lock=14e1c5ddb6 b_exec=5644ac23ea vheight=117 tails=1>
+2021-03-19 21:29:15.158115 [hotstuff proto] got <proposal rid=3 blk=a9993d954c>
+2021-03-19 21:29:15.158270 [hotstuff proto] now state: <hotstuff hqc=b8ffbefc9d hqc.height=117 b_lock=f008b53359 b_exec=5644ac23ea vheight=118 tails=1>
+2021-03-19 21:29:15.168259 [hotstuff proto] got <proposal rid=3 blk=ec4c7e5e88>
+2021-03-19 21:29:15.169787 [hotstuff proto] now state: <hotstuff hqc=a9993d954c hqc.height=118 b_lock=b8ffbefc9d b_exec=5644ac23ea vheight=119 tails=1>
+2021-03-19 21:29:15.185875 [hotstuff proto] got <proposal rid=3 blk=89bd1faa13>
+2021-03-19 21:29:15.186106 [hotstuff proto] commit <block id=14e1c5ddb6 height=114 parent=5644ac23ea qc_ref=5644ac23ea>
+2021-03-19 21:29:15.186202 [hotstuff proto] commit <block id=f008b53359 height=115 parent=14e1c5ddb6 qc_ref=14e1c5ddb6>
+2021-03-19 21:29:15.186260 [hotstuff proto] commit <block id=d8de91051e height=116 parent=f008b53359 qc_ref=f008b53359>
+2021-03-19 21:29:15.186339 [hotstuff proto] commit <block id=b8ffbefc9d height=117 parent=d8de91051e qc_ref=f008b53359>
+2021-03-19 21:29:15.186425 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=120 tails=1>
+2021-03-19 21:29:16.923265 [net info] b0a0c5c9d2: ping from <Conn fd=100 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:29:19.371048 [net info] b0a0c5c9d2: ping from <Conn fd=92 addr=<NetAddr 172.16.16.6:50300> mode=passive>
+2021-03-19 21:29:21.117247 [net info] b0a0c5c9d2: ping from <Conn fd=95 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:29:22.714819 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:22.714891 [hotstuff info] -------- queues -------
+2021-03-19 21:29:22.714905 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:22.714913 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:22.714922 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:22.714931 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:22.714939 [hotstuff info] fetched: 0
+2021-03-19 21:29:22.714948 [hotstuff info] delivered: 120
+2021-03-19 21:29:22.714957 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:22.714966 [hotstuff info] blk_cache: 121
+2021-03-19 21:29:22.714975 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:22.714984 [hotstuff info] fetched: 0
+2021-03-19 21:29:22.714993 [hotstuff info] delivered: 12
+2021-03-19 21:29:22.715001 [hotstuff info] decided: 0
+2021-03-19 21:29:22.715010 [hotstuff info] gened: 0
+2021-03-19 21:29:22.715019 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:29:22.715044 [hotstuff info] delivery time: 0.003 avg, 0.001 min, 0.011 max
+2021-03-19 21:29:22.715060 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:22.715245 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:29:22.715393 [hotstuff info] 6947626606: 5(521), 5(1641), 0
+2021-03-19 21:29:22.715521 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:29:22.715672 [hotstuff info] b123e459ed: 2(2), 2(2), 0
+2021-03-19 21:29:22.715762 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:29:22.715925 [hotstuff info] 53b35c6803: 1(1), 1(1), 0
+2021-03-19 21:29:22.715958 [hotstuff info] sent: 18
+2021-03-19 21:29:22.715972 [hotstuff info] recv: 18
+2021-03-19 21:29:22.715981 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:22.715990 [hotstuff info] sent: 170
+2021-03-19 21:29:22.715998 [hotstuff info] recv: 172
+2021-03-19 21:29:22.716006 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:22.716012 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:22.716025 [hotstuff info] <NetAddr 172.16.16.9:50290>: 0(0), 0(0)
+2021-03-19 21:29:22.716043 [hotstuff info] <NetAddr 172.16.16.11:48588>: 0(0), 0(0)
+2021-03-19 21:29:22.716052 [hotstuff info] <NetAddr 172.16.16.10:53598>: 0(0), 0(0)
+2021-03-19 21:29:22.716060 [hotstuff info] <NetAddr 172.16.16.12:36728>: 0(0), 0(0)
+2021-03-19 21:29:22.716065 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:24.193736 [hotstuff proto] got <proposal rid=6 blk=e7865d8c26>
+2021-03-19 21:29:24.193819 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.196426 [hotstuff proto] got <proposal rid=6 blk=e9b8cc2421>
+2021-03-19 21:29:24.196482 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.198809 [hotstuff proto] got <proposal rid=6 blk=716cf5a9d5>
+2021-03-19 21:29:24.198863 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.201614 [hotstuff proto] got <proposal rid=6 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.201668 [hotstuff proto] commit <block id=a9993d954c height=118 parent=b8ffbefc9d qc_ref=b8ffbefc9d>
+2021-03-19 21:29:24.201701 [hotstuff proto] commit <block id=ec4c7e5e88 height=119 parent=a9993d954c qc_ref=a9993d954c>
+2021-03-19 21:29:24.201730 [hotstuff proto] commit <block id=89bd1faa13 height=120 parent=ec4c7e5e88 qc_ref=ec4c7e5e88>
+2021-03-19 21:29:24.201787 [hotstuff proto] commit <block id=e7865d8c26 height=121 parent=89bd1faa13 qc_ref=ec4c7e5e88>
+2021-03-19 21:29:24.201826 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:28.207297 [hotstuff proto] got <proposal rid=1 blk=48c030f3bb>
+2021-03-19 21:29:28.207365 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=125 tails=1>
+2021-03-19 21:29:28.209032 [hotstuff proto] got <proposal rid=1 blk=fc9bdbb4e1>
+2021-03-19 21:29:28.209068 [hotstuff proto] now state: <hotstuff hqc=48c030f3bb hqc.height=125 b_lock=716cf5a9d5 b_exec=e7865d8c26 vheight=126 tails=1>
+2021-03-19 21:29:28.210923 [hotstuff proto] got <proposal rid=1 blk=06b40c2000>
+2021-03-19 21:29:28.210957 [hotstuff proto] now state: <hotstuff hqc=fc9bdbb4e1 hqc.height=126 b_lock=48c030f3bb b_exec=e7865d8c26 vheight=127 tails=1>
+2021-03-19 21:29:28.212548 [hotstuff proto] got <proposal rid=1 blk=0dba14bb42>
+2021-03-19 21:29:28.212585 [hotstuff proto] commit <block id=e9b8cc2421 height=122 parent=e7865d8c26 qc_ref=e7865d8c26>
+2021-03-19 21:29:28.212608 [hotstuff proto] commit <block id=716cf5a9d5 height=123 parent=e9b8cc2421 qc_ref=e9b8cc2421>
+2021-03-19 21:29:28.212629 [hotstuff proto] commit <block id=6cbd8fd0b2 height=124 parent=716cf5a9d5 qc_ref=716cf5a9d5>
+2021-03-19 21:29:28.212647 [hotstuff proto] commit <block id=48c030f3bb height=125 parent=6cbd8fd0b2 qc_ref=716cf5a9d5>
+2021-03-19 21:29:28.212667 [hotstuff proto] now state: <hotstuff hqc=06b40c2000 hqc.height=127 b_lock=fc9bdbb4e1 b_exec=48c030f3bb vheight=128 tails=1>
+2021-03-19 21:29:29.214860 [hotstuff proto] got <proposal rid=2 blk=0dcfef880c>
+2021-03-19 21:29:29.214965 [hotstuff proto] now state: <hotstuff hqc=06b40c2000 hqc.height=127 b_lock=fc9bdbb4e1 b_exec=48c030f3bb vheight=129 tails=1>
+2021-03-19 21:29:29.218218 [hotstuff proto] got <proposal rid=2 blk=36887ba9de>
+2021-03-19 21:29:29.218371 [hotstuff proto] now state: <hotstuff hqc=0dcfef880c hqc.height=129 b_lock=06b40c2000 b_exec=48c030f3bb vheight=130 tails=1>
+2021-03-19 21:29:29.221898 [hotstuff proto] got <proposal rid=2 blk=cc8e71bbd1>
+2021-03-19 21:29:29.221980 [hotstuff proto] now state: <hotstuff hqc=36887ba9de hqc.height=130 b_lock=0dcfef880c b_exec=48c030f3bb vheight=131 tails=1>
+2021-03-19 21:29:29.224878 [hotstuff proto] got <proposal rid=2 blk=ae2bf786d5>
+2021-03-19 21:29:29.225002 [hotstuff proto] commit <block id=fc9bdbb4e1 height=126 parent=48c030f3bb qc_ref=48c030f3bb>
+2021-03-19 21:29:29.225047 [hotstuff proto] commit <block id=06b40c2000 height=127 parent=fc9bdbb4e1 qc_ref=fc9bdbb4e1>
+2021-03-19 21:29:29.225081 [hotstuff proto] commit <block id=0dba14bb42 height=128 parent=06b40c2000 qc_ref=06b40c2000>
+2021-03-19 21:29:29.225180 [hotstuff proto] commit <block id=0dcfef880c height=129 parent=0dba14bb42 qc_ref=06b40c2000>
+2021-03-19 21:29:29.225248 [hotstuff proto] now state: <hotstuff hqc=cc8e71bbd1 hqc.height=131 b_lock=36887ba9de b_exec=0dcfef880c vheight=132 tails=1>

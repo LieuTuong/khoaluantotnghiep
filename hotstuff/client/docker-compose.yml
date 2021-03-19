@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+  client0:
+    container_name: client0
+    image: "hscli"
+
+    environment:
+      - ID=0
+          
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ../build/client0:/hotstuff:Z
+
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 172.16.16.9
+
+  client1:
+    container_name: client1
+    image: "hscli"
+    
+    environment:
+      - ID=1
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ../build/client1:/hotstuff:Z 
+
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 172.16.16.10
+
+
+  client2:
+    container_name: client2
+    image: "hscli"
+    environment:
+      - ID=2
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ../build/client2:/hotstuff:Z
+
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 172.16.16.11
+
+  client3:
+    container_name: client3
+    image: "hscli"
+    environment:
+      - ID=3
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ../build/client3:/hotstuff:Z
+
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 172.16.16.12
+
+
+networks:
+  hotstuff_hotstuff-net:
+    external: true

@@ -1,0 +1,1464 @@
+2021-03-19 21:27:26.960035 [net info] loaded configuration from ./scripts/deploy/hotstuff.gen.conf
+2021-03-19 21:27:26.960091 [net info] loading extra configuration from ./scripts/deploy/hotstuff.gen-sec6.conf
+2021-03-19 21:27:26.963500 [net info] starting all threads...
+2021-03-19 21:27:26.963671 [net info] listening to 10000
+2021-03-19 21:27:27.006793 [net info] starting all threads...
+2021-03-19 21:27:27.007050 [net info] listening to 20000
+2021-03-19 21:27:27.007331 [hotstuff info] ** starting the system with parameters **
+2021-03-19 21:27:27.007342 [hotstuff info] blk_size = 2000
+2021-03-19 21:27:27.007346 [hotstuff info] conns = 0
+2021-03-19 21:27:27.007350 [hotstuff info] ** starting the event loop...
+2021-03-19 21:27:27.007431 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:27:27.008481 [net info] created <Conn fd=90 addr=<NetAddr 172.16.16.2:10000> mode=active>
+2021-03-19 21:27:27.008677 [net info] created <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.009100 [net info] created <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:27.009321 [net info] created <Conn fd=96 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:27.009522 [net info] created <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:27.009805 [net info] created <Conn fd=100 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:27.009970 [net info] accepted <Conn fd=102 addr=<NetAddr 172.16.16.3:46698> mode=passive>
+2021-03-19 21:27:27.009987 [net info] connected to remote <Conn fd=90 addr=<NetAddr 172.16.16.2:10000> mode=active>
+2021-03-19 21:27:27.009993 [net info] connected to remote <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.009998 [net info] connected to remote <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:27.010003 [net info] connected to remote <Conn fd=96 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:27.010008 [net info] connected to remote <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:27.010012 [net info] connected to remote <Conn fd=100 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:27.010027 [net info] accepted <Conn fd=103 addr=<NetAddr 172.16.16.11:40158> mode=passive>
+2021-03-19 21:27:27.010180 [net info] accepted <Conn fd=106 addr=<NetAddr 172.16.16.9:50896> mode=passive>
+2021-03-19 21:27:27.015075 [net info] 53b35c6803: setup connection <Conn fd=102 addr=<NetAddr 172.16.16.3:46698> mode=passive>
+2021-03-19 21:27:27.016411 [net info] 53b35c6803: setup connection <Conn fd=96 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:27.019944 [net info] 53b35c6803: setup connection <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:27.019987 [net info] 53b35c6803: setup connection <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:27.020010 [net info] 53b35c6803: setup connection <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.020032 [net info] 53b35c6803: setup connection <Conn fd=90 addr=<NetAddr 172.16.16.2:10000> mode=active>
+2021-03-19 21:27:27.020075 [net info] 53b35c6803: lost connection <Conn fd=102 addr=<NetAddr 172.16.16.3:46698> mode=passive>
+2021-03-19 21:27:27.022355 [net info] 53b35c6803: setup connection <Conn fd=100 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:27.022721 [net info] 53b35c6803: lost connection <Conn fd=96 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:27.023280 [net info] established 53b35c6803 <---> 6947626606 (via <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>)
+2021-03-19 21:27:27.023350 [net info] established 53b35c6803 <---> b123e459ed (via <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>)
+2021-03-19 21:27:27.023528 [net info] established 53b35c6803 <---> 27a8943bab (via <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>)
+2021-03-19 21:27:27.023671 [net info] 53b35c6803: lost connection <Conn fd=90 addr=<NetAddr 172.16.16.2:10000> mode=active>
+2021-03-19 21:27:27.023855 [net info] 53b35c6803: ping from <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:27:27.023873 [net info] 53b35c6803: ping from <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:27:27.023881 [net info] 53b35c6803: ping from <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:27:27.023962 [net info] 53b35c6803: lost connection <Conn fd=100 addr=<NetAddr 172.16.16.7:10000> mode=active>
+2021-03-19 21:27:27.024259 [hotstuff proto] got <proposal rid=1 blk=f5dfb70bff>
+2021-03-19 21:27:27.024284 [hotstuff proto] now state: <hotstuff hqc=6b7d92eaae hqc.height=0 b_lock=6b7d92eaae b_exec=6b7d92eaae vheight=1 tails=1>
+2021-03-19 21:27:27.108842 [hotstuff proto] got <proposal rid=1 blk=ae77e98e78>
+2021-03-19 21:27:27.108875 [hotstuff proto] now state: <hotstuff hqc=f5dfb70bff hqc.height=1 b_lock=6b7d92eaae b_exec=6b7d92eaae vheight=2 tails=1>
+2021-03-19 21:27:27.110331 [hotstuff proto] got <proposal rid=1 blk=dd2abd6a99>
+2021-03-19 21:27:27.110379 [hotstuff proto] now state: <hotstuff hqc=ae77e98e78 hqc.height=2 b_lock=f5dfb70bff b_exec=6b7d92eaae vheight=3 tails=1>
+2021-03-19 21:27:27.113155 [hotstuff proto] got <proposal rid=1 blk=55d7a61a8c>
+2021-03-19 21:27:27.113180 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:27:27.113201 [hotstuff proto] commit <block id=f5dfb70bff height=1 parent=6b7d92eaae qc_ref=6b7d92eaae>
+2021-03-19 21:27:27.113220 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=4 tails=1>
+2021-03-19 21:27:27.121821 [net info] accepted <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:27:27.124108 [net info] 53b35c6803: setup connection <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:27:27.124256 [net info] established 53b35c6803 <---> 084b2242ef (via <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>)
+2021-03-19 21:27:27.124485 [net info] 53b35c6803: ping from <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:27:27.686436 [hotstuff proto] got <proposal rid=2 blk=f5dfb70bff>
+2021-03-19 21:27:27.686584 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=4 tails=1>
+2021-03-19 21:27:27.692073 [net info] accepted <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:27:27.702927 [net info] 53b35c6803: setup connection <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:27:27.703591 [net info] established 53b35c6803 <---> b0a0c5c9d2 (via <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>)
+2021-03-19 21:27:27.704746 [net info] 53b35c6803: ping from <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:27:28.241808 [net info] accepted <Conn fd=84 addr=<NetAddr 172.16.16.12:42178> mode=passive>
+2021-03-19 21:27:29.113351 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:27:29.359395 [net info] created <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:29.359683 [net info] connected to remote <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:29.368592 [net info] 53b35c6803: setup connection <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:29.371378 [net info] established 53b35c6803 <---> 15717dc960 (via <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>)
+2021-03-19 21:27:29.371563 [net info] 53b35c6803: ping from <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:27:29.374108 [hotstuff proto] got <proposal rid=3 blk=1ad5df9fae>
+2021-03-19 21:27:29.374260 [hotstuff proto] now state: <hotstuff hqc=dd2abd6a99 hqc.height=3 b_lock=ae77e98e78 b_exec=f5dfb70bff vheight=5 tails=1>
+2021-03-19 21:27:29.376243 [hotstuff proto] got <proposal rid=3 blk=a8692e4f80>
+2021-03-19 21:27:29.376413 [hotstuff proto] now state: <hotstuff hqc=1ad5df9fae hqc.height=5 b_lock=dd2abd6a99 b_exec=f5dfb70bff vheight=6 tails=1>
+2021-03-19 21:27:29.378368 [hotstuff proto] got <proposal rid=3 blk=1e7c7f7658>
+2021-03-19 21:27:29.378530 [hotstuff proto] now state: <hotstuff hqc=a8692e4f80 hqc.height=6 b_lock=1ad5df9fae b_exec=f5dfb70bff vheight=7 tails=1>
+2021-03-19 21:27:29.380292 [hotstuff proto] got <proposal rid=3 blk=8d537a9b9d>
+2021-03-19 21:27:29.380432 [hotstuff proto] commit <block id=ae77e98e78 height=2 parent=f5dfb70bff qc_ref=f5dfb70bff>
+2021-03-19 21:27:29.380533 [hotstuff proto] commit <block id=dd2abd6a99 height=3 parent=ae77e98e78 qc_ref=ae77e98e78>
+2021-03-19 21:27:29.380621 [hotstuff proto] commit <block id=55d7a61a8c height=4 parent=dd2abd6a99 qc_ref=dd2abd6a99>
+2021-03-19 21:27:29.380665 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:27:29.380751 [hotstuff proto] commit <block id=1ad5df9fae height=5 parent=55d7a61a8c qc_ref=dd2abd6a99>
+2021-03-19 21:27:29.380840 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=8 tails=1>
+2021-03-19 21:27:31.381040 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:27:34.382405 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:27:36.960985 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:36.961069 [hotstuff info] -------- queues -------
+2021-03-19 21:27:36.961082 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:36.961092 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:36.961101 [hotstuff info] decision_waiting: 12
+2021-03-19 21:27:36.961110 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:36.961118 [hotstuff info] fetched: 0
+2021-03-19 21:27:36.961126 [hotstuff info] delivered: 8
+2021-03-19 21:27:36.961135 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:36.961144 [hotstuff info] blk_cache: 9
+2021-03-19 21:27:36.961152 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:36.961159 [hotstuff info] fetched: 0
+2021-03-19 21:27:36.961168 [hotstuff info] delivered: 8
+2021-03-19 21:27:36.961176 [hotstuff info] decided: 0
+2021-03-19 21:27:36.961184 [hotstuff info] gened: 0
+2021-03-19 21:27:36.961194 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:27:36.961216 [hotstuff info] delivery time: 0.003 avg, 0.000 min, 0.008 max
+2021-03-19 21:27:36.961239 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:36.961403 [hotstuff info] b0a0c5c9d2: 3(13), 3(13), 0
+2021-03-19 21:27:36.961709 [hotstuff info] 27a8943bab: 7(533), 7(1333), 0
+2021-03-19 21:27:36.961882 [hotstuff info] 6947626606: 3(13), 4(103), 0
+2021-03-19 21:27:36.962031 [hotstuff info] 15717dc960: 7(533), 7(1653), 0
+2021-03-19 21:27:36.962141 [hotstuff info] b123e459ed: 3(13), 3(13), 0
+2021-03-19 21:27:36.962275 [hotstuff info] 084b2242ef: 3(13), 3(13), 0
+2021-03-19 21:27:36.962346 [hotstuff info] sent: 26
+2021-03-19 21:27:36.962370 [hotstuff info] recv: 27
+2021-03-19 21:27:36.962386 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:36.962404 [hotstuff info] sent: 26
+2021-03-19 21:27:36.962419 [hotstuff info] recv: 27
+2021-03-19 21:27:36.962434 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:36.962449 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:36.962477 [hotstuff info] <NetAddr 172.16.16.12:42178>: 0(0), 4(32)
+2021-03-19 21:27:36.962519 [hotstuff info] <NetAddr 172.16.16.11:40158>: 0(0), 4(32)
+2021-03-19 21:27:36.962543 [hotstuff info] <NetAddr 172.16.16.9:50896>: 0(0), 4(32)
+2021-03-19 21:27:36.962570 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:38.383273 [hotstuff proto] propose <block id=08e91f8f7b height=9 parent=8d537a9b9d qc_ref=1e7c7f7658>
+2021-03-19 21:27:38.383348 [hotstuff proto] got <proposal rid=6 blk=08e91f8f7b>
+2021-03-19 21:27:38.383398 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.383661 [hotstuff proto] got <vote rid=6 blk=08e91f8f7b>
+2021-03-19 21:27:38.383713 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.388714 [hotstuff proto] got <vote rid=0 blk=08e91f8f7b>
+2021-03-19 21:27:38.388831 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.389224 [hotstuff proto] got <vote rid=2 blk=08e91f8f7b>
+2021-03-19 21:27:38.389303 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.389568 [hotstuff proto] got <vote rid=1 blk=08e91f8f7b>
+2021-03-19 21:27:38.389657 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.389942 [hotstuff proto] got <vote rid=3 blk=08e91f8f7b>
+2021-03-19 21:27:38.390027 [hotstuff proto] now state: <hotstuff hqc=1e7c7f7658 hqc.height=7 b_lock=a8692e4f80 b_exec=1ad5df9fae vheight=9 tails=1>
+2021-03-19 21:27:38.390081 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:27:38.390172 [hotstuff proto] propose <block id=27b9bd73c9 height=10 parent=08e91f8f7b qc_ref=08e91f8f7b>
+2021-03-19 21:27:38.390214 [hotstuff proto] got <proposal rid=6 blk=27b9bd73c9>
+2021-03-19 21:27:38.390269 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.390582 [hotstuff proto] got <vote rid=6 blk=27b9bd73c9>
+2021-03-19 21:27:38.390642 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.390768 [hotstuff proto] got <vote rid=5 blk=08e91f8f7b>
+2021-03-19 21:27:38.390850 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.390919 [hotstuff proto] got <vote rid=4 blk=08e91f8f7b>
+2021-03-19 21:27:38.391081 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.394723 [hotstuff proto] got <vote rid=2 blk=27b9bd73c9>
+2021-03-19 21:27:38.394886 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.395010 [hotstuff proto] got <vote rid=0 blk=27b9bd73c9>
+2021-03-19 21:27:38.395083 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.395552 [hotstuff proto] got <vote rid=3 blk=27b9bd73c9>
+2021-03-19 21:27:38.395753 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.396569 [hotstuff proto] got <vote rid=5 blk=27b9bd73c9>
+2021-03-19 21:27:38.396699 [hotstuff proto] now state: <hotstuff hqc=08e91f8f7b hqc.height=9 b_lock=1e7c7f7658 b_exec=1ad5df9fae vheight=10 tails=1>
+2021-03-19 21:27:38.396747 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:27:38.396869 [hotstuff proto] propose <block id=01512fb430 height=11 parent=27b9bd73c9 qc_ref=27b9bd73c9>
+2021-03-19 21:27:38.396951 [hotstuff proto] got <proposal rid=6 blk=01512fb430>
+2021-03-19 21:27:38.397120 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.397503 [hotstuff proto] got <vote rid=6 blk=01512fb430>
+2021-03-19 21:27:38.397562 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.397692 [hotstuff proto] got <vote rid=4 blk=27b9bd73c9>
+2021-03-19 21:27:38.397802 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.397860 [hotstuff proto] got <vote rid=1 blk=27b9bd73c9>
+2021-03-19 21:27:38.397925 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.402066 [hotstuff proto] got <vote rid=2 blk=01512fb430>
+2021-03-19 21:27:38.402150 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.402422 [hotstuff proto] got <vote rid=0 blk=01512fb430>
+2021-03-19 21:27:38.402471 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.402588 [hotstuff proto] got <vote rid=4 blk=01512fb430>
+2021-03-19 21:27:38.402631 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.402807 [hotstuff proto] got <vote rid=5 blk=01512fb430>
+2021-03-19 21:27:38.402846 [hotstuff proto] now state: <hotstuff hqc=27b9bd73c9 hqc.height=10 b_lock=08e91f8f7b b_exec=1ad5df9fae vheight=11 tails=1>
+2021-03-19 21:27:38.402869 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:27:38.402930 [hotstuff proto] commit <block id=a8692e4f80 height=6 parent=1ad5df9fae qc_ref=1ad5df9fae>
+2021-03-19 21:27:38.402977 [hotstuff proto] commit <block id=1e7c7f7658 height=7 parent=a8692e4f80 qc_ref=a8692e4f80>
+2021-03-19 21:27:38.403022 [hotstuff proto] commit <block id=8d537a9b9d height=8 parent=1e7c7f7658 qc_ref=1e7c7f7658>
+2021-03-19 21:27:38.403084 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:27:38.403168 [hotstuff proto] commit <block id=08e91f8f7b height=9 parent=8d537a9b9d qc_ref=1e7c7f7658>
+2021-03-19 21:27:38.403220 [hotstuff proto] propose <block id=2ed335f10a height=12 parent=01512fb430 qc_ref=01512fb430>
+2021-03-19 21:27:38.403251 [hotstuff proto] got <proposal rid=6 blk=2ed335f10a>
+2021-03-19 21:27:38.403301 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.403505 [hotstuff proto] got <vote rid=6 blk=2ed335f10a>
+2021-03-19 21:27:38.403561 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.403661 [hotstuff proto] got <vote rid=3 blk=01512fb430>
+2021-03-19 21:27:38.403722 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.407887 [hotstuff proto] got <vote rid=1 blk=01512fb430>
+2021-03-19 21:27:38.408000 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.408063 [hotstuff proto] got <vote rid=4 blk=2ed335f10a>
+2021-03-19 21:27:38.408114 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.408237 [hotstuff proto] got <vote rid=0 blk=2ed335f10a>
+2021-03-19 21:27:38.408296 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.408381 [hotstuff proto] got <vote rid=1 blk=2ed335f10a>
+2021-03-19 21:27:38.408427 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.408672 [hotstuff proto] got <vote rid=3 blk=2ed335f10a>
+2021-03-19 21:27:38.408720 [hotstuff proto] now state: <hotstuff hqc=01512fb430 hqc.height=11 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.408743 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:27:38.408869 [hotstuff proto] got <vote rid=2 blk=2ed335f10a>
+2021-03-19 21:27:38.408941 [hotstuff proto] now state: <hotstuff hqc=2ed335f10a hqc.height=12 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:38.409872 [hotstuff proto] got <vote rid=5 blk=2ed335f10a>
+2021-03-19 21:27:38.409922 [hotstuff proto] now state: <hotstuff hqc=2ed335f10a hqc.height=12 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=12 tails=1>
+2021-03-19 21:27:40.404985 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:27:42.413046 [hotstuff proto] got <proposal rid=1 blk=c378710bca>
+2021-03-19 21:27:42.413148 [hotstuff proto] now state: <hotstuff hqc=2ed335f10a hqc.height=12 b_lock=27b9bd73c9 b_exec=08e91f8f7b vheight=13 tails=1>
+2021-03-19 21:27:42.423727 [hotstuff proto] got <proposal rid=1 blk=9e485c4053>
+2021-03-19 21:27:42.423893 [hotstuff proto] now state: <hotstuff hqc=c378710bca hqc.height=13 b_lock=01512fb430 b_exec=08e91f8f7b vheight=14 tails=1>
+2021-03-19 21:27:42.431904 [hotstuff proto] got <proposal rid=1 blk=236969f7a8>
+2021-03-19 21:27:42.432146 [hotstuff proto] now state: <hotstuff hqc=9e485c4053 hqc.height=14 b_lock=c378710bca b_exec=08e91f8f7b vheight=15 tails=1>
+2021-03-19 21:27:42.440372 [hotstuff proto] got <proposal rid=1 blk=7b49a47cb2>
+2021-03-19 21:27:42.440447 [hotstuff proto] commit <block id=27b9bd73c9 height=10 parent=08e91f8f7b qc_ref=08e91f8f7b>
+2021-03-19 21:27:42.440525 [hotstuff proto] commit <block id=01512fb430 height=11 parent=27b9bd73c9 qc_ref=27b9bd73c9>
+2021-03-19 21:27:42.440652 [hotstuff proto] commit <block id=2ed335f10a height=12 parent=01512fb430 qc_ref=01512fb430>
+2021-03-19 21:27:42.440684 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:27:42.440725 [hotstuff proto] commit <block id=c378710bca height=13 parent=2ed335f10a qc_ref=01512fb430>
+2021-03-19 21:27:42.440810 [hotstuff proto] now state: <hotstuff hqc=236969f7a8 hqc.height=15 b_lock=9e485c4053 b_exec=c378710bca vheight=16 tails=1>
+2021-03-19 21:27:43.440361 [hotstuff proto] got <proposal rid=2 blk=bac1d2bc78>
+2021-03-19 21:27:43.440393 [hotstuff proto] now state: <hotstuff hqc=236969f7a8 hqc.height=15 b_lock=9e485c4053 b_exec=c378710bca vheight=17 tails=1>
+2021-03-19 21:27:43.442364 [hotstuff proto] got <proposal rid=2 blk=edaadda021>
+2021-03-19 21:27:43.442397 [hotstuff proto] now state: <hotstuff hqc=bac1d2bc78 hqc.height=17 b_lock=236969f7a8 b_exec=c378710bca vheight=18 tails=1>
+2021-03-19 21:27:43.443602 [hotstuff proto] got <proposal rid=2 blk=968e1426f9>
+2021-03-19 21:27:43.443633 [hotstuff proto] now state: <hotstuff hqc=edaadda021 hqc.height=18 b_lock=bac1d2bc78 b_exec=c378710bca vheight=19 tails=1>
+2021-03-19 21:27:43.446590 [hotstuff proto] got <proposal rid=2 blk=4fb65baf59>
+2021-03-19 21:27:43.446626 [hotstuff proto] commit <block id=9e485c4053 height=14 parent=c378710bca qc_ref=c378710bca>
+2021-03-19 21:27:43.446659 [hotstuff proto] commit <block id=236969f7a8 height=15 parent=9e485c4053 qc_ref=9e485c4053>
+2021-03-19 21:27:43.446681 [hotstuff proto] commit <block id=7b49a47cb2 height=16 parent=236969f7a8 qc_ref=236969f7a8>
+2021-03-19 21:27:43.446688 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:27:43.446705 [hotstuff proto] commit <block id=bac1d2bc78 height=17 parent=7b49a47cb2 qc_ref=236969f7a8>
+2021-03-19 21:27:43.446733 [hotstuff proto] now state: <hotstuff hqc=968e1426f9 hqc.height=19 b_lock=edaadda021 b_exec=bac1d2bc78 vheight=20 tails=1>
+2021-03-19 21:27:44.449384 [hotstuff proto] got <proposal rid=3 blk=afc9c566e4>
+2021-03-19 21:27:44.449442 [hotstuff proto] now state: <hotstuff hqc=968e1426f9 hqc.height=19 b_lock=edaadda021 b_exec=bac1d2bc78 vheight=21 tails=1>
+2021-03-19 21:27:44.452955 [hotstuff proto] got <proposal rid=3 blk=1c4eb6789f>
+2021-03-19 21:27:44.453003 [hotstuff proto] now state: <hotstuff hqc=afc9c566e4 hqc.height=21 b_lock=968e1426f9 b_exec=bac1d2bc78 vheight=22 tails=1>
+2021-03-19 21:27:44.455660 [hotstuff proto] got <proposal rid=3 blk=482928fcd9>
+2021-03-19 21:27:44.455702 [hotstuff proto] now state: <hotstuff hqc=1c4eb6789f hqc.height=22 b_lock=afc9c566e4 b_exec=bac1d2bc78 vheight=23 tails=1>
+2021-03-19 21:27:44.459370 [hotstuff proto] got <proposal rid=3 blk=3656d9b0bd>
+2021-03-19 21:27:44.459494 [hotstuff proto] commit <block id=edaadda021 height=18 parent=bac1d2bc78 qc_ref=bac1d2bc78>
+2021-03-19 21:27:44.459531 [hotstuff proto] commit <block id=968e1426f9 height=19 parent=edaadda021 qc_ref=edaadda021>
+2021-03-19 21:27:44.459603 [hotstuff proto] commit <block id=4fb65baf59 height=20 parent=968e1426f9 qc_ref=968e1426f9>
+2021-03-19 21:27:44.459619 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:27:44.459646 [hotstuff proto] commit <block id=afc9c566e4 height=21 parent=4fb65baf59 qc_ref=968e1426f9>
+2021-03-19 21:27:44.459673 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=24 tails=1>
+2021-03-19 21:27:46.460363 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:27:46.961942 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:46.961970 [hotstuff info] -------- queues -------
+2021-03-19 21:27:46.961973 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:46.961976 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:46.961978 [hotstuff info] decision_waiting: 12
+2021-03-19 21:27:46.961981 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:46.961983 [hotstuff info] fetched: 0
+2021-03-19 21:27:46.961986 [hotstuff info] delivered: 20
+2021-03-19 21:27:46.961988 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:46.961990 [hotstuff info] blk_cache: 25
+2021-03-19 21:27:46.961993 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:46.961995 [hotstuff info] fetched: 0
+2021-03-19 21:27:46.961998 [hotstuff info] delivered: 12
+2021-03-19 21:27:46.962001 [hotstuff info] decided: 0
+2021-03-19 21:27:46.962003 [hotstuff info] gened: 0
+2021-03-19 21:27:46.962006 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:27:46.962011 [hotstuff info] delivery time: 0.001 avg, 0.001 min, 0.003 max
+2021-03-19 21:27:46.962015 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:46.962122 [hotstuff info] b0a0c5c9d2: 4(1640), 4(520), 0
+2021-03-19 21:27:46.962163 [hotstuff info] 27a8943bab: 8(2160), 8(2160), 0
+2021-03-19 21:27:46.962197 [hotstuff info] 6947626606: 8(2160), 8(2160), 0
+2021-03-19 21:27:46.962234 [hotstuff info] 15717dc960: 8(2160), 8(2160), 0
+2021-03-19 21:27:46.962265 [hotstuff info] b123e459ed: 4(1640), 4(520), 0
+2021-03-19 21:27:46.962296 [hotstuff info] 084b2242ef: 4(1640), 4(520), 0
+2021-03-19 21:27:46.962303 [hotstuff info] sent: 36
+2021-03-19 21:27:46.962308 [hotstuff info] recv: 36
+2021-03-19 21:27:46.962312 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:46.962316 [hotstuff info] sent: 62
+2021-03-19 21:27:46.962320 [hotstuff info] recv: 63
+2021-03-19 21:27:46.962323 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:46.962327 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:46.962335 [hotstuff info] <NetAddr 172.16.16.12:42178>: 0(0), 0(0)
+2021-03-19 21:27:46.962343 [hotstuff info] <NetAddr 172.16.16.11:40158>: 0(0), 0(0)
+2021-03-19 21:27:46.962349 [hotstuff info] <NetAddr 172.16.16.9:50896>: 0(0), 0(0)
+2021-03-19 21:27:46.962353 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:49.462153 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:27:53.465054 [hotstuff proto] propose <block id=658de34559 height=25 parent=3656d9b0bd qc_ref=482928fcd9>
+2021-03-19 21:27:53.465131 [hotstuff proto] got <proposal rid=6 blk=658de34559>
+2021-03-19 21:27:53.465180 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.465529 [hotstuff proto] got <vote rid=6 blk=658de34559>
+2021-03-19 21:27:53.465607 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.470546 [hotstuff proto] got <vote rid=4 blk=658de34559>
+2021-03-19 21:27:53.470779 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.470948 [hotstuff proto] got <vote rid=3 blk=658de34559>
+2021-03-19 21:27:53.471127 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.472679 [hotstuff proto] got <vote rid=2 blk=658de34559>
+2021-03-19 21:27:53.472781 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.472853 [hotstuff proto] got <vote rid=1 blk=658de34559>
+2021-03-19 21:27:53.472997 [hotstuff proto] now state: <hotstuff hqc=482928fcd9 hqc.height=23 b_lock=1c4eb6789f b_exec=afc9c566e4 vheight=25 tails=1>
+2021-03-19 21:27:53.473059 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:27:53.473144 [hotstuff proto] propose <block id=12a0f618a3 height=26 parent=658de34559 qc_ref=658de34559>
+2021-03-19 21:27:53.473184 [hotstuff proto] got <proposal rid=6 blk=12a0f618a3>
+2021-03-19 21:27:53.473257 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.473650 [hotstuff proto] got <vote rid=6 blk=12a0f618a3>
+2021-03-19 21:27:53.473737 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.474788 [hotstuff proto] got <vote rid=0 blk=658de34559>
+2021-03-19 21:27:53.474933 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.478036 [hotstuff proto] got <vote rid=5 blk=658de34559>
+2021-03-19 21:27:53.478154 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.478430 [hotstuff proto] got <vote rid=0 blk=12a0f618a3>
+2021-03-19 21:27:53.478626 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.478866 [hotstuff proto] got <vote rid=2 blk=12a0f618a3>
+2021-03-19 21:27:53.479039 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.479337 [hotstuff proto] got <vote rid=4 blk=12a0f618a3>
+2021-03-19 21:27:53.479413 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.479787 [hotstuff proto] got <vote rid=3 blk=12a0f618a3>
+2021-03-19 21:27:53.479866 [hotstuff proto] now state: <hotstuff hqc=658de34559 hqc.height=25 b_lock=482928fcd9 b_exec=afc9c566e4 vheight=26 tails=1>
+2021-03-19 21:27:53.479974 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:27:53.480161 [hotstuff proto] propose <block id=306667a1c2 height=27 parent=12a0f618a3 qc_ref=12a0f618a3>
+2021-03-19 21:27:53.480232 [hotstuff proto] got <proposal rid=6 blk=306667a1c2>
+2021-03-19 21:27:53.480322 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.480736 [hotstuff proto] got <vote rid=6 blk=306667a1c2>
+2021-03-19 21:27:53.480944 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.481902 [hotstuff proto] got <vote rid=1 blk=12a0f618a3>
+2021-03-19 21:27:53.482029 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.482733 [hotstuff proto] got <vote rid=5 blk=12a0f618a3>
+2021-03-19 21:27:53.482917 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.486242 [hotstuff proto] got <vote rid=0 blk=306667a1c2>
+2021-03-19 21:27:53.486454 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.488841 [hotstuff proto] got <vote rid=4 blk=306667a1c2>
+2021-03-19 21:27:53.489089 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.489245 [hotstuff proto] got <vote rid=1 blk=306667a1c2>
+2021-03-19 21:27:53.489366 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.489639 [hotstuff proto] got <vote rid=2 blk=306667a1c2>
+2021-03-19 21:27:53.489830 [hotstuff proto] now state: <hotstuff hqc=12a0f618a3 hqc.height=26 b_lock=658de34559 b_exec=afc9c566e4 vheight=27 tails=1>
+2021-03-19 21:27:53.489945 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:27:53.490138 [hotstuff proto] commit <block id=1c4eb6789f height=22 parent=afc9c566e4 qc_ref=afc9c566e4>
+2021-03-19 21:27:53.490244 [hotstuff proto] commit <block id=482928fcd9 height=23 parent=1c4eb6789f qc_ref=1c4eb6789f>
+2021-03-19 21:27:53.490334 [hotstuff proto] commit <block id=3656d9b0bd height=24 parent=482928fcd9 qc_ref=482928fcd9>
+2021-03-19 21:27:53.490366 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:27:53.490441 [hotstuff proto] commit <block id=658de34559 height=25 parent=3656d9b0bd qc_ref=482928fcd9>
+2021-03-19 21:27:53.490526 [hotstuff proto] propose <block id=2f82d9eb5d height=28 parent=306667a1c2 qc_ref=306667a1c2>
+2021-03-19 21:27:53.490642 [hotstuff proto] got <proposal rid=6 blk=2f82d9eb5d>
+2021-03-19 21:27:53.490730 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.491346 [hotstuff proto] got <vote rid=6 blk=2f82d9eb5d>
+2021-03-19 21:27:53.491732 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.492022 [hotstuff proto] got <vote rid=5 blk=306667a1c2>
+2021-03-19 21:27:53.492119 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.492186 [hotstuff proto] got <vote rid=3 blk=306667a1c2>
+2021-03-19 21:27:53.492264 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.498275 [hotstuff proto] got <vote rid=0 blk=2f82d9eb5d>
+2021-03-19 21:27:53.498404 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.498625 [hotstuff proto] got <vote rid=2 blk=2f82d9eb5d>
+2021-03-19 21:27:53.498800 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.499063 [hotstuff proto] got <vote rid=1 blk=2f82d9eb5d>
+2021-03-19 21:27:53.499220 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.499511 [hotstuff proto] got <vote rid=5 blk=2f82d9eb5d>
+2021-03-19 21:27:53.499617 [hotstuff proto] now state: <hotstuff hqc=306667a1c2 hqc.height=27 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.499723 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:27:53.500411 [hotstuff proto] got <vote rid=4 blk=2f82d9eb5d>
+2021-03-19 21:27:53.500598 [hotstuff proto] now state: <hotstuff hqc=2f82d9eb5d hqc.height=28 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:53.502322 [hotstuff proto] got <vote rid=3 blk=2f82d9eb5d>
+2021-03-19 21:27:53.502437 [hotstuff proto] now state: <hotstuff hqc=2f82d9eb5d hqc.height=28 b_lock=12a0f618a3 b_exec=658de34559 vheight=28 tails=1>
+2021-03-19 21:27:55.490971 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:27:56.963020 [hotstuff info] ===== begin stats =====
+2021-03-19 21:27:56.963102 [hotstuff info] -------- queues -------
+2021-03-19 21:27:56.963115 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:27:56.963125 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:27:56.963134 [hotstuff info] decision_waiting: 12
+2021-03-19 21:27:56.963143 [hotstuff info] -------- misc ---------
+2021-03-19 21:27:56.963153 [hotstuff info] fetched: 0
+2021-03-19 21:27:56.963163 [hotstuff info] delivered: 20
+2021-03-19 21:27:56.963172 [hotstuff info] cmd_cache: 0
+2021-03-19 21:27:56.963181 [hotstuff info] blk_cache: 29
+2021-03-19 21:27:56.963189 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:27:56.963198 [hotstuff info] fetched: 0
+2021-03-19 21:27:56.963207 [hotstuff info] delivered: 0
+2021-03-19 21:27:56.963216 [hotstuff info] decided: 0
+2021-03-19 21:27:56.963224 [hotstuff info] gened: 0
+2021-03-19 21:27:56.963232 [hotstuff info] avg. parent_size: 0.000
+2021-03-19 21:27:56.963249 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2021-03-19 21:27:56.963262 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:27:56.963405 [hotstuff info] b0a0c5c9d2: 4(1640), 4(520), 0
+2021-03-19 21:27:56.963558 [hotstuff info] 27a8943bab: 4(1640), 4(520), 0
+2021-03-19 21:27:56.963866 [hotstuff info] 6947626606: 4(1640), 4(520), 0
+2021-03-19 21:27:56.964025 [hotstuff info] 15717dc960: 4(1640), 4(520), 0
+2021-03-19 21:27:56.964145 [hotstuff info] b123e459ed: 4(1640), 4(520), 0
+2021-03-19 21:27:56.964267 [hotstuff info] 084b2242ef: 4(1640), 4(520), 0
+2021-03-19 21:27:56.964377 [hotstuff info] sent: 24
+2021-03-19 21:27:56.964482 [hotstuff info] recv: 24
+2021-03-19 21:27:56.964534 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:27:56.964552 [hotstuff info] sent: 86
+2021-03-19 21:27:56.964561 [hotstuff info] recv: 87
+2021-03-19 21:27:56.964569 [hotstuff info] ====== end stats ======
+2021-03-19 21:27:56.964599 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:27:56.964615 [hotstuff info] --- end client msg. ---
+2021-03-19 21:27:57.506543 [hotstuff proto] got <proposal rid=1 blk=764882105f>
+2021-03-19 21:27:57.506694 [hotstuff proto] now state: <hotstuff hqc=2f82d9eb5d hqc.height=28 b_lock=12a0f618a3 b_exec=658de34559 vheight=29 tails=1>
+2021-03-19 21:27:57.513677 [hotstuff proto] got <proposal rid=1 blk=763bb741a7>
+2021-03-19 21:27:57.514072 [hotstuff proto] now state: <hotstuff hqc=764882105f hqc.height=29 b_lock=306667a1c2 b_exec=658de34559 vheight=30 tails=1>
+2021-03-19 21:27:57.527241 [hotstuff proto] got <proposal rid=1 blk=17909e37a6>
+2021-03-19 21:27:57.527399 [hotstuff proto] now state: <hotstuff hqc=763bb741a7 hqc.height=30 b_lock=764882105f b_exec=658de34559 vheight=31 tails=1>
+2021-03-19 21:27:57.532684 [hotstuff proto] got <proposal rid=1 blk=d292bc2c5d>
+2021-03-19 21:27:57.532927 [hotstuff proto] commit <block id=12a0f618a3 height=26 parent=658de34559 qc_ref=658de34559>
+2021-03-19 21:27:57.533094 [hotstuff proto] commit <block id=306667a1c2 height=27 parent=12a0f618a3 qc_ref=12a0f618a3>
+2021-03-19 21:27:57.533150 [hotstuff proto] commit <block id=2f82d9eb5d height=28 parent=306667a1c2 qc_ref=306667a1c2>
+2021-03-19 21:27:57.533192 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:27:57.533244 [hotstuff proto] commit <block id=764882105f height=29 parent=2f82d9eb5d qc_ref=306667a1c2>
+2021-03-19 21:27:57.533293 [hotstuff proto] now state: <hotstuff hqc=17909e37a6 hqc.height=31 b_lock=763bb741a7 b_exec=764882105f vheight=32 tails=1>
+2021-03-19 21:27:58.536532 [hotstuff proto] got <proposal rid=2 blk=44e1e9051b>
+2021-03-19 21:27:58.536674 [hotstuff proto] now state: <hotstuff hqc=17909e37a6 hqc.height=31 b_lock=763bb741a7 b_exec=764882105f vheight=33 tails=1>
+2021-03-19 21:27:58.546566 [hotstuff proto] got <proposal rid=2 blk=e0c55cee72>
+2021-03-19 21:27:58.546722 [hotstuff proto] now state: <hotstuff hqc=44e1e9051b hqc.height=33 b_lock=17909e37a6 b_exec=764882105f vheight=34 tails=1>
+2021-03-19 21:27:58.551829 [hotstuff proto] got <proposal rid=2 blk=39d69bc65c>
+2021-03-19 21:27:58.552445 [hotstuff proto] now state: <hotstuff hqc=e0c55cee72 hqc.height=34 b_lock=44e1e9051b b_exec=764882105f vheight=35 tails=1>
+2021-03-19 21:27:58.561852 [hotstuff proto] got <proposal rid=2 blk=6a611d85b1>
+2021-03-19 21:27:58.562065 [hotstuff proto] commit <block id=763bb741a7 height=30 parent=764882105f qc_ref=764882105f>
+2021-03-19 21:27:58.562192 [hotstuff proto] commit <block id=17909e37a6 height=31 parent=763bb741a7 qc_ref=763bb741a7>
+2021-03-19 21:27:58.562276 [hotstuff proto] commit <block id=d292bc2c5d height=32 parent=17909e37a6 qc_ref=17909e37a6>
+2021-03-19 21:27:58.562306 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:27:58.562350 [hotstuff proto] commit <block id=44e1e9051b height=33 parent=d292bc2c5d qc_ref=17909e37a6>
+2021-03-19 21:27:58.562400 [hotstuff proto] now state: <hotstuff hqc=39d69bc65c hqc.height=35 b_lock=e0c55cee72 b_exec=44e1e9051b vheight=36 tails=1>
+2021-03-19 21:27:59.183451 [net info] 53b35c6803: ping from <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:27:59.566151 [hotstuff proto] got <proposal rid=3 blk=7b072f682b>
+2021-03-19 21:27:59.566396 [hotstuff proto] now state: <hotstuff hqc=39d69bc65c hqc.height=35 b_lock=e0c55cee72 b_exec=44e1e9051b vheight=37 tails=1>
+2021-03-19 21:27:59.573590 [hotstuff proto] got <proposal rid=3 blk=6fdb601095>
+2021-03-19 21:27:59.573976 [hotstuff proto] now state: <hotstuff hqc=7b072f682b hqc.height=37 b_lock=39d69bc65c b_exec=44e1e9051b vheight=38 tails=1>
+2021-03-19 21:27:59.583901 [hotstuff proto] got <proposal rid=3 blk=737b7dab3c>
+2021-03-19 21:27:59.584097 [hotstuff proto] now state: <hotstuff hqc=6fdb601095 hqc.height=38 b_lock=7b072f682b b_exec=44e1e9051b vheight=39 tails=1>
+2021-03-19 21:27:59.590889 [hotstuff proto] got <proposal rid=3 blk=9249655927>
+2021-03-19 21:27:59.590974 [hotstuff proto] commit <block id=e0c55cee72 height=34 parent=44e1e9051b qc_ref=44e1e9051b>
+2021-03-19 21:27:59.591019 [hotstuff proto] commit <block id=39d69bc65c height=35 parent=e0c55cee72 qc_ref=e0c55cee72>
+2021-03-19 21:27:59.591060 [hotstuff proto] commit <block id=6a611d85b1 height=36 parent=39d69bc65c qc_ref=39d69bc65c>
+2021-03-19 21:27:59.591076 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:27:59.591121 [hotstuff proto] commit <block id=7b072f682b height=37 parent=6a611d85b1 qc_ref=39d69bc65c>
+2021-03-19 21:27:59.591164 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=40 tails=1>
+2021-03-19 21:28:00.055737 [net info] 53b35c6803: ping from <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:28:01.592560 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:28:04.593869 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:28:06.127334 [net info] 53b35c6803: ping from <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:28:06.557775 [net info] 53b35c6803: ping from <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:28:06.964217 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:06.964498 [hotstuff info] -------- queues -------
+2021-03-19 21:28:06.964618 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:06.964675 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:06.964694 [hotstuff info] decision_waiting: 12
+2021-03-19 21:28:06.964709 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:06.964723 [hotstuff info] fetched: 0
+2021-03-19 21:28:06.964739 [hotstuff info] delivered: 32
+2021-03-19 21:28:06.964755 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:06.964774 [hotstuff info] blk_cache: 41
+2021-03-19 21:28:06.964790 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:06.964880 [hotstuff info] fetched: 0
+2021-03-19 21:28:06.965024 [hotstuff info] delivered: 12
+2021-03-19 21:28:06.965128 [hotstuff info] decided: 0
+2021-03-19 21:28:06.965232 [hotstuff info] gened: 0
+2021-03-19 21:28:06.965332 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:06.965429 [hotstuff info] delivery time: 0.003 avg, 0.001 min, 0.004 max
+2021-03-19 21:28:06.965486 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:06.965684 [hotstuff info] b0a0c5c9d2: 1(1), 1(1), 0
+2021-03-19 21:28:06.965887 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:28:06.966056 [hotstuff info] 6947626606: 6(522), 6(1642), 0
+2021-03-19 21:28:06.966229 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:28:06.966338 [hotstuff info] b123e459ed: 2(2), 2(2), 0
+2021-03-19 21:28:06.966428 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:28:06.966461 [hotstuff info] sent: 19
+2021-03-19 21:28:06.966478 [hotstuff info] recv: 19
+2021-03-19 21:28:06.966492 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:06.966504 [hotstuff info] sent: 105
+2021-03-19 21:28:06.966518 [hotstuff info] recv: 106
+2021-03-19 21:28:06.966531 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:06.966545 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:06.966559 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:08.474961 [net info] 53b35c6803: ping from <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:28:08.594026 [hotstuff proto] propose <block id=a448300e73 height=41 parent=9249655927 qc_ref=737b7dab3c>
+2021-03-19 21:28:08.594108 [hotstuff proto] got <proposal rid=6 blk=a448300e73>
+2021-03-19 21:28:08.594163 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.594551 [hotstuff proto] got <vote rid=6 blk=a448300e73>
+2021-03-19 21:28:08.594625 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.600463 [hotstuff proto] got <vote rid=2 blk=a448300e73>
+2021-03-19 21:28:08.600721 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.601546 [hotstuff proto] got <vote rid=0 blk=a448300e73>
+2021-03-19 21:28:08.601852 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.601951 [hotstuff proto] got <vote rid=3 blk=a448300e73>
+2021-03-19 21:28:08.602039 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.602280 [hotstuff proto] got <vote rid=1 blk=a448300e73>
+2021-03-19 21:28:08.602518 [hotstuff proto] now state: <hotstuff hqc=737b7dab3c hqc.height=39 b_lock=6fdb601095 b_exec=7b072f682b vheight=41 tails=1>
+2021-03-19 21:28:08.602741 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:28:08.602914 [hotstuff proto] propose <block id=87909906de height=42 parent=a448300e73 qc_ref=a448300e73>
+2021-03-19 21:28:08.602966 [hotstuff proto] got <proposal rid=6 blk=87909906de>
+2021-03-19 21:28:08.603144 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.603841 [hotstuff proto] got <vote rid=6 blk=87909906de>
+2021-03-19 21:28:08.603976 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.604238 [hotstuff proto] got <vote rid=5 blk=a448300e73>
+2021-03-19 21:28:08.604349 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.605983 [hotstuff proto] got <vote rid=4 blk=a448300e73>
+2021-03-19 21:28:08.606217 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.609334 [hotstuff proto] got <vote rid=0 blk=87909906de>
+2021-03-19 21:28:08.609481 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.609693 [hotstuff proto] got <vote rid=3 blk=87909906de>
+2021-03-19 21:28:08.609874 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.612110 [hotstuff proto] got <vote rid=1 blk=87909906de>
+2021-03-19 21:28:08.612237 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.612326 [hotstuff proto] got <vote rid=2 blk=87909906de>
+2021-03-19 21:28:08.612539 [hotstuff proto] now state: <hotstuff hqc=a448300e73 hqc.height=41 b_lock=737b7dab3c b_exec=7b072f682b vheight=42 tails=1>
+2021-03-19 21:28:08.612602 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:28:08.612745 [hotstuff proto] propose <block id=8a199a2a48 height=43 parent=87909906de qc_ref=87909906de>
+2021-03-19 21:28:08.612812 [hotstuff proto] got <proposal rid=6 blk=8a199a2a48>
+2021-03-19 21:28:08.612946 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.613533 [hotstuff proto] got <vote rid=6 blk=8a199a2a48>
+2021-03-19 21:28:08.613638 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.617366 [hotstuff proto] got <vote rid=5 blk=87909906de>
+2021-03-19 21:28:08.617456 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.617631 [hotstuff proto] got <vote rid=4 blk=87909906de>
+2021-03-19 21:28:08.617699 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.617741 [hotstuff proto] got <vote rid=0 blk=8a199a2a48>
+2021-03-19 21:28:08.617795 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.617893 [hotstuff proto] got <vote rid=3 blk=8a199a2a48>
+2021-03-19 21:28:08.618017 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.618188 [hotstuff proto] got <vote rid=1 blk=8a199a2a48>
+2021-03-19 21:28:08.618310 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.618541 [hotstuff proto] got <vote rid=2 blk=8a199a2a48>
+2021-03-19 21:28:08.618831 [hotstuff proto] now state: <hotstuff hqc=87909906de hqc.height=42 b_lock=a448300e73 b_exec=7b072f682b vheight=43 tails=1>
+2021-03-19 21:28:08.618885 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:28:08.618980 [hotstuff proto] commit <block id=6fdb601095 height=38 parent=7b072f682b qc_ref=7b072f682b>
+2021-03-19 21:28:08.619043 [hotstuff proto] commit <block id=737b7dab3c height=39 parent=6fdb601095 qc_ref=6fdb601095>
+2021-03-19 21:28:08.619287 [hotstuff proto] commit <block id=9249655927 height=40 parent=737b7dab3c qc_ref=737b7dab3c>
+2021-03-19 21:28:08.619328 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:28:08.619389 [hotstuff proto] commit <block id=a448300e73 height=41 parent=9249655927 qc_ref=737b7dab3c>
+2021-03-19 21:28:08.619429 [hotstuff proto] propose <block id=0d153e2214 height=44 parent=8a199a2a48 qc_ref=8a199a2a48>
+2021-03-19 21:28:08.619462 [hotstuff proto] got <proposal rid=6 blk=0d153e2214>
+2021-03-19 21:28:08.619512 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.619829 [hotstuff proto] got <vote rid=6 blk=0d153e2214>
+2021-03-19 21:28:08.619907 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.620707 [hotstuff proto] got <vote rid=4 blk=8a199a2a48>
+2021-03-19 21:28:08.620809 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.621058 [hotstuff proto] got <vote rid=5 blk=8a199a2a48>
+2021-03-19 21:28:08.621155 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.622855 [hotstuff proto] got <vote rid=1 blk=0d153e2214>
+2021-03-19 21:28:08.622966 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.623053 [hotstuff proto] got <vote rid=3 blk=0d153e2214>
+2021-03-19 21:28:08.623189 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.623272 [hotstuff proto] got <vote rid=5 blk=0d153e2214>
+2021-03-19 21:28:08.623366 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.623877 [hotstuff proto] got <vote rid=0 blk=0d153e2214>
+2021-03-19 21:28:08.623929 [hotstuff proto] now state: <hotstuff hqc=8a199a2a48 hqc.height=43 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.623956 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:28:08.624137 [hotstuff proto] got <vote rid=4 blk=0d153e2214>
+2021-03-19 21:28:08.624204 [hotstuff proto] now state: <hotstuff hqc=0d153e2214 hqc.height=44 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:08.624269 [hotstuff proto] got <vote rid=2 blk=0d153e2214>
+2021-03-19 21:28:08.624383 [hotstuff proto] now state: <hotstuff hqc=0d153e2214 hqc.height=44 b_lock=87909906de b_exec=a448300e73 vheight=44 tails=1>
+2021-03-19 21:28:10.620549 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:28:11.305377 [net info] 53b35c6803: ping from <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:28:12.630259 [hotstuff proto] got <proposal rid=1 blk=99db800f07>
+2021-03-19 21:28:12.630398 [hotstuff proto] now state: <hotstuff hqc=0d153e2214 hqc.height=44 b_lock=87909906de b_exec=a448300e73 vheight=45 tails=1>
+2021-03-19 21:28:12.636095 [hotstuff proto] got <proposal rid=1 blk=895e495b48>
+2021-03-19 21:28:12.641060 [hotstuff proto] now state: <hotstuff hqc=99db800f07 hqc.height=45 b_lock=8a199a2a48 b_exec=a448300e73 vheight=46 tails=1>
+2021-03-19 21:28:12.652295 [hotstuff proto] got <proposal rid=1 blk=079f85edbe>
+2021-03-19 21:28:12.652371 [hotstuff proto] now state: <hotstuff hqc=895e495b48 hqc.height=46 b_lock=99db800f07 b_exec=a448300e73 vheight=47 tails=1>
+2021-03-19 21:28:12.657696 [hotstuff proto] got <proposal rid=1 blk=29135a80c1>
+2021-03-19 21:28:12.657792 [hotstuff proto] commit <block id=87909906de height=42 parent=a448300e73 qc_ref=a448300e73>
+2021-03-19 21:28:12.657844 [hotstuff proto] commit <block id=8a199a2a48 height=43 parent=87909906de qc_ref=87909906de>
+2021-03-19 21:28:12.657889 [hotstuff proto] commit <block id=0d153e2214 height=44 parent=8a199a2a48 qc_ref=8a199a2a48>
+2021-03-19 21:28:12.657903 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:28:12.657947 [hotstuff proto] commit <block id=99db800f07 height=45 parent=0d153e2214 qc_ref=8a199a2a48>
+2021-03-19 21:28:12.657997 [hotstuff proto] now state: <hotstuff hqc=079f85edbe hqc.height=47 b_lock=895e495b48 b_exec=99db800f07 vheight=48 tails=1>
+2021-03-19 21:28:13.657692 [hotstuff proto] got <proposal rid=2 blk=c0ac50246f>
+2021-03-19 21:28:13.657728 [hotstuff proto] now state: <hotstuff hqc=079f85edbe hqc.height=47 b_lock=895e495b48 b_exec=99db800f07 vheight=49 tails=1>
+2021-03-19 21:28:13.660069 [hotstuff proto] got <proposal rid=2 blk=9b5c21f3bf>
+2021-03-19 21:28:13.660100 [hotstuff proto] now state: <hotstuff hqc=c0ac50246f hqc.height=49 b_lock=079f85edbe b_exec=99db800f07 vheight=50 tails=1>
+2021-03-19 21:28:13.661621 [hotstuff proto] got <proposal rid=2 blk=369261fcdd>
+2021-03-19 21:28:13.661678 [hotstuff proto] now state: <hotstuff hqc=9b5c21f3bf hqc.height=50 b_lock=c0ac50246f b_exec=99db800f07 vheight=51 tails=1>
+2021-03-19 21:28:13.663578 [hotstuff proto] got <proposal rid=2 blk=0944e683a5>
+2021-03-19 21:28:13.663619 [hotstuff proto] commit <block id=895e495b48 height=46 parent=99db800f07 qc_ref=99db800f07>
+2021-03-19 21:28:13.663641 [hotstuff proto] commit <block id=079f85edbe height=47 parent=895e495b48 qc_ref=895e495b48>
+2021-03-19 21:28:13.663663 [hotstuff proto] commit <block id=29135a80c1 height=48 parent=079f85edbe qc_ref=079f85edbe>
+2021-03-19 21:28:13.663672 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:28:13.663694 [hotstuff proto] commit <block id=c0ac50246f height=49 parent=29135a80c1 qc_ref=079f85edbe>
+2021-03-19 21:28:13.663716 [hotstuff proto] now state: <hotstuff hqc=369261fcdd hqc.height=51 b_lock=9b5c21f3bf b_exec=c0ac50246f vheight=52 tails=1>
+2021-03-19 21:28:14.670389 [hotstuff proto] got <proposal rid=3 blk=ce3994975f>
+2021-03-19 21:28:14.670542 [hotstuff proto] now state: <hotstuff hqc=369261fcdd hqc.height=51 b_lock=9b5c21f3bf b_exec=c0ac50246f vheight=53 tails=1>
+2021-03-19 21:28:14.680337 [hotstuff proto] got <proposal rid=3 blk=ad34483898>
+2021-03-19 21:28:14.681012 [hotstuff proto] now state: <hotstuff hqc=ce3994975f hqc.height=53 b_lock=369261fcdd b_exec=c0ac50246f vheight=54 tails=1>
+2021-03-19 21:28:14.694171 [hotstuff proto] got <proposal rid=3 blk=16d32a68fb>
+2021-03-19 21:28:14.694443 [hotstuff proto] now state: <hotstuff hqc=ad34483898 hqc.height=54 b_lock=ce3994975f b_exec=c0ac50246f vheight=55 tails=1>
+2021-03-19 21:28:14.704254 [hotstuff proto] got <proposal rid=3 blk=2cf4749fb8>
+2021-03-19 21:28:14.704668 [hotstuff proto] commit <block id=9b5c21f3bf height=50 parent=c0ac50246f qc_ref=c0ac50246f>
+2021-03-19 21:28:14.705063 [hotstuff proto] commit <block id=369261fcdd height=51 parent=9b5c21f3bf qc_ref=9b5c21f3bf>
+2021-03-19 21:28:14.705359 [hotstuff proto] commit <block id=0944e683a5 height=52 parent=369261fcdd qc_ref=369261fcdd>
+2021-03-19 21:28:14.705690 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:28:14.705898 [hotstuff proto] commit <block id=ce3994975f height=53 parent=0944e683a5 qc_ref=369261fcdd>
+2021-03-19 21:28:14.706192 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=56 tails=1>
+2021-03-19 21:28:14.789959 [net info] accepted <Conn fd=84 addr=<NetAddr 172.16.16.12:42212> mode=passive>
+2021-03-19 21:28:15.870910 [net info] accepted <Conn fd=90 addr=<NetAddr 172.16.16.10:42320> mode=passive>
+2021-03-19 21:28:16.705959 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:28:16.820800 [net info] accepted <Conn fd=100 addr=<NetAddr 172.16.16.11:40270> mode=passive>
+2021-03-19 21:28:16.964939 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:16.965035 [hotstuff info] -------- queues -------
+2021-03-19 21:28:16.965050 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:16.965060 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:16.965069 [hotstuff info] decision_waiting: 28
+2021-03-19 21:28:16.965077 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:16.965085 [hotstuff info] fetched: 0
+2021-03-19 21:28:16.965094 [hotstuff info] delivered: 44
+2021-03-19 21:28:16.965103 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:16.965111 [hotstuff info] blk_cache: 57
+2021-03-19 21:28:16.965119 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:16.965127 [hotstuff info] fetched: 0
+2021-03-19 21:28:16.965136 [hotstuff info] delivered: 12
+2021-03-19 21:28:16.965148 [hotstuff info] decided: 0
+2021-03-19 21:28:16.965160 [hotstuff info] gened: 0
+2021-03-19 21:28:16.965173 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:16.965213 [hotstuff info] delivery time: 0.002 avg, 0.000 min, 0.005 max
+2021-03-19 21:28:16.965241 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:16.965415 [hotstuff info] b0a0c5c9d2: 5(1641), 5(521), 0
+2021-03-19 21:28:16.965574 [hotstuff info] 27a8943bab: 9(2161), 9(2161), 0
+2021-03-19 21:28:16.965719 [hotstuff info] 6947626606: 8(2160), 8(2160), 0
+2021-03-19 21:28:16.965844 [hotstuff info] 15717dc960: 10(2162), 10(2162), 0
+2021-03-19 21:28:16.966055 [hotstuff info] b123e459ed: 4(1640), 4(520), 0
+2021-03-19 21:28:16.966262 [hotstuff info] 084b2242ef: 5(1641), 5(521), 0
+2021-03-19 21:28:16.966310 [hotstuff info] sent: 41
+2021-03-19 21:28:16.966328 [hotstuff info] recv: 41
+2021-03-19 21:28:16.966344 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:16.966356 [hotstuff info] sent: 146
+2021-03-19 21:28:16.966365 [hotstuff info] recv: 147
+2021-03-19 21:28:16.966375 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:16.966389 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:16.966422 [hotstuff info] <NetAddr 172.16.16.11:40270>: 4(172), 8(64)
+2021-03-19 21:28:16.966450 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 8(64)
+2021-03-19 21:28:16.966471 [hotstuff info] <NetAddr 172.16.16.12:42212>: 4(172), 8(64)
+2021-03-19 21:28:16.966488 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:17.889400 [net info] accepted <Conn fd=102 addr=<NetAddr 172.16.16.9:51050> mode=passive>
+2021-03-19 21:28:19.708520 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:28:23.709112 [hotstuff proto] propose <block id=3c84aa68b2 height=57 parent=2cf4749fb8 qc_ref=16d32a68fb>
+2021-03-19 21:28:23.709197 [hotstuff proto] got <proposal rid=6 blk=3c84aa68b2>
+2021-03-19 21:28:23.709252 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.709765 [hotstuff proto] got <vote rid=6 blk=3c84aa68b2>
+2021-03-19 21:28:23.709844 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.715751 [hotstuff proto] got <vote rid=1 blk=3c84aa68b2>
+2021-03-19 21:28:23.715903 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.716579 [hotstuff proto] got <vote rid=2 blk=3c84aa68b2>
+2021-03-19 21:28:23.716707 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.716982 [hotstuff proto] got <vote rid=4 blk=3c84aa68b2>
+2021-03-19 21:28:23.717110 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.717320 [hotstuff proto] got <vote rid=0 blk=3c84aa68b2>
+2021-03-19 21:28:23.717427 [hotstuff proto] now state: <hotstuff hqc=16d32a68fb hqc.height=55 b_lock=ad34483898 b_exec=ce3994975f vheight=57 tails=1>
+2021-03-19 21:28:23.717484 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:28:23.717612 [hotstuff proto] propose <block id=7c23b499a3 height=58 parent=3c84aa68b2 qc_ref=3c84aa68b2>
+2021-03-19 21:28:23.717679 [hotstuff proto] got <proposal rid=6 blk=7c23b499a3>
+2021-03-19 21:28:23.717764 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.718311 [hotstuff proto] got <vote rid=6 blk=7c23b499a3>
+2021-03-19 21:28:23.718401 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.718720 [hotstuff proto] got <vote rid=5 blk=3c84aa68b2>
+2021-03-19 21:28:23.718826 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.722979 [hotstuff proto] got <vote rid=3 blk=3c84aa68b2>
+2021-03-19 21:28:23.723125 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.723296 [hotstuff proto] got <vote rid=0 blk=7c23b499a3>
+2021-03-19 21:28:23.723421 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.723520 [hotstuff proto] got <vote rid=4 blk=7c23b499a3>
+2021-03-19 21:28:23.723592 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.723846 [hotstuff proto] got <vote rid=3 blk=7c23b499a3>
+2021-03-19 21:28:23.723907 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.724003 [hotstuff proto] got <vote rid=1 blk=7c23b499a3>
+2021-03-19 21:28:23.724080 [hotstuff proto] now state: <hotstuff hqc=3c84aa68b2 hqc.height=57 b_lock=16d32a68fb b_exec=ce3994975f vheight=58 tails=1>
+2021-03-19 21:28:23.724121 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:28:23.724204 [hotstuff proto] propose <block id=b3608d40b9 height=59 parent=7c23b499a3 qc_ref=7c23b499a3>
+2021-03-19 21:28:23.724236 [hotstuff proto] got <proposal rid=6 blk=b3608d40b9>
+2021-03-19 21:28:23.724293 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.724589 [hotstuff proto] got <vote rid=6 blk=b3608d40b9>
+2021-03-19 21:28:23.724642 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.724817 [hotstuff proto] got <vote rid=2 blk=7c23b499a3>
+2021-03-19 21:28:23.724883 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.724968 [hotstuff proto] got <vote rid=5 blk=7c23b499a3>
+2021-03-19 21:28:23.725035 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.729158 [hotstuff proto] got <vote rid=4 blk=b3608d40b9>
+2021-03-19 21:28:23.729216 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.729359 [hotstuff proto] got <vote rid=0 blk=b3608d40b9>
+2021-03-19 21:28:23.729411 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.729562 [hotstuff proto] got <vote rid=5 blk=b3608d40b9>
+2021-03-19 21:28:23.729608 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.729758 [hotstuff proto] got <vote rid=1 blk=b3608d40b9>
+2021-03-19 21:28:23.729812 [hotstuff proto] now state: <hotstuff hqc=7c23b499a3 hqc.height=58 b_lock=3c84aa68b2 b_exec=ce3994975f vheight=59 tails=1>
+2021-03-19 21:28:23.729856 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:28:23.729919 [hotstuff proto] commit <block id=ad34483898 height=54 parent=ce3994975f qc_ref=ce3994975f>
+2021-03-19 21:28:23.729958 [hotstuff proto] commit <block id=16d32a68fb height=55 parent=ad34483898 qc_ref=ad34483898>
+2021-03-19 21:28:23.730006 [hotstuff proto] commit <block id=2cf4749fb8 height=56 parent=16d32a68fb qc_ref=16d32a68fb>
+2021-03-19 21:28:23.730063 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:28:23.730116 [hotstuff proto] commit <block id=3c84aa68b2 height=57 parent=2cf4749fb8 qc_ref=16d32a68fb>
+2021-03-19 21:28:23.730161 [hotstuff proto] propose <block id=0ed0905513 height=60 parent=b3608d40b9 qc_ref=b3608d40b9>
+2021-03-19 21:28:23.730193 [hotstuff proto] got <proposal rid=6 blk=0ed0905513>
+2021-03-19 21:28:23.730238 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.730510 [hotstuff proto] got <vote rid=6 blk=0ed0905513>
+2021-03-19 21:28:23.730538 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.730668 [hotstuff proto] got <vote rid=3 blk=b3608d40b9>
+2021-03-19 21:28:23.730695 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.730715 [hotstuff proto] got <vote rid=2 blk=b3608d40b9>
+2021-03-19 21:28:23.730751 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.733546 [hotstuff proto] got <vote rid=4 blk=0ed0905513>
+2021-03-19 21:28:23.733587 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.733713 [hotstuff proto] got <vote rid=5 blk=0ed0905513>
+2021-03-19 21:28:23.733750 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.733815 [hotstuff proto] got <vote rid=3 blk=0ed0905513>
+2021-03-19 21:28:23.733843 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.733959 [hotstuff proto] got <vote rid=2 blk=0ed0905513>
+2021-03-19 21:28:23.733983 [hotstuff proto] now state: <hotstuff hqc=b3608d40b9 hqc.height=59 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.733998 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:28:23.734099 [hotstuff proto] got <vote rid=0 blk=0ed0905513>
+2021-03-19 21:28:23.734128 [hotstuff proto] now state: <hotstuff hqc=0ed0905513 hqc.height=60 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:23.734249 [hotstuff proto] got <vote rid=1 blk=0ed0905513>
+2021-03-19 21:28:23.734283 [hotstuff proto] now state: <hotstuff hqc=0ed0905513 hqc.height=60 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=60 tails=1>
+2021-03-19 21:28:25.730519 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:28:26.966967 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:26.967052 [hotstuff info] -------- queues -------
+2021-03-19 21:28:26.967065 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:26.967074 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:26.967083 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:26.967092 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:26.967100 [hotstuff info] fetched: 0
+2021-03-19 21:28:26.967109 [hotstuff info] delivered: 44
+2021-03-19 21:28:26.967118 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:26.967127 [hotstuff info] blk_cache: 61
+2021-03-19 21:28:26.967135 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:26.967143 [hotstuff info] fetched: 0
+2021-03-19 21:28:26.967151 [hotstuff info] delivered: 0
+2021-03-19 21:28:26.967160 [hotstuff info] decided: 0
+2021-03-19 21:28:26.967168 [hotstuff info] gened: 0
+2021-03-19 21:28:26.967176 [hotstuff info] avg. parent_size: 0.000
+2021-03-19 21:28:26.967192 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2021-03-19 21:28:26.967204 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:26.967382 [hotstuff info] b0a0c5c9d2: 4(1640), 4(520), 0
+2021-03-19 21:28:26.967557 [hotstuff info] 27a8943bab: 4(1640), 4(520), 0
+2021-03-19 21:28:26.967749 [hotstuff info] 6947626606: 4(1640), 4(520), 0
+2021-03-19 21:28:26.967942 [hotstuff info] 15717dc960: 4(1640), 4(520), 0
+2021-03-19 21:28:26.968083 [hotstuff info] b123e459ed: 4(1640), 4(520), 0
+2021-03-19 21:28:26.968215 [hotstuff info] 084b2242ef: 4(1640), 4(520), 0
+2021-03-19 21:28:26.968261 [hotstuff info] sent: 24
+2021-03-19 21:28:26.968283 [hotstuff info] recv: 24
+2021-03-19 21:28:26.968295 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:26.968303 [hotstuff info] sent: 170
+2021-03-19 21:28:26.968312 [hotstuff info] recv: 171
+2021-03-19 21:28:26.968320 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:26.968329 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:26.968347 [hotstuff info] <NetAddr 172.16.16.9:51050>: 4(172), 8(64)
+2021-03-19 21:28:26.968373 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:28:26.968387 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:28:26.968399 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:28:26.968411 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:27.744335 [hotstuff proto] got <proposal rid=1 blk=b8a92190f5>
+2021-03-19 21:28:27.744611 [hotstuff proto] now state: <hotstuff hqc=0ed0905513 hqc.height=60 b_lock=7c23b499a3 b_exec=3c84aa68b2 vheight=61 tails=1>
+2021-03-19 21:28:27.753284 [hotstuff proto] got <proposal rid=1 blk=9569a318ce>
+2021-03-19 21:28:27.753450 [hotstuff proto] now state: <hotstuff hqc=b8a92190f5 hqc.height=61 b_lock=b3608d40b9 b_exec=3c84aa68b2 vheight=62 tails=1>
+2021-03-19 21:28:27.763148 [hotstuff proto] got <proposal rid=1 blk=d962bd355b>
+2021-03-19 21:28:27.763474 [hotstuff proto] now state: <hotstuff hqc=9569a318ce hqc.height=62 b_lock=b8a92190f5 b_exec=3c84aa68b2 vheight=63 tails=1>
+2021-03-19 21:28:27.768663 [hotstuff proto] got <proposal rid=1 blk=f0aea14695>
+2021-03-19 21:28:27.768723 [hotstuff proto] commit <block id=7c23b499a3 height=58 parent=3c84aa68b2 qc_ref=3c84aa68b2>
+2021-03-19 21:28:27.768756 [hotstuff proto] commit <block id=b3608d40b9 height=59 parent=7c23b499a3 qc_ref=7c23b499a3>
+2021-03-19 21:28:27.768789 [hotstuff proto] commit <block id=0ed0905513 height=60 parent=b3608d40b9 qc_ref=b3608d40b9>
+2021-03-19 21:28:27.768803 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:28:27.768994 [hotstuff proto] commit <block id=b8a92190f5 height=61 parent=0ed0905513 qc_ref=b3608d40b9>
+2021-03-19 21:28:27.769082 [hotstuff proto] now state: <hotstuff hqc=d962bd355b hqc.height=63 b_lock=9569a318ce b_exec=b8a92190f5 vheight=64 tails=1>
+2021-03-19 21:28:28.773115 [hotstuff proto] got <proposal rid=2 blk=09ea802ac4>
+2021-03-19 21:28:28.773185 [hotstuff proto] now state: <hotstuff hqc=d962bd355b hqc.height=63 b_lock=9569a318ce b_exec=b8a92190f5 vheight=65 tails=1>
+2021-03-19 21:28:28.774792 [hotstuff proto] got <proposal rid=2 blk=36efd777b5>
+2021-03-19 21:28:28.774867 [hotstuff proto] now state: <hotstuff hqc=09ea802ac4 hqc.height=65 b_lock=d962bd355b b_exec=b8a92190f5 vheight=66 tails=1>
+2021-03-19 21:28:28.777004 [hotstuff proto] got <proposal rid=2 blk=a0516e0b93>
+2021-03-19 21:28:28.777076 [hotstuff proto] now state: <hotstuff hqc=36efd777b5 hqc.height=66 b_lock=09ea802ac4 b_exec=b8a92190f5 vheight=67 tails=1>
+2021-03-19 21:28:28.778980 [hotstuff proto] got <proposal rid=2 blk=70ba44c7e4>
+2021-03-19 21:28:28.779022 [hotstuff proto] commit <block id=9569a318ce height=62 parent=b8a92190f5 qc_ref=b8a92190f5>
+2021-03-19 21:28:28.779047 [hotstuff proto] commit <block id=d962bd355b height=63 parent=9569a318ce qc_ref=9569a318ce>
+2021-03-19 21:28:28.779087 [hotstuff proto] commit <block id=f0aea14695 height=64 parent=d962bd355b qc_ref=d962bd355b>
+2021-03-19 21:28:28.779120 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:28:28.779168 [hotstuff proto] commit <block id=09ea802ac4 height=65 parent=f0aea14695 qc_ref=d962bd355b>
+2021-03-19 21:28:28.779212 [hotstuff proto] now state: <hotstuff hqc=a0516e0b93 hqc.height=67 b_lock=36efd777b5 b_exec=09ea802ac4 vheight=68 tails=1>
+2021-03-19 21:28:29.788874 [hotstuff proto] got <proposal rid=3 blk=d4adef8195>
+2021-03-19 21:28:29.789174 [hotstuff proto] now state: <hotstuff hqc=a0516e0b93 hqc.height=67 b_lock=36efd777b5 b_exec=09ea802ac4 vheight=69 tails=1>
+2021-03-19 21:28:29.794319 [hotstuff proto] got <proposal rid=3 blk=9e996edd98>
+2021-03-19 21:28:29.794432 [hotstuff proto] now state: <hotstuff hqc=d4adef8195 hqc.height=69 b_lock=a0516e0b93 b_exec=09ea802ac4 vheight=70 tails=1>
+2021-03-19 21:28:29.799427 [hotstuff proto] got <proposal rid=3 blk=0ed190e35e>
+2021-03-19 21:28:29.799604 [hotstuff proto] now state: <hotstuff hqc=9e996edd98 hqc.height=70 b_lock=d4adef8195 b_exec=09ea802ac4 vheight=71 tails=1>
+2021-03-19 21:28:29.803717 [hotstuff proto] got <proposal rid=3 blk=412ce197e6>
+2021-03-19 21:28:29.803819 [hotstuff proto] commit <block id=36efd777b5 height=66 parent=09ea802ac4 qc_ref=09ea802ac4>
+2021-03-19 21:28:29.803889 [hotstuff proto] commit <block id=a0516e0b93 height=67 parent=36efd777b5 qc_ref=36efd777b5>
+2021-03-19 21:28:29.804127 [hotstuff proto] commit <block id=70ba44c7e4 height=68 parent=a0516e0b93 qc_ref=a0516e0b93>
+2021-03-19 21:28:29.804183 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:28:29.804223 [hotstuff proto] commit <block id=d4adef8195 height=69 parent=70ba44c7e4 qc_ref=a0516e0b93>
+2021-03-19 21:28:29.804262 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=72 tails=1>
+2021-03-19 21:28:31.534227 [net info] 53b35c6803: ping from <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:28:31.804530 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:28:32.003790 [net info] 53b35c6803: ping from <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:28:34.806144 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:28:36.967528 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:36.967611 [hotstuff info] -------- queues -------
+2021-03-19 21:28:36.967625 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:36.967634 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:36.967643 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:36.967651 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:36.967660 [hotstuff info] fetched: 0
+2021-03-19 21:28:36.967669 [hotstuff info] delivered: 56
+2021-03-19 21:28:36.967678 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:36.967686 [hotstuff info] blk_cache: 73
+2021-03-19 21:28:36.967695 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:36.967703 [hotstuff info] fetched: 0
+2021-03-19 21:28:36.967712 [hotstuff info] delivered: 12
+2021-03-19 21:28:36.967720 [hotstuff info] decided: 0
+2021-03-19 21:28:36.967728 [hotstuff info] gened: 0
+2021-03-19 21:28:36.967736 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:36.967751 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.003 max
+2021-03-19 21:28:36.967767 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:36.967956 [hotstuff info] b0a0c5c9d2: 1(1), 1(1), 0
+2021-03-19 21:28:36.968149 [hotstuff info] 27a8943bab: 5(521), 5(1641), 0
+2021-03-19 21:28:36.968349 [hotstuff info] 6947626606: 5(521), 5(1641), 0
+2021-03-19 21:28:36.968651 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:28:36.968832 [hotstuff info] b123e459ed: 1(1), 1(1), 0
+2021-03-19 21:28:36.969126 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:28:36.969184 [hotstuff info] sent: 17
+2021-03-19 21:28:36.969208 [hotstuff info] recv: 17
+2021-03-19 21:28:36.969224 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:36.969239 [hotstuff info] sent: 187
+2021-03-19 21:28:36.969250 [hotstuff info] recv: 188
+2021-03-19 21:28:36.969258 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:36.969266 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:36.969285 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:28:36.969299 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:28:36.969311 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:28:36.969322 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:28:36.969331 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:38.479620 [net info] 53b35c6803: ping from <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:28:38.807059 [hotstuff proto] propose <block id=b2b1352111 height=73 parent=412ce197e6 qc_ref=0ed190e35e>
+2021-03-19 21:28:38.807152 [hotstuff proto] got <proposal rid=6 blk=b2b1352111>
+2021-03-19 21:28:38.807207 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.807792 [hotstuff proto] got <vote rid=6 blk=b2b1352111>
+2021-03-19 21:28:38.807873 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.815117 [hotstuff proto] got <vote rid=0 blk=b2b1352111>
+2021-03-19 21:28:38.815259 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.815418 [hotstuff proto] got <vote rid=3 blk=b2b1352111>
+2021-03-19 21:28:38.815612 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.815890 [hotstuff proto] got <vote rid=5 blk=b2b1352111>
+2021-03-19 21:28:38.816004 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.816551 [hotstuff proto] got <vote rid=1 blk=b2b1352111>
+2021-03-19 21:28:38.816681 [hotstuff proto] now state: <hotstuff hqc=0ed190e35e hqc.height=71 b_lock=9e996edd98 b_exec=d4adef8195 vheight=73 tails=1>
+2021-03-19 21:28:38.816830 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:28:38.817043 [hotstuff proto] propose <block id=89e319c5ab height=74 parent=b2b1352111 qc_ref=b2b1352111>
+2021-03-19 21:28:38.817193 [hotstuff proto] got <proposal rid=6 blk=89e319c5ab>
+2021-03-19 21:28:38.817392 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.817982 [hotstuff proto] got <vote rid=6 blk=89e319c5ab>
+2021-03-19 21:28:38.818096 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.818438 [hotstuff proto] got <vote rid=4 blk=b2b1352111>
+2021-03-19 21:28:38.818627 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.824909 [hotstuff proto] got <vote rid=2 blk=b2b1352111>
+2021-03-19 21:28:38.825165 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.825325 [hotstuff proto] got <vote rid=0 blk=89e319c5ab>
+2021-03-19 21:28:38.825502 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.825698 [hotstuff proto] got <vote rid=1 blk=89e319c5ab>
+2021-03-19 21:28:38.825878 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.826195 [hotstuff proto] got <vote rid=4 blk=89e319c5ab>
+2021-03-19 21:28:38.826387 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.826624 [hotstuff proto] got <vote rid=5 blk=89e319c5ab>
+2021-03-19 21:28:38.826802 [hotstuff proto] now state: <hotstuff hqc=b2b1352111 hqc.height=73 b_lock=0ed190e35e b_exec=d4adef8195 vheight=74 tails=1>
+2021-03-19 21:28:38.826912 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:28:38.827105 [hotstuff proto] propose <block id=d59eafa715 height=75 parent=89e319c5ab qc_ref=89e319c5ab>
+2021-03-19 21:28:38.827240 [hotstuff proto] got <proposal rid=6 blk=d59eafa715>
+2021-03-19 21:28:38.827418 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.828312 [hotstuff proto] got <vote rid=6 blk=d59eafa715>
+2021-03-19 21:28:38.828514 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.828856 [hotstuff proto] got <vote rid=2 blk=89e319c5ab>
+2021-03-19 21:28:38.828990 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.835514 [hotstuff proto] got <vote rid=0 blk=d59eafa715>
+2021-03-19 21:28:38.836141 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.837597 [hotstuff proto] got <vote rid=1 blk=d59eafa715>
+2021-03-19 21:28:38.837812 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.837996 [hotstuff proto] got <vote rid=3 blk=89e319c5ab>
+2021-03-19 21:28:38.838202 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.838583 [hotstuff proto] got <vote rid=4 blk=d59eafa715>
+2021-03-19 21:28:38.838761 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.841066 [hotstuff proto] got <vote rid=3 blk=d59eafa715>
+2021-03-19 21:28:38.841205 [hotstuff proto] now state: <hotstuff hqc=89e319c5ab hqc.height=74 b_lock=b2b1352111 b_exec=d4adef8195 vheight=75 tails=1>
+2021-03-19 21:28:38.841266 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:28:38.841398 [hotstuff proto] commit <block id=9e996edd98 height=70 parent=d4adef8195 qc_ref=d4adef8195>
+2021-03-19 21:28:38.841493 [hotstuff proto] commit <block id=0ed190e35e height=71 parent=9e996edd98 qc_ref=9e996edd98>
+2021-03-19 21:28:38.841578 [hotstuff proto] commit <block id=412ce197e6 height=72 parent=0ed190e35e qc_ref=0ed190e35e>
+2021-03-19 21:28:38.841610 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:28:38.841695 [hotstuff proto] commit <block id=b2b1352111 height=73 parent=412ce197e6 qc_ref=0ed190e35e>
+2021-03-19 21:28:38.841785 [hotstuff proto] propose <block id=184e0e5f00 height=76 parent=d59eafa715 qc_ref=d59eafa715>
+2021-03-19 21:28:38.841831 [hotstuff proto] got <proposal rid=6 blk=184e0e5f00>
+2021-03-19 21:28:38.841916 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.842626 [hotstuff proto] got <vote rid=6 blk=184e0e5f00>
+2021-03-19 21:28:38.842828 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.843269 [hotstuff proto] got <vote rid=2 blk=d59eafa715>
+2021-03-19 21:28:38.843459 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.851494 [hotstuff proto] got <vote rid=5 blk=d59eafa715>
+2021-03-19 21:28:38.851960 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.852061 [hotstuff proto] got <vote rid=4 blk=184e0e5f00>
+2021-03-19 21:28:38.852450 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.852555 [hotstuff proto] got <vote rid=0 blk=184e0e5f00>
+2021-03-19 21:28:38.852978 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.853085 [hotstuff proto] got <vote rid=3 blk=184e0e5f00>
+2021-03-19 21:28:38.853430 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.854308 [hotstuff proto] got <vote rid=1 blk=184e0e5f00>
+2021-03-19 21:28:38.854434 [hotstuff proto] now state: <hotstuff hqc=d59eafa715 hqc.height=75 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.854490 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:28:38.856184 [hotstuff proto] got <vote rid=2 blk=184e0e5f00>
+2021-03-19 21:28:38.856305 [hotstuff proto] now state: <hotstuff hqc=184e0e5f00 hqc.height=76 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:38.857671 [hotstuff proto] got <vote rid=5 blk=184e0e5f00>
+2021-03-19 21:28:38.857802 [hotstuff proto] now state: <hotstuff hqc=184e0e5f00 hqc.height=76 b_lock=89e319c5ab b_exec=b2b1352111 vheight=76 tails=1>
+2021-03-19 21:28:40.841129 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:28:40.945595 [net info] 53b35c6803: ping from <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:28:42.856811 [hotstuff proto] got <proposal rid=1 blk=7e76193dff>
+2021-03-19 21:28:42.856983 [hotstuff proto] now state: <hotstuff hqc=184e0e5f00 hqc.height=76 b_lock=89e319c5ab b_exec=b2b1352111 vheight=77 tails=1>
+2021-03-19 21:28:42.863808 [hotstuff proto] got <proposal rid=1 blk=f53e4cf6a8>
+2021-03-19 21:28:42.864081 [hotstuff proto] now state: <hotstuff hqc=7e76193dff hqc.height=77 b_lock=d59eafa715 b_exec=b2b1352111 vheight=78 tails=1>
+2021-03-19 21:28:42.872746 [hotstuff proto] got <proposal rid=1 blk=49f6339ae5>
+2021-03-19 21:28:42.872941 [hotstuff proto] now state: <hotstuff hqc=f53e4cf6a8 hqc.height=78 b_lock=7e76193dff b_exec=b2b1352111 vheight=79 tails=1>
+2021-03-19 21:28:42.879844 [hotstuff proto] got <proposal rid=1 blk=07db7f6b30>
+2021-03-19 21:28:42.880131 [hotstuff proto] commit <block id=89e319c5ab height=74 parent=b2b1352111 qc_ref=b2b1352111>
+2021-03-19 21:28:42.880338 [hotstuff proto] commit <block id=d59eafa715 height=75 parent=89e319c5ab qc_ref=89e319c5ab>
+2021-03-19 21:28:42.880697 [hotstuff proto] commit <block id=184e0e5f00 height=76 parent=d59eafa715 qc_ref=d59eafa715>
+2021-03-19 21:28:42.880801 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:28:42.880907 [hotstuff proto] commit <block id=7e76193dff height=77 parent=184e0e5f00 qc_ref=d59eafa715>
+2021-03-19 21:28:42.881095 [hotstuff proto] now state: <hotstuff hqc=49f6339ae5 hqc.height=79 b_lock=f53e4cf6a8 b_exec=7e76193dff vheight=80 tails=1>
+2021-03-19 21:28:43.891477 [hotstuff proto] got <proposal rid=2 blk=185151243e>
+2021-03-19 21:28:43.891593 [hotstuff proto] now state: <hotstuff hqc=49f6339ae5 hqc.height=79 b_lock=f53e4cf6a8 b_exec=7e76193dff vheight=81 tails=1>
+2021-03-19 21:28:43.899740 [hotstuff proto] got <proposal rid=2 blk=c9e8868046>
+2021-03-19 21:28:43.900026 [hotstuff proto] now state: <hotstuff hqc=185151243e hqc.height=81 b_lock=49f6339ae5 b_exec=7e76193dff vheight=82 tails=1>
+2021-03-19 21:28:43.911888 [hotstuff proto] got <proposal rid=2 blk=653c66de2e>
+2021-03-19 21:28:43.912005 [hotstuff proto] now state: <hotstuff hqc=c9e8868046 hqc.height=82 b_lock=185151243e b_exec=7e76193dff vheight=83 tails=1>
+2021-03-19 21:28:43.925298 [hotstuff proto] got <proposal rid=2 blk=1617888c2a>
+2021-03-19 21:28:43.925465 [hotstuff proto] commit <block id=f53e4cf6a8 height=78 parent=7e76193dff qc_ref=7e76193dff>
+2021-03-19 21:28:43.925700 [hotstuff proto] commit <block id=49f6339ae5 height=79 parent=f53e4cf6a8 qc_ref=f53e4cf6a8>
+2021-03-19 21:28:43.925815 [hotstuff proto] commit <block id=07db7f6b30 height=80 parent=49f6339ae5 qc_ref=49f6339ae5>
+2021-03-19 21:28:43.926657 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:28:43.927074 [hotstuff proto] commit <block id=185151243e height=81 parent=07db7f6b30 qc_ref=49f6339ae5>
+2021-03-19 21:28:43.927668 [hotstuff proto] now state: <hotstuff hqc=653c66de2e hqc.height=83 b_lock=c9e8868046 b_exec=185151243e vheight=84 tails=1>
+2021-03-19 21:28:44.489262 [net info] 53b35c6803: ping from <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:28:44.929146 [hotstuff proto] got <proposal rid=3 blk=a5809fa2f2>
+2021-03-19 21:28:44.929388 [hotstuff proto] now state: <hotstuff hqc=653c66de2e hqc.height=83 b_lock=c9e8868046 b_exec=185151243e vheight=85 tails=1>
+2021-03-19 21:28:44.938178 [hotstuff proto] got <proposal rid=3 blk=0e088e45f2>
+2021-03-19 21:28:44.938357 [hotstuff proto] now state: <hotstuff hqc=a5809fa2f2 hqc.height=85 b_lock=653c66de2e b_exec=185151243e vheight=86 tails=1>
+2021-03-19 21:28:44.943000 [hotstuff proto] got <proposal rid=3 blk=4bab90b307>
+2021-03-19 21:28:44.943100 [hotstuff proto] now state: <hotstuff hqc=0e088e45f2 hqc.height=86 b_lock=a5809fa2f2 b_exec=185151243e vheight=87 tails=1>
+2021-03-19 21:28:44.948478 [hotstuff proto] got <proposal rid=3 blk=6277adc730>
+2021-03-19 21:28:44.948559 [hotstuff proto] commit <block id=c9e8868046 height=82 parent=185151243e qc_ref=185151243e>
+2021-03-19 21:28:44.948609 [hotstuff proto] commit <block id=653c66de2e height=83 parent=c9e8868046 qc_ref=c9e8868046>
+2021-03-19 21:28:44.948654 [hotstuff proto] commit <block id=1617888c2a height=84 parent=653c66de2e qc_ref=653c66de2e>
+2021-03-19 21:28:44.948671 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:28:44.948716 [hotstuff proto] commit <block id=a5809fa2f2 height=85 parent=1617888c2a qc_ref=653c66de2e>
+2021-03-19 21:28:44.948762 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=88 tails=1>
+2021-03-19 21:28:46.949373 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:28:46.967554 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:46.967641 [hotstuff info] -------- queues -------
+2021-03-19 21:28:46.967655 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:46.967665 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:46.967676 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:46.967690 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:46.967702 [hotstuff info] fetched: 0
+2021-03-19 21:28:46.967714 [hotstuff info] delivered: 68
+2021-03-19 21:28:46.967727 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:46.967740 [hotstuff info] blk_cache: 89
+2021-03-19 21:28:46.967754 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:46.967767 [hotstuff info] fetched: 0
+2021-03-19 21:28:46.967781 [hotstuff info] delivered: 12
+2021-03-19 21:28:46.967795 [hotstuff info] decided: 0
+2021-03-19 21:28:46.967810 [hotstuff info] gened: 0
+2021-03-19 21:28:46.967823 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:28:46.967886 [hotstuff info] delivery time: 0.003 avg, 0.001 min, 0.006 max
+2021-03-19 21:28:46.967918 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:46.968070 [hotstuff info] b0a0c5c9d2: 4(1640), 4(520), 0
+2021-03-19 21:28:46.968303 [hotstuff info] 27a8943bab: 8(2160), 8(2160), 0
+2021-03-19 21:28:46.968448 [hotstuff info] 6947626606: 9(2161), 9(2161), 0
+2021-03-19 21:28:46.968588 [hotstuff info] 15717dc960: 10(2162), 10(2162), 0
+2021-03-19 21:28:46.968850 [hotstuff info] b123e459ed: 5(1641), 5(521), 0
+2021-03-19 21:28:46.969164 [hotstuff info] 084b2242ef: 5(1641), 5(521), 0
+2021-03-19 21:28:46.969278 [hotstuff info] sent: 41
+2021-03-19 21:28:46.969410 [hotstuff info] recv: 41
+2021-03-19 21:28:46.969535 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:46.969691 [hotstuff info] sent: 228
+2021-03-19 21:28:46.969809 [hotstuff info] recv: 229
+2021-03-19 21:28:46.969915 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:46.970035 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:46.970155 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:28:46.970274 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:28:46.970393 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:28:46.970527 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:28:46.970582 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:49.953727 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:28:53.955337 [hotstuff proto] propose <block id=57e3b28f59 height=89 parent=6277adc730 qc_ref=4bab90b307>
+2021-03-19 21:28:53.955424 [hotstuff proto] got <proposal rid=6 blk=57e3b28f59>
+2021-03-19 21:28:53.955480 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.955989 [hotstuff proto] got <vote rid=6 blk=57e3b28f59>
+2021-03-19 21:28:53.956059 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.962510 [hotstuff proto] got <vote rid=0 blk=57e3b28f59>
+2021-03-19 21:28:53.962648 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.962747 [hotstuff proto] got <vote rid=1 blk=57e3b28f59>
+2021-03-19 21:28:53.962864 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.963209 [hotstuff proto] got <vote rid=5 blk=57e3b28f59>
+2021-03-19 21:28:53.963325 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.963655 [hotstuff proto] got <vote rid=3 blk=57e3b28f59>
+2021-03-19 21:28:53.963760 [hotstuff proto] now state: <hotstuff hqc=4bab90b307 hqc.height=87 b_lock=0e088e45f2 b_exec=a5809fa2f2 vheight=89 tails=1>
+2021-03-19 21:28:53.963817 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:28:53.963944 [hotstuff proto] propose <block id=1bfada716c height=90 parent=57e3b28f59 qc_ref=57e3b28f59>
+2021-03-19 21:28:53.963995 [hotstuff proto] got <proposal rid=6 blk=1bfada716c>
+2021-03-19 21:28:53.964080 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.964763 [hotstuff proto] got <vote rid=6 blk=1bfada716c>
+2021-03-19 21:28:53.964928 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.967010 [hotstuff proto] got <vote rid=2 blk=57e3b28f59>
+2021-03-19 21:28:53.967255 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.967535 [hotstuff proto] got <vote rid=4 blk=57e3b28f59>
+2021-03-19 21:28:53.967653 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.971824 [hotstuff proto] got <vote rid=2 blk=1bfada716c>
+2021-03-19 21:28:53.971967 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.974035 [hotstuff proto] got <vote rid=4 blk=1bfada716c>
+2021-03-19 21:28:53.974150 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.975146 [hotstuff proto] got <vote rid=1 blk=1bfada716c>
+2021-03-19 21:28:53.975277 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.975663 [hotstuff proto] got <vote rid=5 blk=1bfada716c>
+2021-03-19 21:28:53.975773 [hotstuff proto] now state: <hotstuff hqc=57e3b28f59 hqc.height=89 b_lock=4bab90b307 b_exec=a5809fa2f2 vheight=90 tails=1>
+2021-03-19 21:28:53.975825 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:28:53.975952 [hotstuff proto] propose <block id=7d81621650 height=91 parent=1bfada716c qc_ref=1bfada716c>
+2021-03-19 21:28:53.976003 [hotstuff proto] got <proposal rid=6 blk=7d81621650>
+2021-03-19 21:28:53.976090 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.976760 [hotstuff proto] got <vote rid=6 blk=7d81621650>
+2021-03-19 21:28:53.976882 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.978444 [hotstuff proto] got <vote rid=3 blk=1bfada716c>
+2021-03-19 21:28:53.978535 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.979203 [hotstuff proto] got <vote rid=0 blk=1bfada716c>
+2021-03-19 21:28:53.979287 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.983922 [hotstuff proto] got <vote rid=1 blk=7d81621650>
+2021-03-19 21:28:53.984002 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.984047 [hotstuff proto] got <vote rid=2 blk=7d81621650>
+2021-03-19 21:28:53.984091 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.984627 [hotstuff proto] got <vote rid=0 blk=7d81621650>
+2021-03-19 21:28:53.984692 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.984729 [hotstuff proto] got <vote rid=3 blk=7d81621650>
+2021-03-19 21:28:53.984775 [hotstuff proto] now state: <hotstuff hqc=1bfada716c hqc.height=90 b_lock=57e3b28f59 b_exec=a5809fa2f2 vheight=91 tails=1>
+2021-03-19 21:28:53.984798 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:28:53.984865 [hotstuff proto] commit <block id=0e088e45f2 height=86 parent=a5809fa2f2 qc_ref=a5809fa2f2>
+2021-03-19 21:28:53.984923 [hotstuff proto] commit <block id=4bab90b307 height=87 parent=0e088e45f2 qc_ref=0e088e45f2>
+2021-03-19 21:28:53.984964 [hotstuff proto] commit <block id=6277adc730 height=88 parent=4bab90b307 qc_ref=4bab90b307>
+2021-03-19 21:28:53.984978 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:28:53.985020 [hotstuff proto] commit <block id=57e3b28f59 height=89 parent=6277adc730 qc_ref=4bab90b307>
+2021-03-19 21:28:53.985061 [hotstuff proto] propose <block id=7f152c66ac height=92 parent=7d81621650 qc_ref=7d81621650>
+2021-03-19 21:28:53.985084 [hotstuff proto] got <proposal rid=6 blk=7f152c66ac>
+2021-03-19 21:28:53.985127 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.985490 [hotstuff proto] got <vote rid=6 blk=7f152c66ac>
+2021-03-19 21:28:53.985540 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.990515 [hotstuff proto] got <vote rid=4 blk=7d81621650>
+2021-03-19 21:28:53.990610 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.990677 [hotstuff proto] got <vote rid=5 blk=7d81621650>
+2021-03-19 21:28:53.990750 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.991172 [hotstuff proto] got <vote rid=0 blk=7f152c66ac>
+2021-03-19 21:28:53.991286 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.992341 [hotstuff proto] got <vote rid=1 blk=7f152c66ac>
+2021-03-19 21:28:53.992422 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.992501 [hotstuff proto] got <vote rid=3 blk=7f152c66ac>
+2021-03-19 21:28:53.992570 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.992627 [hotstuff proto] got <vote rid=4 blk=7f152c66ac>
+2021-03-19 21:28:53.992693 [hotstuff proto] now state: <hotstuff hqc=7d81621650 hqc.height=91 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.992738 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:28:53.992796 [hotstuff proto] got <vote rid=2 blk=7f152c66ac>
+2021-03-19 21:28:53.992861 [hotstuff proto] now state: <hotstuff hqc=7f152c66ac hqc.height=92 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:53.993186 [hotstuff proto] got <vote rid=5 blk=7f152c66ac>
+2021-03-19 21:28:53.993268 [hotstuff proto] now state: <hotstuff hqc=7f152c66ac hqc.height=92 b_lock=1bfada716c b_exec=57e3b28f59 vheight=92 tails=1>
+2021-03-19 21:28:55.985061 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:28:56.289565 [net info] 53b35c6803: ping from <Conn fd=92 addr=<NetAddr 172.16.16.3:10000> mode=active>
+2021-03-19 21:28:56.967992 [hotstuff info] ===== begin stats =====
+2021-03-19 21:28:56.968089 [hotstuff info] -------- queues -------
+2021-03-19 21:28:56.968109 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:28:56.968120 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:28:56.968128 [hotstuff info] decision_waiting: 32
+2021-03-19 21:28:56.968137 [hotstuff info] -------- misc ---------
+2021-03-19 21:28:56.968148 [hotstuff info] fetched: 0
+2021-03-19 21:28:56.968161 [hotstuff info] delivered: 68
+2021-03-19 21:28:56.968173 [hotstuff info] cmd_cache: 0
+2021-03-19 21:28:56.968186 [hotstuff info] blk_cache: 93
+2021-03-19 21:28:56.968200 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:28:56.968212 [hotstuff info] fetched: 0
+2021-03-19 21:28:56.968226 [hotstuff info] delivered: 0
+2021-03-19 21:28:56.968240 [hotstuff info] decided: 0
+2021-03-19 21:28:56.968254 [hotstuff info] gened: 0
+2021-03-19 21:28:56.968269 [hotstuff info] avg. parent_size: 0.000
+2021-03-19 21:28:56.968329 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2021-03-19 21:28:56.968354 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:28:56.968534 [hotstuff info] b0a0c5c9d2: 5(1641), 5(521), 0
+2021-03-19 21:28:56.968757 [hotstuff info] 27a8943bab: 5(1641), 5(521), 0
+2021-03-19 21:28:56.968927 [hotstuff info] 6947626606: 4(1640), 4(520), 0
+2021-03-19 21:28:56.969081 [hotstuff info] 15717dc960: 4(1640), 4(520), 0
+2021-03-19 21:28:56.969241 [hotstuff info] b123e459ed: 4(1640), 4(520), 0
+2021-03-19 21:28:56.969377 [hotstuff info] 084b2242ef: 4(1640), 4(520), 0
+2021-03-19 21:28:56.969491 [hotstuff info] sent: 26
+2021-03-19 21:28:56.969534 [hotstuff info] recv: 26
+2021-03-19 21:28:56.969545 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:28:56.969553 [hotstuff info] sent: 254
+2021-03-19 21:28:56.969560 [hotstuff info] recv: 255
+2021-03-19 21:28:56.969569 [hotstuff info] ====== end stats ======
+2021-03-19 21:28:56.969581 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:28:56.969602 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:28:56.969631 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:28:56.969650 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:28:56.969676 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:28:56.969692 [hotstuff info] --- end client msg. ---
+2021-03-19 21:28:57.992630 [hotstuff proto] got <proposal rid=1 blk=5ade4f60e2>
+2021-03-19 21:28:57.992678 [hotstuff proto] now state: <hotstuff hqc=7f152c66ac hqc.height=92 b_lock=1bfada716c b_exec=57e3b28f59 vheight=93 tails=1>
+2021-03-19 21:28:57.995044 [hotstuff proto] got <proposal rid=1 blk=e900b7e2fc>
+2021-03-19 21:28:57.995086 [hotstuff proto] now state: <hotstuff hqc=5ade4f60e2 hqc.height=93 b_lock=7d81621650 b_exec=57e3b28f59 vheight=94 tails=1>
+2021-03-19 21:28:57.997990 [hotstuff proto] got <proposal rid=1 blk=e1ff4e417a>
+2021-03-19 21:28:57.998046 [hotstuff proto] now state: <hotstuff hqc=e900b7e2fc hqc.height=94 b_lock=5ade4f60e2 b_exec=57e3b28f59 vheight=95 tails=1>
+2021-03-19 21:28:58.000578 [hotstuff proto] got <proposal rid=1 blk=7f6d97b561>
+2021-03-19 21:28:58.000696 [hotstuff proto] commit <block id=1bfada716c height=90 parent=57e3b28f59 qc_ref=57e3b28f59>
+2021-03-19 21:28:58.000744 [hotstuff proto] commit <block id=7d81621650 height=91 parent=1bfada716c qc_ref=1bfada716c>
+2021-03-19 21:28:58.000780 [hotstuff proto] commit <block id=7f152c66ac height=92 parent=7d81621650 qc_ref=7d81621650>
+2021-03-19 21:28:58.000792 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:28:58.000843 [hotstuff proto] commit <block id=5ade4f60e2 height=93 parent=7f152c66ac qc_ref=7d81621650>
+2021-03-19 21:28:58.000876 [hotstuff proto] now state: <hotstuff hqc=e1ff4e417a hqc.height=95 b_lock=e900b7e2fc b_exec=5ade4f60e2 vheight=96 tails=1>
+2021-03-19 21:28:59.007357 [hotstuff proto] got <proposal rid=2 blk=c9de551325>
+2021-03-19 21:28:59.007610 [hotstuff proto] now state: <hotstuff hqc=e1ff4e417a hqc.height=95 b_lock=e900b7e2fc b_exec=5ade4f60e2 vheight=97 tails=1>
+2021-03-19 21:28:59.015273 [hotstuff proto] got <proposal rid=2 blk=f7a4a23d91>
+2021-03-19 21:28:59.015436 [hotstuff proto] now state: <hotstuff hqc=c9de551325 hqc.height=97 b_lock=e1ff4e417a b_exec=5ade4f60e2 vheight=98 tails=1>
+2021-03-19 21:28:59.022930 [hotstuff proto] got <proposal rid=2 blk=21bafbb1a6>
+2021-03-19 21:28:59.023048 [hotstuff proto] now state: <hotstuff hqc=f7a4a23d91 hqc.height=98 b_lock=c9de551325 b_exec=5ade4f60e2 vheight=99 tails=1>
+2021-03-19 21:28:59.031647 [hotstuff proto] got <proposal rid=2 blk=0dea9b66c3>
+2021-03-19 21:28:59.034742 [hotstuff proto] commit <block id=e900b7e2fc height=94 parent=5ade4f60e2 qc_ref=5ade4f60e2>
+2021-03-19 21:28:59.035035 [hotstuff proto] commit <block id=e1ff4e417a height=95 parent=e900b7e2fc qc_ref=e900b7e2fc>
+2021-03-19 21:28:59.035090 [hotstuff proto] commit <block id=7f6d97b561 height=96 parent=e1ff4e417a qc_ref=e1ff4e417a>
+2021-03-19 21:28:59.035109 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:28:59.035153 [hotstuff proto] commit <block id=c9de551325 height=97 parent=7f6d97b561 qc_ref=e1ff4e417a>
+2021-03-19 21:28:59.035200 [hotstuff proto] now state: <hotstuff hqc=21bafbb1a6 hqc.height=99 b_lock=f7a4a23d91 b_exec=c9de551325 vheight=100 tails=1>
+2021-03-19 21:29:00.038078 [hotstuff proto] got <proposal rid=3 blk=0693e11f33>
+2021-03-19 21:29:00.038335 [hotstuff proto] now state: <hotstuff hqc=21bafbb1a6 hqc.height=99 b_lock=f7a4a23d91 b_exec=c9de551325 vheight=101 tails=1>
+2021-03-19 21:29:00.046861 [hotstuff proto] got <proposal rid=3 blk=90e4c4973d>
+2021-03-19 21:29:00.047032 [hotstuff proto] now state: <hotstuff hqc=0693e11f33 hqc.height=101 b_lock=21bafbb1a6 b_exec=c9de551325 vheight=102 tails=1>
+2021-03-19 21:29:00.056071 [hotstuff proto] got <proposal rid=3 blk=c1df642ddb>
+2021-03-19 21:29:00.056148 [hotstuff proto] now state: <hotstuff hqc=90e4c4973d hqc.height=102 b_lock=0693e11f33 b_exec=c9de551325 vheight=103 tails=1>
+2021-03-19 21:29:00.059163 [hotstuff proto] got <proposal rid=3 blk=5531a2159d>
+2021-03-19 21:29:00.059290 [hotstuff proto] commit <block id=f7a4a23d91 height=98 parent=c9de551325 qc_ref=c9de551325>
+2021-03-19 21:29:00.059382 [hotstuff proto] commit <block id=21bafbb1a6 height=99 parent=f7a4a23d91 qc_ref=f7a4a23d91>
+2021-03-19 21:29:00.059465 [hotstuff proto] commit <block id=0dea9b66c3 height=100 parent=21bafbb1a6 qc_ref=21bafbb1a6>
+2021-03-19 21:29:00.059525 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:29:00.059617 [hotstuff proto] commit <block id=0693e11f33 height=101 parent=0dea9b66c3 qc_ref=21bafbb1a6>
+2021-03-19 21:29:00.059704 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=104 tails=1>
+2021-03-19 21:29:02.061141 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:29:04.809554 [net info] 53b35c6803: ping from <Conn fd=85 addr=<NetAddr 172.16.16.7:45516> mode=passive>
+2021-03-19 21:29:05.062775 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:29:06.969098 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:06.969204 [hotstuff info] -------- queues -------
+2021-03-19 21:29:06.969221 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:06.969230 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:06.969238 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:06.969247 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:06.969259 [hotstuff info] fetched: 0
+2021-03-19 21:29:06.969268 [hotstuff info] delivered: 80
+2021-03-19 21:29:06.969277 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:06.969285 [hotstuff info] blk_cache: 105
+2021-03-19 21:29:06.969293 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:06.969302 [hotstuff info] fetched: 0
+2021-03-19 21:29:06.969310 [hotstuff info] delivered: 12
+2021-03-19 21:29:06.969318 [hotstuff info] decided: 0
+2021-03-19 21:29:06.969327 [hotstuff info] gened: 0
+2021-03-19 21:29:06.969335 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:29:06.969351 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.004 max
+2021-03-19 21:29:06.969385 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:06.969670 [hotstuff info] b0a0c5c9d2: 0(0), 0(0), 0
+2021-03-19 21:29:06.969929 [hotstuff info] 27a8943bab: 4(520), 4(1640), 0
+2021-03-19 21:29:06.970183 [hotstuff info] 6947626606: 5(521), 5(1641), 0
+2021-03-19 21:29:06.970443 [hotstuff info] 15717dc960: 4(520), 4(1640), 0
+2021-03-19 21:29:06.970604 [hotstuff info] b123e459ed: 0(0), 0(0), 0
+2021-03-19 21:29:06.970768 [hotstuff info] 084b2242ef: 1(1), 1(1), 0
+2021-03-19 21:29:06.970824 [hotstuff info] sent: 14
+2021-03-19 21:29:06.970837 [hotstuff info] recv: 14
+2021-03-19 21:29:06.970846 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:06.970855 [hotstuff info] sent: 268
+2021-03-19 21:29:06.970863 [hotstuff info] recv: 269
+2021-03-19 21:29:06.970871 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:06.970879 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:06.970898 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:29:06.970912 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:29:06.970929 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:29:06.970946 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:29:06.970962 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:09.063889 [hotstuff proto] propose <block id=f305784ed8 height=105 parent=5531a2159d qc_ref=c1df642ddb>
+2021-03-19 21:29:09.063987 [hotstuff proto] got <proposal rid=6 blk=f305784ed8>
+2021-03-19 21:29:09.064043 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.064667 [hotstuff proto] got <vote rid=6 blk=f305784ed8>
+2021-03-19 21:29:09.064797 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.073186 [hotstuff proto] got <vote rid=0 blk=f305784ed8>
+2021-03-19 21:29:09.073327 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.073414 [hotstuff proto] got <vote rid=1 blk=f305784ed8>
+2021-03-19 21:29:09.073502 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.073561 [hotstuff proto] got <vote rid=3 blk=f305784ed8>
+2021-03-19 21:29:09.073642 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.073698 [hotstuff proto] got <vote rid=4 blk=f305784ed8>
+2021-03-19 21:29:09.073767 [hotstuff proto] now state: <hotstuff hqc=c1df642ddb hqc.height=103 b_lock=90e4c4973d b_exec=0693e11f33 vheight=105 tails=1>
+2021-03-19 21:29:09.073828 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:29:09.073960 [hotstuff proto] propose <block id=bb8813724e height=106 parent=f305784ed8 qc_ref=f305784ed8>
+2021-03-19 21:29:09.074004 [hotstuff proto] got <proposal rid=6 blk=bb8813724e>
+2021-03-19 21:29:09.074080 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.074706 [hotstuff proto] got <vote rid=6 blk=bb8813724e>
+2021-03-19 21:29:09.074813 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.075194 [hotstuff proto] got <vote rid=2 blk=f305784ed8>
+2021-03-19 21:29:09.075297 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.075445 [hotstuff proto] got <vote rid=5 blk=f305784ed8>
+2021-03-19 21:29:09.075620 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.082347 [hotstuff proto] got <vote rid=4 blk=bb8813724e>
+2021-03-19 21:29:09.082502 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.083370 [hotstuff proto] got <vote rid=1 blk=bb8813724e>
+2021-03-19 21:29:09.083509 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.083602 [hotstuff proto] got <vote rid=0 blk=bb8813724e>
+2021-03-19 21:29:09.083698 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.085581 [hotstuff proto] got <vote rid=3 blk=bb8813724e>
+2021-03-19 21:29:09.085677 [hotstuff proto] now state: <hotstuff hqc=f305784ed8 hqc.height=105 b_lock=c1df642ddb b_exec=0693e11f33 vheight=106 tails=1>
+2021-03-19 21:29:09.085720 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:29:09.085810 [hotstuff proto] propose <block id=f1350ed51a height=107 parent=bb8813724e qc_ref=bb8813724e>
+2021-03-19 21:29:09.085862 [hotstuff proto] got <proposal rid=6 blk=f1350ed51a>
+2021-03-19 21:29:09.085935 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.086526 [hotstuff proto] got <vote rid=6 blk=f1350ed51a>
+2021-03-19 21:29:09.086637 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.088002 [hotstuff proto] got <vote rid=5 blk=bb8813724e>
+2021-03-19 21:29:09.088227 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.093038 [hotstuff proto] got <vote rid=2 blk=bb8813724e>
+2021-03-19 21:29:09.093123 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.093620 [hotstuff proto] got <vote rid=0 blk=f1350ed51a>
+2021-03-19 21:29:09.093749 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.094022 [hotstuff proto] got <vote rid=5 blk=f1350ed51a>
+2021-03-19 21:29:09.094119 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.094272 [hotstuff proto] got <vote rid=2 blk=f1350ed51a>
+2021-03-19 21:29:09.094350 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.094492 [hotstuff proto] got <vote rid=4 blk=f1350ed51a>
+2021-03-19 21:29:09.094622 [hotstuff proto] now state: <hotstuff hqc=bb8813724e hqc.height=106 b_lock=f305784ed8 b_exec=0693e11f33 vheight=107 tails=1>
+2021-03-19 21:29:09.094701 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:29:09.094852 [hotstuff proto] commit <block id=90e4c4973d height=102 parent=0693e11f33 qc_ref=0693e11f33>
+2021-03-19 21:29:09.095002 [hotstuff proto] commit <block id=c1df642ddb height=103 parent=90e4c4973d qc_ref=90e4c4973d>
+2021-03-19 21:29:09.095093 [hotstuff proto] commit <block id=5531a2159d height=104 parent=c1df642ddb qc_ref=c1df642ddb>
+2021-03-19 21:29:09.095116 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:29:09.095182 [hotstuff proto] commit <block id=f305784ed8 height=105 parent=5531a2159d qc_ref=c1df642ddb>
+2021-03-19 21:29:09.095248 [hotstuff proto] propose <block id=0d70644db9 height=108 parent=f1350ed51a qc_ref=f1350ed51a>
+2021-03-19 21:29:09.095282 [hotstuff proto] got <proposal rid=6 blk=0d70644db9>
+2021-03-19 21:29:09.095354 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.095889 [hotstuff proto] got <vote rid=6 blk=0d70644db9>
+2021-03-19 21:29:09.095963 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.096268 [hotstuff proto] got <vote rid=1 blk=f1350ed51a>
+2021-03-19 21:29:09.096400 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.096501 [hotstuff proto] got <vote rid=3 blk=f1350ed51a>
+2021-03-19 21:29:09.096687 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.100855 [hotstuff proto] got <vote rid=5 blk=0d70644db9>
+2021-03-19 21:29:09.101088 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.101199 [hotstuff proto] got <vote rid=4 blk=0d70644db9>
+2021-03-19 21:29:09.101338 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.102740 [hotstuff proto] got <vote rid=2 blk=0d70644db9>
+2021-03-19 21:29:09.102793 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.102826 [hotstuff proto] got <vote rid=1 blk=0d70644db9>
+2021-03-19 21:29:09.102860 [hotstuff proto] now state: <hotstuff hqc=f1350ed51a hqc.height=107 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.102880 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:29:09.102907 [hotstuff proto] got <vote rid=3 blk=0d70644db9>
+2021-03-19 21:29:09.102939 [hotstuff proto] now state: <hotstuff hqc=0d70644db9 hqc.height=108 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:09.103288 [hotstuff proto] got <vote rid=0 blk=0d70644db9>
+2021-03-19 21:29:09.103346 [hotstuff proto] now state: <hotstuff hqc=0d70644db9 hqc.height=108 b_lock=bb8813724e b_exec=f305784ed8 vheight=108 tails=1>
+2021-03-19 21:29:11.095782 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:29:11.753572 [net info] 53b35c6803: ping from <Conn fd=98 addr=<NetAddr 172.16.16.6:10000> mode=active>
+2021-03-19 21:29:13.103777 [hotstuff proto] got <proposal rid=1 blk=1c01daef9a>
+2021-03-19 21:29:13.103842 [hotstuff proto] now state: <hotstuff hqc=0d70644db9 hqc.height=108 b_lock=bb8813724e b_exec=f305784ed8 vheight=109 tails=1>
+2021-03-19 21:29:13.106806 [hotstuff proto] got <proposal rid=1 blk=11adcb266c>
+2021-03-19 21:29:13.106848 [hotstuff proto] now state: <hotstuff hqc=1c01daef9a hqc.height=109 b_lock=f1350ed51a b_exec=f305784ed8 vheight=110 tails=1>
+2021-03-19 21:29:13.109758 [hotstuff proto] got <proposal rid=1 blk=7eff8c3475>
+2021-03-19 21:29:13.109842 [hotstuff proto] now state: <hotstuff hqc=11adcb266c hqc.height=110 b_lock=1c01daef9a b_exec=f305784ed8 vheight=111 tails=1>
+2021-03-19 21:29:13.112973 [hotstuff proto] got <proposal rid=1 blk=851a7b7b14>
+2021-03-19 21:29:13.113018 [hotstuff proto] commit <block id=bb8813724e height=106 parent=f305784ed8 qc_ref=f305784ed8>
+2021-03-19 21:29:13.113061 [hotstuff proto] commit <block id=f1350ed51a height=107 parent=bb8813724e qc_ref=bb8813724e>
+2021-03-19 21:29:13.113108 [hotstuff proto] commit <block id=0d70644db9 height=108 parent=f1350ed51a qc_ref=f1350ed51a>
+2021-03-19 21:29:13.113132 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:29:13.113170 [hotstuff proto] commit <block id=1c01daef9a height=109 parent=0d70644db9 qc_ref=f1350ed51a>
+2021-03-19 21:29:13.113213 [hotstuff proto] now state: <hotstuff hqc=7eff8c3475 hqc.height=111 b_lock=11adcb266c b_exec=1c01daef9a vheight=112 tails=1>
+2021-03-19 21:29:14.119933 [hotstuff proto] got <proposal rid=2 blk=5644ac23ea>
+2021-03-19 21:29:14.120072 [hotstuff proto] now state: <hotstuff hqc=7eff8c3475 hqc.height=111 b_lock=11adcb266c b_exec=1c01daef9a vheight=113 tails=1>
+2021-03-19 21:29:14.127820 [hotstuff proto] got <proposal rid=2 blk=14e1c5ddb6>
+2021-03-19 21:29:14.128705 [hotstuff proto] now state: <hotstuff hqc=5644ac23ea hqc.height=113 b_lock=7eff8c3475 b_exec=1c01daef9a vheight=114 tails=1>
+2021-03-19 21:29:14.138344 [hotstuff proto] got <proposal rid=2 blk=f008b53359>
+2021-03-19 21:29:14.139189 [hotstuff proto] now state: <hotstuff hqc=14e1c5ddb6 hqc.height=114 b_lock=5644ac23ea b_exec=1c01daef9a vheight=115 tails=1>
+2021-03-19 21:29:14.144386 [hotstuff proto] got <proposal rid=2 blk=d8de91051e>
+2021-03-19 21:29:14.144527 [hotstuff proto] commit <block id=11adcb266c height=110 parent=1c01daef9a qc_ref=1c01daef9a>
+2021-03-19 21:29:14.144642 [hotstuff proto] commit <block id=7eff8c3475 height=111 parent=11adcb266c qc_ref=11adcb266c>
+2021-03-19 21:29:14.144722 [hotstuff proto] commit <block id=851a7b7b14 height=112 parent=7eff8c3475 qc_ref=7eff8c3475>
+2021-03-19 21:29:14.144765 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:29:14.144830 [hotstuff proto] commit <block id=5644ac23ea height=113 parent=851a7b7b14 qc_ref=7eff8c3475>
+2021-03-19 21:29:14.144932 [hotstuff proto] now state: <hotstuff hqc=f008b53359 hqc.height=115 b_lock=14e1c5ddb6 b_exec=5644ac23ea vheight=116 tails=1>
+2021-03-19 21:29:14.590268 [net info] 53b35c6803: ping from <Conn fd=88 addr=<NetAddr 172.16.16.2:54376> mode=passive>
+2021-03-19 21:29:15.153007 [hotstuff proto] got <proposal rid=3 blk=b8ffbefc9d>
+2021-03-19 21:29:15.153145 [hotstuff proto] now state: <hotstuff hqc=f008b53359 hqc.height=115 b_lock=14e1c5ddb6 b_exec=5644ac23ea vheight=117 tails=1>
+2021-03-19 21:29:15.161390 [hotstuff proto] got <proposal rid=3 blk=a9993d954c>
+2021-03-19 21:29:15.161571 [hotstuff proto] now state: <hotstuff hqc=b8ffbefc9d hqc.height=117 b_lock=f008b53359 b_exec=5644ac23ea vheight=118 tails=1>
+2021-03-19 21:29:15.172571 [hotstuff proto] got <proposal rid=3 blk=ec4c7e5e88>
+2021-03-19 21:29:15.172689 [hotstuff proto] now state: <hotstuff hqc=a9993d954c hqc.height=118 b_lock=b8ffbefc9d b_exec=5644ac23ea vheight=119 tails=1>
+2021-03-19 21:29:15.181272 [hotstuff proto] got <proposal rid=3 blk=89bd1faa13>
+2021-03-19 21:29:15.181663 [hotstuff proto] commit <block id=14e1c5ddb6 height=114 parent=5644ac23ea qc_ref=5644ac23ea>
+2021-03-19 21:29:15.182066 [hotstuff proto] commit <block id=f008b53359 height=115 parent=14e1c5ddb6 qc_ref=14e1c5ddb6>
+2021-03-19 21:29:15.182311 [hotstuff proto] commit <block id=d8de91051e height=116 parent=f008b53359 qc_ref=f008b53359>
+2021-03-19 21:29:15.182500 [hotstuff proto] Pacemaker: rotate to 4
+2021-03-19 21:29:15.182780 [hotstuff proto] commit <block id=b8ffbefc9d height=117 parent=d8de91051e qc_ref=f008b53359>
+2021-03-19 21:29:15.182993 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=120 tails=1>
+2021-03-19 21:29:16.949519 [net info] 53b35c6803: ping from <Conn fd=94 addr=<NetAddr 172.16.16.4:10000> mode=active>
+2021-03-19 21:29:16.969594 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:16.969825 [hotstuff info] -------- queues -------
+2021-03-19 21:29:16.969935 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:16.970028 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:16.970132 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:16.970231 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:16.970385 [hotstuff info] fetched: 0
+2021-03-19 21:29:16.970486 [hotstuff info] delivered: 92
+2021-03-19 21:29:16.970582 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:16.970678 [hotstuff info] blk_cache: 121
+2021-03-19 21:29:16.970731 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:16.970749 [hotstuff info] fetched: 0
+2021-03-19 21:29:16.970764 [hotstuff info] delivered: 12
+2021-03-19 21:29:16.970778 [hotstuff info] decided: 0
+2021-03-19 21:29:16.970792 [hotstuff info] gened: 0
+2021-03-19 21:29:16.970806 [hotstuff info] avg. parent_size: 1.000
+2021-03-19 21:29:16.970830 [hotstuff info] delivery time: 0.002 avg, 0.001 min, 0.005 max
+2021-03-19 21:29:16.970872 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:16.971458 [hotstuff info] b0a0c5c9d2: 5(1641), 5(521), 0
+2021-03-19 21:29:16.971765 [hotstuff info] 27a8943bab: 9(2161), 9(2161), 0
+2021-03-19 21:29:16.972562 [hotstuff info] 6947626606: 9(2161), 9(2161), 0
+2021-03-19 21:29:16.972743 [hotstuff info] 15717dc960: 9(2161), 9(2161), 0
+2021-03-19 21:29:16.972948 [hotstuff info] b123e459ed: 5(1641), 5(521), 0
+2021-03-19 21:29:16.973343 [hotstuff info] 084b2242ef: 4(1640), 4(520), 0
+2021-03-19 21:29:16.973451 [hotstuff info] sent: 41
+2021-03-19 21:29:16.973507 [hotstuff info] recv: 41
+2021-03-19 21:29:16.973566 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:16.973583 [hotstuff info] sent: 309
+2021-03-19 21:29:16.973598 [hotstuff info] recv: 310
+2021-03-19 21:29:16.973612 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:16.973624 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:16.973647 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:29:16.973669 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:29:16.973689 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:29:16.973710 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:29:16.973725 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:17.187030 [hotstuff proto] Pacemaker: rotate to 5
+2021-03-19 21:29:20.189090 [hotstuff proto] Pacemaker: rotate to 6
+2021-03-19 21:29:22.181461 [net info] 53b35c6803: ping from <Conn fd=91 addr=<NetAddr 172.16.16.5:10000> mode=active>
+2021-03-19 21:29:24.191552 [hotstuff proto] propose <block id=e7865d8c26 height=121 parent=89bd1faa13 qc_ref=ec4c7e5e88>
+2021-03-19 21:29:24.191587 [hotstuff proto] got <proposal rid=6 blk=e7865d8c26>
+2021-03-19 21:29:24.191606 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.191878 [hotstuff proto] got <vote rid=6 blk=e7865d8c26>
+2021-03-19 21:29:24.191914 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.194188 [hotstuff proto] got <vote rid=4 blk=e7865d8c26>
+2021-03-19 21:29:24.194237 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.194325 [hotstuff proto] got <vote rid=1 blk=e7865d8c26>
+2021-03-19 21:29:24.194371 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.194462 [hotstuff proto] got <vote rid=2 blk=e7865d8c26>
+2021-03-19 21:29:24.194499 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.194592 [hotstuff proto] got <vote rid=3 blk=e7865d8c26>
+2021-03-19 21:29:24.194626 [hotstuff proto] now state: <hotstuff hqc=ec4c7e5e88 hqc.height=119 b_lock=a9993d954c b_exec=b8ffbefc9d vheight=121 tails=1>
+2021-03-19 21:29:24.194644 [hotstuff proto] Pacemaker: got QC for block 0
+2021-03-19 21:29:24.194689 [hotstuff proto] propose <block id=e9b8cc2421 height=122 parent=e7865d8c26 qc_ref=e7865d8c26>
+2021-03-19 21:29:24.194706 [hotstuff proto] got <proposal rid=6 blk=e9b8cc2421>
+2021-03-19 21:29:24.194739 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.194982 [hotstuff proto] got <vote rid=6 blk=e9b8cc2421>
+2021-03-19 21:29:24.195155 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.195383 [hotstuff proto] got <vote rid=0 blk=e7865d8c26>
+2021-03-19 21:29:24.195410 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.195432 [hotstuff proto] got <vote rid=5 blk=e7865d8c26>
+2021-03-19 21:29:24.195461 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.196778 [hotstuff proto] got <vote rid=5 blk=e9b8cc2421>
+2021-03-19 21:29:24.196824 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.196880 [hotstuff proto] got <vote rid=4 blk=e9b8cc2421>
+2021-03-19 21:29:24.196936 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.197060 [hotstuff proto] got <vote rid=0 blk=e9b8cc2421>
+2021-03-19 21:29:24.197096 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.197287 [hotstuff proto] got <vote rid=3 blk=e9b8cc2421>
+2021-03-19 21:29:24.197317 [hotstuff proto] now state: <hotstuff hqc=e7865d8c26 hqc.height=121 b_lock=ec4c7e5e88 b_exec=b8ffbefc9d vheight=122 tails=1>
+2021-03-19 21:29:24.197339 [hotstuff proto] Pacemaker: got QC for block 1
+2021-03-19 21:29:24.197373 [hotstuff proto] propose <block id=716cf5a9d5 height=123 parent=e9b8cc2421 qc_ref=e9b8cc2421>
+2021-03-19 21:29:24.197388 [hotstuff proto] got <proposal rid=6 blk=716cf5a9d5>
+2021-03-19 21:29:24.197414 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.197637 [hotstuff proto] got <vote rid=6 blk=716cf5a9d5>
+2021-03-19 21:29:24.197670 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.197966 [hotstuff proto] got <vote rid=2 blk=e9b8cc2421>
+2021-03-19 21:29:24.198038 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.198323 [hotstuff proto] got <vote rid=1 blk=e9b8cc2421>
+2021-03-19 21:29:24.198408 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.199669 [hotstuff proto] got <vote rid=0 blk=716cf5a9d5>
+2021-03-19 21:29:24.199737 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.199788 [hotstuff proto] got <vote rid=5 blk=716cf5a9d5>
+2021-03-19 21:29:24.199842 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.199875 [hotstuff proto] got <vote rid=2 blk=716cf5a9d5>
+2021-03-19 21:29:24.199905 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.200078 [hotstuff proto] got <vote rid=3 blk=716cf5a9d5>
+2021-03-19 21:29:24.200114 [hotstuff proto] now state: <hotstuff hqc=e9b8cc2421 hqc.height=122 b_lock=e7865d8c26 b_exec=b8ffbefc9d vheight=123 tails=1>
+2021-03-19 21:29:24.200135 [hotstuff proto] Pacemaker: got QC for block 2
+2021-03-19 21:29:24.200174 [hotstuff proto] commit <block id=a9993d954c height=118 parent=b8ffbefc9d qc_ref=b8ffbefc9d>
+2021-03-19 21:29:24.200203 [hotstuff proto] commit <block id=ec4c7e5e88 height=119 parent=a9993d954c qc_ref=a9993d954c>
+2021-03-19 21:29:24.200225 [hotstuff proto] commit <block id=89bd1faa13 height=120 parent=ec4c7e5e88 qc_ref=ec4c7e5e88>
+2021-03-19 21:29:24.200232 [hotstuff proto] Pacemaker: rotate to 0
+2021-03-19 21:29:24.200254 [hotstuff proto] commit <block id=e7865d8c26 height=121 parent=89bd1faa13 qc_ref=ec4c7e5e88>
+2021-03-19 21:29:24.200281 [hotstuff proto] propose <block id=6cbd8fd0b2 height=124 parent=716cf5a9d5 qc_ref=716cf5a9d5>
+2021-03-19 21:29:24.200298 [hotstuff proto] got <proposal rid=6 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.200327 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.200534 [hotstuff proto] got <vote rid=6 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.200560 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.200689 [hotstuff proto] got <vote rid=1 blk=716cf5a9d5>
+2021-03-19 21:29:24.200722 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.202496 [hotstuff proto] got <vote rid=4 blk=716cf5a9d5>
+2021-03-19 21:29:24.202539 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.202566 [hotstuff proto] got <vote rid=5 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.202598 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.202741 [hotstuff proto] got <vote rid=0 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.202838 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.202960 [hotstuff proto] got <vote rid=2 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.203083 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.203116 [hotstuff proto] got <vote rid=3 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.203173 [hotstuff proto] now state: <hotstuff hqc=716cf5a9d5 hqc.height=123 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.203197 [hotstuff proto] Pacemaker: got QC for block 3
+2021-03-19 21:29:24.203397 [hotstuff proto] got <vote rid=4 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.203432 [hotstuff proto] now state: <hotstuff hqc=6cbd8fd0b2 hqc.height=124 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:24.203513 [hotstuff proto] got <vote rid=1 blk=6cbd8fd0b2>
+2021-03-19 21:29:24.203545 [hotstuff proto] now state: <hotstuff hqc=6cbd8fd0b2 hqc.height=124 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=124 tails=1>
+2021-03-19 21:29:26.202034 [hotstuff proto] Pacemaker: rotate to 1
+2021-03-19 21:29:26.969980 [hotstuff info] ===== begin stats =====
+2021-03-19 21:29:26.970068 [hotstuff info] -------- queues -------
+2021-03-19 21:29:26.970086 [hotstuff info] blk_fetch_waiting: 0
+2021-03-19 21:29:26.970100 [hotstuff info] blk_delivery_waiting: 0
+2021-03-19 21:29:26.970114 [hotstuff info] decision_waiting: 32
+2021-03-19 21:29:26.970128 [hotstuff info] -------- misc ---------
+2021-03-19 21:29:26.970141 [hotstuff info] fetched: 0
+2021-03-19 21:29:26.970155 [hotstuff info] delivered: 92
+2021-03-19 21:29:26.970169 [hotstuff info] cmd_cache: 0
+2021-03-19 21:29:26.970184 [hotstuff info] blk_cache: 125
+2021-03-19 21:29:26.970199 [hotstuff info] ------ misc (10s) -----
+2021-03-19 21:29:26.970212 [hotstuff info] fetched: 0
+2021-03-19 21:29:26.970227 [hotstuff info] delivered: 0
+2021-03-19 21:29:26.970242 [hotstuff info] decided: 0
+2021-03-19 21:29:26.970256 [hotstuff info] gened: 0
+2021-03-19 21:29:26.970270 [hotstuff info] avg. parent_size: 0.000
+2021-03-19 21:29:26.970293 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2021-03-19 21:29:26.970314 [hotstuff info] --- replica msg. (10s) ---
+2021-03-19 21:29:26.970478 [hotstuff info] b0a0c5c9d2: 4(1640), 4(520), 0
+2021-03-19 21:29:26.970680 [hotstuff info] 27a8943bab: 4(1640), 4(520), 0
+2021-03-19 21:29:26.970862 [hotstuff info] 6947626606: 4(1640), 4(520), 0
+2021-03-19 21:29:26.971009 [hotstuff info] 15717dc960: 5(1641), 5(521), 0
+2021-03-19 21:29:26.971185 [hotstuff info] b123e459ed: 5(1641), 5(521), 0
+2021-03-19 21:29:26.971369 [hotstuff info] 084b2242ef: 5(1641), 5(521), 0
+2021-03-19 21:29:26.971438 [hotstuff info] sent: 27
+2021-03-19 21:29:26.971460 [hotstuff info] recv: 27
+2021-03-19 21:29:26.971476 [hotstuff info] --- replica msg. total ---
+2021-03-19 21:29:26.971504 [hotstuff info] sent: 336
+2021-03-19 21:29:26.971523 [hotstuff info] recv: 337
+2021-03-19 21:29:26.971539 [hotstuff info] ====== end stats ======
+2021-03-19 21:29:26.971554 [hotstuff info] --- client msg. (10s) ---
+2021-03-19 21:29:26.971582 [hotstuff info] <NetAddr 172.16.16.9:51050>: 0(0), 0(0)
+2021-03-19 21:29:26.971608 [hotstuff info] <NetAddr 172.16.16.11:40270>: 0(0), 0(0)
+2021-03-19 21:29:26.971730 [hotstuff info] <NetAddr 172.16.16.10:42320>: 0(0), 0(0)
+2021-03-19 21:29:26.971779 [hotstuff info] <NetAddr 172.16.16.12:42212>: 0(0), 0(0)
+2021-03-19 21:29:26.971799 [hotstuff info] --- end client msg. ---
+2021-03-19 21:29:28.208366 [hotstuff proto] got <proposal rid=1 blk=48c030f3bb>
+2021-03-19 21:29:28.208401 [hotstuff proto] now state: <hotstuff hqc=6cbd8fd0b2 hqc.height=124 b_lock=e9b8cc2421 b_exec=e7865d8c26 vheight=125 tails=1>
+2021-03-19 21:29:28.209307 [hotstuff proto] got <proposal rid=1 blk=fc9bdbb4e1>
+2021-03-19 21:29:28.209344 [hotstuff proto] now state: <hotstuff hqc=48c030f3bb hqc.height=125 b_lock=716cf5a9d5 b_exec=e7865d8c26 vheight=126 tails=1>
+2021-03-19 21:29:28.210978 [hotstuff proto] got <proposal rid=1 blk=06b40c2000>
+2021-03-19 21:29:28.211014 [hotstuff proto] now state: <hotstuff hqc=fc9bdbb4e1 hqc.height=126 b_lock=48c030f3bb b_exec=e7865d8c26 vheight=127 tails=1>
+2021-03-19 21:29:28.212522 [hotstuff proto] got <proposal rid=1 blk=0dba14bb42>
+2021-03-19 21:29:28.212573 [hotstuff proto] commit <block id=e9b8cc2421 height=122 parent=e7865d8c26 qc_ref=e7865d8c26>
+2021-03-19 21:29:28.212604 [hotstuff proto] commit <block id=716cf5a9d5 height=123 parent=e9b8cc2421 qc_ref=e9b8cc2421>
+2021-03-19 21:29:28.212625 [hotstuff proto] commit <block id=6cbd8fd0b2 height=124 parent=716cf5a9d5 qc_ref=716cf5a9d5>
+2021-03-19 21:29:28.212632 [hotstuff proto] Pacemaker: rotate to 2
+2021-03-19 21:29:28.212649 [hotstuff proto] commit <block id=48c030f3bb height=125 parent=6cbd8fd0b2 qc_ref=716cf5a9d5>
+2021-03-19 21:29:28.212669 [hotstuff proto] now state: <hotstuff hqc=06b40c2000 hqc.height=127 b_lock=fc9bdbb4e1 b_exec=48c030f3bb vheight=128 tails=1>
+2021-03-19 21:29:29.215110 [hotstuff proto] got <proposal rid=2 blk=0dcfef880c>
+2021-03-19 21:29:29.215194 [hotstuff proto] now state: <hotstuff hqc=06b40c2000 hqc.height=127 b_lock=fc9bdbb4e1 b_exec=48c030f3bb vheight=129 tails=1>
+2021-03-19 21:29:29.218098 [hotstuff proto] got <proposal rid=2 blk=36887ba9de>
+2021-03-19 21:29:29.218164 [hotstuff proto] now state: <hotstuff hqc=0dcfef880c hqc.height=129 b_lock=06b40c2000 b_exec=48c030f3bb vheight=130 tails=1>
+2021-03-19 21:29:29.221929 [hotstuff proto] got <proposal rid=2 blk=cc8e71bbd1>
+2021-03-19 21:29:29.222023 [hotstuff proto] now state: <hotstuff hqc=36887ba9de hqc.height=130 b_lock=0dcfef880c b_exec=48c030f3bb vheight=131 tails=1>
+2021-03-19 21:29:29.225215 [hotstuff proto] got <proposal rid=2 blk=ae2bf786d5>
+2021-03-19 21:29:29.225353 [hotstuff proto] commit <block id=fc9bdbb4e1 height=126 parent=48c030f3bb qc_ref=48c030f3bb>
+2021-03-19 21:29:29.225570 [hotstuff proto] commit <block id=06b40c2000 height=127 parent=fc9bdbb4e1 qc_ref=fc9bdbb4e1>
+2021-03-19 21:29:29.225682 [hotstuff proto] commit <block id=0dba14bb42 height=128 parent=06b40c2000 qc_ref=06b40c2000>
+2021-03-19 21:29:29.225739 [hotstuff proto] Pacemaker: rotate to 3
+2021-03-19 21:29:29.225809 [hotstuff proto] commit <block id=0dcfef880c height=129 parent=0dba14bb42 qc_ref=06b40c2000>
+2021-03-19 21:29:29.225851 [hotstuff proto] now state: <hotstuff hqc=cc8e71bbd1 hqc.height=131 b_lock=36887ba9de b_exec=0dcfef880c vheight=132 tails=1>
