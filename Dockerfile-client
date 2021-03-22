@@ -1,0 +1,8 @@
+FROM ubuntu:18.04
+COPY ./libhotstuff /hotstuff
+RUN apt-get update
+RUN apt-get install libssl-dev libuv1-dev dh-autoreconf cmake make -y
+RUN mkdir /root/logs
+ENV ID='stt client'
+WORKDIR /hotstuff
+CMD ./examples/hotstuff-client --cid ${ID} --iter -1 --max-async 8000 > /root/logs/client${ID}

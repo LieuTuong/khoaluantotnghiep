@@ -1,0 +1,108 @@
+version: '3'
+
+services:
+  hs_node0:
+    container_name: hs_node0
+    image: "hs"
+    ports: 
+      - "20000:20000"
+      - "10000:10000"
+    environment: 
+      - ID=0
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.10
+
+  hs_node1:
+    container_name: hs_node1
+    image: "hs"
+    ports: 
+      - "20001:20000"
+      - "10001:10000"
+    environment: 
+      - ID=1
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.11
+
+  hs_node2:
+    container_name: hs_node2
+    image: "hs"
+    ports: 
+      - "20002:20000"
+      - "10002:10000"
+    environment: 
+      - ID=2
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.12
+
+  hs_node3:
+    container_name: hs_node3
+    image: "hs"
+    ports: 
+      - "20003:20000"
+      - "10003:10000"
+    environment: 
+      - ID=3
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.13
+
+  hs_node4:
+    container_name: hs_node4
+    image: "hs"
+    ports: 
+      - "20004:20000"
+      - "10004:10000"
+    environment: 
+      - ID=4
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.14
+
+  hs_node5:
+    container_name: hs_node5
+    image: "hs"
+    ports: 
+      - "20005:20000"
+      - "10005:10000"
+    environment: 
+      - ID=5
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.15
+
+  hs_node6:
+    container_name: hs_node6
+    image: "hs"
+    ports: 
+      - "20006:20000"
+      - "10006:10000"
+    environment: 
+      - ID=6
+    volumes:
+      - ./LOG:/root/logs
+    networks:
+      hotstuff-net:
+        ipv4_address: 192.168.0.16
+
+networks:
+  hotstuff-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.0.0/24

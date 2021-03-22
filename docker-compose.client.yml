@@ -1,0 +1,42 @@
+version: '3'
+
+services: 
+  client0:
+    container_name: hs_client0
+    image: "hscli"
+    environment: 
+     - ID=0
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 192.168.0.20
+
+  client1:
+    container_name: hs_client1
+    image: "hscli"
+    environment: 
+     - ID=1
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 192.168.0.21
+
+  client2:
+    container_name: hs_client2
+    image: "hscli"
+    environment: 
+     - ID=2
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 192.168.0.22
+
+  client3:
+    container_name: hs_client3
+    image: "hscli"
+    environment: 
+     - ID=3
+    networks:
+      hotstuff_hotstuff-net:
+        ipv4_address: 192.168.0.23
+
+networks: 
+  hotstuff_hotstuff-net:
+    external: true
